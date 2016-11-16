@@ -1,0 +1,26 @@
+button {
+  background:transparent;
+  border: 2px solid $color-primary;
+  color: $color-primary;
+  font-weight:bold;
+  padding: 0.5em;
+  opacity:0.9;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 1;
+  }
+}
+.bg-primary-color {
+  background-color: $color-primary;
+}
+.negative {
+
+  background:black;
+  * {
+    border-color: white;
+    color:white;
+
+  }
+}
