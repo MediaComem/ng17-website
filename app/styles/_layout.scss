@@ -10,6 +10,12 @@ section {
   background: url("../images/home_bg.jpg") no-repeat center center / cover;
   height:100vh;
   overflow:hidden;
+  .inner {
+    height: 100%;
+    overflow:hidden;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+  }
 }
 #homeIntro {
   width: 50%;
@@ -17,6 +23,10 @@ section {
   min-width: 400px;
   z-index:3;
   position:relative;
+}
+
+#details {
+  padding: 10vh;
 }
 
 body {
