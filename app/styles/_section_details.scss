@@ -1,3 +1,48 @@
 #details {
-  padding: 10vh 0;
+  position:relative;
+
+  min-height: 100vh;
+
+  .details-part {
+    width: 35vw;
+    margin-right: 1vw;
+    margin-top: 5vh;
+    float:right;
+    clear:both;
+    &.part-1 {
+      margin-right: 40vw;
+    }
+    &.part-2 {
+      margin-right: 28vw;
+    }
+    &.part-3 {
+      margin-right: 14vw;
+    }
+    &.part-4 {
+      margin-right: 2vw;
+    }
+  }
+
+
+}
+
+
+
+#rules {
+  position: absolute;
+  display: block;
+  width: 0;
+  left: 0;
+  height: 0;
+  bottom: 0;
+  border-bottom: 100vh solid $color-secondary;
+  border-right: 80vw solid transparent;
+
+  z-index: -1;
+
+  .rules-inner {
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 50vh;
+  }
 }

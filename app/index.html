@@ -30,6 +30,11 @@
 
 
   <section id="landing" class="fullscreen home negative">
+    <div class="video-background">
+      <div class="video-foreground">
+        <div id="youtube"></div>
+      </div>
+    </div>
     <div class="inner">
       <div class="container">
         <div id="landingIntro">
@@ -44,13 +49,40 @@
   </section>
 
   <section id="details">
+    <p class="details-part part-1">
+      Le festival <strong>Numérik Games</strong> et la <strong>HEIG-VD</strong> vous donnent l'opportunité de créer un projet de vidéo mapping qui sera projeté sur les monuments du centre historique d'Yverdon-les-Bains.
+    </p>
+    <p class="details-part part-2">
+      <strong>Numerik Games</strong> est un festival tout public dédié à l'art numérique qui se tiendra les 1, 2 et 3 septembre 2017 à Yverdon-les-Bains.
+    </p>
+    <p class="details-part part-3">
+      Organisées par la <strong>Maison d'Ailleurs</strong>, la ville d'Yverdon-les-Bains et la <strong>HEIG-VD</strong>, des projections vidéo mapping diverses se déroulent depuis maintenant 2 ans sur la place Pestalozzi.
+    </p>
+    <p class="details-part part-4">
+      Pour cette troisième édition, nous voulons collaborer avec vous et projeter les meilleures participations durant la nuit du 12 et du 2 septembre dans le cadre du festival.
+    </p>
+
+    <div id="rules">
+      <div class="rules-inner negative">
+        <p>Règles</p>
+        <ul>
+          <li>Thème: numérique de demain</li>
+          <li>Durée: 30-120 secondes</li>
+          <li>Résolution: 1200x1920px (vertical)</li>
+          <li>Images par seconde:
+            < 60p </li>
+              <li>Format du rendu final: doit être en propres 422 ou DNXHD 422 (on vous demandera d'uploader un fichier proxy de moins bonne qualité pur la sélection)</li>
+              <li>Le projet doit tenir compte de l'architecture du bâtiment</li>
+              <li>Pas de son</li>
+              <li>Les visuels doivent convenir à tout public</li>
+              <li>Vous devez être titulaire des droits de l'intégralité des éléments de votr projet.</li>
+
+
+        </ul>
+      </div>
+    </div>
+
     <div class="container">
-      <h2>Détails</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <hr />
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </section>
 
@@ -86,6 +118,9 @@
   <script src="/bower_components/modernizr/modernizr.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
+
+  <!-- youtube -->
+  <script async src="https://www.youtube.com/iframe_api"></script>
 
   <!-- build:js scripts/main.js -->
   <script src="scripts/main.js"></script>

@@ -5,6 +5,9 @@ button {
   font-weight: bold;
   padding: 0.5em;
   opacity: 0.9;
+  font-size: 1.2em;
+  @media screen and (max-width: 960px) { font-size: 1.1em;}
+  @media screen and (max-width: 480px) { font-size: 1em;}
 
   &:hover {
     opacity: 0.8;
@@ -20,7 +23,6 @@ button {
 }
 
 .negative {
-  background: black;
   * {
     border-color: white;
     color: white;

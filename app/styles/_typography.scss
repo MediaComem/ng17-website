@@ -3,7 +3,11 @@
  */
 
 body {
-  font-family: "gotham_bookregular", sans-serif;
+  font-family: "gotham_lightregular", sans-serif;
+}
+b,strong {
+  font-family: "gotham_mediumregular", sans-serif;
+  font-weight:300;
 }
 h1,h2,h3,h4 {
   text-transform:uppercase;
@@ -15,12 +19,15 @@ h1 {
     line-height:1.4;
     margin:0;
     @media screen and (max-width: 960px) { font-size: 2.8em;}
-    @media screen and (max-width: 480px) { font-size: 2em;}
-
+    @media screen and (max-width: 480px) { font-size: 1.8em;}
+    @media (orientation: landscape) and (max-width: 960px) { font-size: 5vw; }
+    @media (orientation: portrait) and (max-width: 480px) { font-size: 6vh;}
   }
 }
 
-
+li {
+  line-height:1.5
+}
 
 
 h2 {
