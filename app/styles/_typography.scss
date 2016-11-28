@@ -5,6 +5,9 @@
 body {
   font-family: "gotham_lightregular", sans-serif;
 }
+p {
+  line-height: 1.5
+}
 b,strong {
   font-family: "gotham_mediumregular", sans-serif;
   font-weight:300;
@@ -31,5 +34,6 @@ li {
 
 
 h2 {
-  font-family: "gotham_lightregular"
+  font-family: "gotham_lightregular";
+  font-size: 1.7em;
 }

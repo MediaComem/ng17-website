@@ -8,6 +8,10 @@ button {
   font-size: 1.2em;
   @media screen and (max-width: 960px) { font-size: 1.1em;}
   @media screen and (max-width: 480px) { font-size: 1em;}
+  a {
+    text-decoration:none;
+    display:block;
+  }
 
   &:hover {
     opacity: 0.8;
@@ -28,4 +32,34 @@ button {
     border-color: white;
     color: white;
   }
+}
+
+
+// Forms
+
+form {
+  .form-row {
+    clear:both;
+    margin: 2em 0;
+  }
+  .label-text {
+    float:left;
+    width: 20%;
+    margin-right: 5%;
+  }
+  textarea,input {
+    border: 2px solid #555;
+    padding: 0.5em;
+    width: 70%;
+    &:focus {
+      border-color: $color-secondary;
+    }
+  }
+}
+
+.mei-logo {
+  width: 111px;
+  height: 111px;
+  background: url(../images/mei.png) no-repeat center center / contain;
+  display:inline-block;
 }

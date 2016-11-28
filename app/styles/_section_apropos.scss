@@ -4,9 +4,51 @@
 
 
 #a-propos {
-
+  height: 100vh;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    left: 0;
+    top: -10vh;
+    height: 0;
+    bottom: 0;
+    border-top: 120vh solid $color-primary;
+    border-right: 80vw solid transparent;
+    z-index: -1;
+  }
 
   &>div {
     overflow:hidden;
+  }
+  #qui-sommes-nous {
+    margin-top: 10vh;
+    background-color:transparent; // disable negative default bg
+    &>h2 {
+      position: relative;
+      margin-bottom: 2em;
+      padding-right: 111px;
+      .mei-logo {
+        display:block;
+        position:absolute;
+        top: -1.8em;
+        right:-1em;
+      }
+    }
+  }
+
+  #contact {
+    text-align:right;
+
+    margin-top: 40vh;
+    @media screen and (max-height: 850px) { margin-top: 25vh}
+
+    &>p {
+      width: 75%;
+      text-align:left;
+      float:right;
+    }
   }
 }

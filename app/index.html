@@ -44,7 +44,7 @@
       </div>
     </div>
     <div class="bg-tilted">
-      <a href="#details"><button>En savoir plus</button></a>
+      <button><a href="#details">En savoir plus</a></button>
     </div>
   </section>
 
@@ -71,13 +71,12 @@
               <li>Thème: numérique de demain</li>
               <li>Durée: 30-120 secondes</li>
               <li>Résolution: 1200x1920px (vertical)</li>
-              <li>Images par seconde:
-                < 60p </li>
-                  <li>Format du rendu final: doit être en propres 422 ou DNXHD 422 (on vous demandera d'uploader un fichier proxy de moins bonne qualité pur la sélection)</li>
-                  <li>Le projet doit tenir compte de l'architecture du bâtiment</li>
-                  <li>Pas de son</li>
-                  <li>Les visuels doivent convenir à tout public</li>
-                  <li>Vous devez être titulaire des droits de l'intégralité des éléments de votr projet.</li>
+              <li>Images par seconde: &lt; 60p </li>
+              <li>Format du rendu final: doit être en propres 422 ou DNXHD 422 (on vous demandera d'uploader un fichier proxy de moins bonne qualité pur la sélection)</li>
+              <li>Le projet doit tenir compte de l'architecture du bâtiment</li>
+              <li>Pas de son</li>
+              <li>Les visuels doivent convenir à tout public</li>
+              <li>Vous devez être titulaire des droits de l'intégralité des éléments de votr projet.</li>
             </ul>
           </div>
         </div>
@@ -112,19 +111,45 @@
   </section>
 
   <section id="a-propos">
-    <div id="qui-sommes-nous" class="negative">
-      <h2>Qui sommes-nous ?<span class="mei-logo"></span></h2>
-      <p>
-        Nous sommes le <strong>Media Engineering Institute</strong> (MEI), l'unité de recherche de la <strong>HEIG-VD</strong> active dans le domaine des méedias interactifs et de l'audiovisuel. L'édition 2017 du festival marquera la troisième année que nous produsons une projection monumentale.
-      </p>
-      <p><a href="#"><button type="button" name="projection-2015">Projection 2015</button></a></p>
-      <p><a href="#"><button type="button" name="projection-2016">Projection 2016</button></a></p>
-    </div>
-    <div id="contact">
-      <h2>
-    </div>
+    <div class="container">
+      <div id="qui-sommes-nous" class="negative left">
+        <h2>Qui sommes-nous&nbsp;?<a href="http://mei.heig-vd.ch"><span class="mei-logo"></span></a></h2>
+        <p>
+          Nous sommes le <strong>Media Engineering Institute</strong> (MEI), l'unité de recherche de la <strong>HEIG-VD</strong> active dans le domaine des médias interactifs et de l'audiovisuel. L'édition 2017 du festival marquera la troisième année
+          que nous produsons une projection monumentale.
+        </p>
+        <p><button type="button" name="projection-2015"><a href="#">Projection 2015</a></button></p>
+        <p><button type="button" name="projection-2016"><a href="#">Projection 2016</a></button></p>
+      </div>
+      <div id="contact" class="right">
+        <h2>Contact</h2>
+        <p>En attendant de pouvoir soumettre vos proposition, posez-nous vos questions.</p>
+          <form>
+            <div class="form-row">
+              <label for="name">
+              <span class="label-text">Nom:</span>
+              <input type="text" name="name" value="" />
+            </label>
+            </div>
+            <div class="form-row">
+              <label for="email">
+              <span class="label-text">Email:</span>
+              <input type="email" name="email" value="" />
+            </label>
+            </div>
+            <div class="form-row">
+              <label for="message">
+              <span class="label-text">Message:</span>
+              <textarea type="" name="message" value="" rows="4"></textarea>
+            </label>
+            </div>
+            <div class="form-row">
+              <button type="submit" name="submit">Envoyer</button>
+            </div>
+          </form>
+      </div>
 
-
+    </div>
   </section>
 
 
