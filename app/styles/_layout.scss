@@ -1,3 +1,9 @@
+
+body {
+  margin:0;
+  padding:0;
+}
+
 section {
   overflow:hidden;
 }
@@ -8,7 +14,14 @@ section {
 }
 
 
-body {
-  margin:0;
-  padding:0;
+.left,.right {
+  width: 45%;
+}
+.left {
+  float:left;
+  padding-right: 5%;
+}
+.right {
+  float:right;
+  padding-left: 5%;
 }

@@ -29,6 +29,7 @@
 
 
 #rules {
+  background-color:transparent; // disable negative default bg
   position: absolute;
   display: block;
   width: 0;
@@ -41,8 +42,15 @@
   z-index: -1;
 
   .rules-inner {
-    width: 40vw;
-    margin-left: 5vw;
+    width: 100vw;
+    position:absolute;
     margin-top: 50vh;
+    @media screen and (max-height: 760px) { margin-top: 38vh}
+  }
+
+  .left {
+    width: 50%;
+    margin:0;
+    padding:0;
   }
 }
