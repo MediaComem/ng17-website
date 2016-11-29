@@ -22,16 +22,6 @@
 
       display:block;
     }
-    &:after {
-      content: "";
-      position:absolute;
-      background: #000;
-      top:0;
-      bottom:0;
-      left:-10000vw;
-      right:-10000vw;
-      z-index: -1;
-    }
   }
 
   @include at-breakpoint('medium') {
