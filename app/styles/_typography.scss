@@ -17,15 +17,6 @@ h1,h2,h3,h4 {
 }
 h1 {
   font-family: "gotham_blackregular";
-  &.huge {
-    font-size: 3.5em;
-    line-height:1.4;
-    margin:0;
-    @media screen and (max-width: 960px) { font-size: 2.8em;}
-    @media screen and (max-width: 480px) { font-size: 1.8em;}
-    @media (orientation: landscape) and (max-width: 960px) { font-size: 5vw; }
-    @media (orientation: portrait) and (max-width: 480px) { font-size: 6vh;}
-  }
 }
 
 li {

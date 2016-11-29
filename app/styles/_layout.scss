@@ -13,15 +13,16 @@ section {
   margin:0 auto;
 }
 
-
-.left,.right {
-  width: 45%;
-}
-.left {
-  float:left;
-  padding-right: 5%;
-}
-.right {
-  float:right;
-  padding-left: 5%;
+@include at-breakpoint('medium') {
+  .left,.right {
+    width: 45%;
+  }
+  .left {
+    float:left;
+    padding-right: 5%;
+  }
+  .right {
+    float:right;
+    padding-left: 5%;
+  }
 }

@@ -1,46 +1,58 @@
 #landing {
+  background: url("../images/home_bg.jpg") no-repeat center center / cover;
   height: 100vh;
-  overflow: hidden;
-  @media screen and (max-width: 480px) {
-    background: url("../images/home_bg.jpg") no-repeat center center / cover;
-    .video-background {
-      display:none;
-    }
-  }
+
   .video-background {
-    background: #000;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -99;
-    overflow:hidden;
+    display: none;
   }
 
-  .video-background iframe,
-  .video-foreground {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
+  @include at-breakpoint ('medium') {
+
+    .video-background {
+      display: block;
+      background: #000;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .video-background iframe,
+    .video-foreground {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    @media (min-aspect-ratio: 16/9) {
+      .video-foreground {
+        height: 300%;
+        top: -100%;
+      }
+    }
+    @media (max-aspect-ratio: 16/9) {
+      .video-foreground {
+        width: 300%;
+        left: -100%;
+      }
+    }
   }
-  @media (min-aspect-ratio: 16/9) {
-    .video-foreground { height: 300%; top: -100%; }
-  }
-  @media (max-aspect-ratio: 16/9) {
-    .video-foreground { width: 300%; left: -100%; }
-  }
+  overflow: hidden;
+
   .inner {
     height: 100%;
     overflow: hidden;
     width: 100%;
     background: rgba(0,0,0,0.5);
   }
+
   #youtube {
-    display:none;
+    display: none;
   }
 
   .bg-tilted {
@@ -70,47 +82,67 @@
     button {
       z-index: 3;
       position: absolute;
-      right: 5vw;
-      bottom: 5vw;
-      @media screen and (max-width: 960px) {
-        right: 9vw;
-        bottom: 9vw;
+      right: 3vw;
+      bottom: 3vw;
+
+      @include at-breakpoint('small') {
+        right: 6vw;
+        bottom: 6vw;
       }
-      @media (max-width: 480px) {
-        right: 3vw;
-        bottom: 3vw;
+      @include at-breakpoint('medium') {
+        right: 5vw;
+        bottom: 5vw;
+        @media (orientation: landscape) {
+          right: 3vw;
+          bottom: 3vw;
+        }
       }
-      @media (orientation: landscape) and (max-width: 960px) {
-        right: 3vw;
-        bottom: 3vw;
-      }
+
+
 
     }
   }
 }
 
 #landingIntro {
-  width: 70%;
-  margin-top: 6vh;
-  @media screen and (max-width: 960px) {
-    width: 85%;
-  }
-  @media (orientation: landscape) and (max-width: 960px) {
-    width: 100%;
-  }
-  @media screen and (max-width: 480px) {
-    width: 100%;
-  }
+  width: 100%;
   z-index: 3;
   position: relative;
 
+  h1.huge {
+    line-height:1.4;
+    margin:0;
+    font-size: 2.1em;
+    @include at-breakpoint('small') {
+      font-size: 2.8em;
+    }
+    @include at-breakpoint('medium') {
+      font-size: 3.0em;
+    }
+    @include at-breakpoint('large') {
+      font-size: 3.3em;
+    }
+  }
+
+
+
   h2 {
-    font-size: 2.2em;
-    @media screen and (max-width: 960px) {
+    font-size: 1.4em;
+    @include at-breakpoint('small') {
       font-size: 1.8em;
     }
-    @media screen and (max-width: 480px) {
-      font-size: 1.4em;
+  }
+
+
+  @media (orientation: landscape) {
+    width: 100%;
+  }
+
+  @include at-breakpoint ('medium') {
+    width: 70%;
+    margin-top: 6vh;
+    h2 {
+      font-size: 2.2em;
     }
   }
 }
