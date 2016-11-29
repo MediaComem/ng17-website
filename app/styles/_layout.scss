@@ -5,7 +5,10 @@ body {
 }
 
 section {
-  overflow:hidden;
+  @include at-breakpoint('medium') {
+    overflow:hidden;  
+  }
+
 }
 .container {
   max-width: 1200px;
