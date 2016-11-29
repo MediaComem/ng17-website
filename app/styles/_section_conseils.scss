@@ -3,32 +3,56 @@
  */
 
 #conseils {
-  padding-bottom: 3em;
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 50%, #000000 50%, #000000 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 50%,#000000 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #ffffff 0%,#ffffff 50%,#000000 50%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
-  overflow:hidden;
 
-  .left {
-    padding-top: 5vh;
-  }
+
   .right {
-
-    background: url(../images/avant-apres.png) no-repeat 100% bottom black;
+    background: url(../images/avant-apres.png) no-repeat center bottom black;
     background-size: 27em auto;
     height: 23em;
+    position:relative;
     &:before {
       content: "Avant Après";
       word-spacing: 6.2rem;
-      padding: 1em 3.3rem 1em 0;
       font-weight:bold;
       font-size: 1.8em;
       color:white;
       text-transform:uppercase;
-      text-align:right;
+      text-align:center;
+      padding: 1em 0 1em 0;
+
       display:block;
     }
+    &:after {
+      content: "";
+      position:absolute;
+      background: #000;
+      top:0;
+      bottom:0;
+      left:-10000vw;
+      right:-10000vw;
+      z-index: -1;
+    }
   }
+
+  @include at-breakpoint('medium') {
+    padding-bottom: 3em;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 50%, #000000 50%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #ffffff 0%,#ffffff 50%,#000000 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #ffffff 0%,#ffffff 50%,#000000 50%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+    overflow:hidden;
+
+    .left {
+      padding-top: 5vh;
+    }
+    .right {
+      background-position: 100% bottom;
+      &:before {
+        text-align:right;
+        padding: 1em 3.3rem 1em 0;
+      }
+    }
+  }
+
 }
