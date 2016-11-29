@@ -4,7 +4,7 @@
   padding: 2em 0;
 
   @include at-breakpoint ('medium') {
-    padding:0;
+    padding: 0;
 
     .details-part {
       width: 50vw;
@@ -26,12 +26,13 @@
       }
 
       &.part-4 {
-        margin-right: 0vw;
+        margin-right: 0;
         width: 35vw;
       }
     }
   }
-  @include at-breakpoint('large') {
+
+  @include at-breakpoint ('large') {
     .details-part {
       width: 45vw;
     }
@@ -42,33 +43,38 @@
   background-color: $color-secondary;
   padding: 1em 0;
   margin-top: 5em;
-  z-index:32;
-  position:relative;
-  &:before, &:after {
+  z-index: 32;
+  position: relative;
+
+  &:after,
+  &:before {
     content: "";
-    position:absolute;
-    display:block;
+    position: absolute;
+    display: block;
     width: 0;
     height: 0;
   }
+
   &:before {
     top: -3em;
     border-style: solid;
     border-width: 0 0 3em 100vw;
     border-color: transparent transparent $color-secondary transparent;
   }
-  &:after {
 
+  &:after {
     bottom: -3em;
     border-style: solid;
-    border-width: 3em 0 0em 100vw;
+    border-width: 3em 0 0 100vw;
     border-color: $color-secondary transparent transparent transparent;
   }
-  @include at-breakpoint('medium') {
-    &:before,&:after {
-      display:none;
+
+  @include at-breakpoint ('medium') {
+    &:after,
+    &:before {
+      display: none;
     }
-    background:transparent;
+    background: transparent;
     position: absolute;
     display: block;
     width: 0;
@@ -78,6 +84,7 @@
     border-bottom: 100vh solid $color-secondary;
     border-right: 80vw solid transparent;
     z-index: -1;
+
     .rules-inner {
       width: 100vw;
       position: absolute;
@@ -86,16 +93,11 @@
         margin-top: 40vh;
       }
     }
+
     .left {
       width: 50%;
       margin: 0;
       padding: 0;
     }
   }
-
-
-
-
-
-
 }

@@ -7,7 +7,6 @@
   }
 
   @include at-breakpoint ('medium') {
-
     .video-background {
       display: block;
       background: #000;
@@ -85,11 +84,12 @@
       right: 3vw;
       bottom: 3vw;
 
-      @include at-breakpoint('small') {
+      @include at-breakpoint ('small') {
         right: 6vw;
         bottom: 6vw;
       }
-      @include at-breakpoint('medium') {
+
+      @include at-breakpoint ('medium') {
         right: 5vw;
         bottom: 5vw;
         @media (orientation: landscape) {
@@ -97,9 +97,6 @@
           bottom: 3vw;
         }
       }
-
-
-
     }
   }
 }
@@ -110,30 +107,30 @@
   position: relative;
 
   h1.huge {
-    line-height:1.4;
-    margin:0;
+    line-height: 1.4;
+    margin: 0;
     font-size: 2.1em;
-    @include at-breakpoint('small') {
+
+    @include at-breakpoint ('small') {
       font-size: 2.8em;
     }
-    @include at-breakpoint('medium') {
+
+    @include at-breakpoint ('medium') {
       font-size: 3.0em;
     }
-    @include at-breakpoint('large') {
+
+    @include at-breakpoint ('large') {
       font-size: 3.3em;
     }
   }
 
-
-
   h2 {
     font-size: 1.4em;
-    @include at-breakpoint('small') {
+
+    @include at-breakpoint ('small') {
       font-size: 1.8em;
     }
   }
-
-
   @media (orientation: landscape) {
     width: 100%;
   }
@@ -141,6 +138,7 @@
   @include at-breakpoint ('medium') {
     width: 70%;
     margin-top: 6vh;
+
     h2 {
       font-size: 2.2em;
     }

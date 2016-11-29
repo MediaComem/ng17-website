@@ -1,39 +1,42 @@
-
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 section {
-  @include at-breakpoint('medium') {
-    overflow:hidden;
+  @include at-breakpoint ('medium') {
+    overflow: hidden;
   }
-
 }
 
 .small-container {
   width: 86%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-@include at-breakpoint('medium') {
+@include at-breakpoint ('medium') {
   .small-container {
     width: 100%;
   }
+
   .container {
     max-width: 1200px;
     width: 86%;
-    margin:0 auto;
+    margin: 0 auto;
   }
-  .left,.right {
+
+  .left,
+  .right {
     width: 45%;
   }
+
   .left {
-    float:left;
+    float: left;
     padding-right: 5%;
   }
+
   .right {
-    float:right;
+    float: right;
     padding-left: 5%;
   }
 }

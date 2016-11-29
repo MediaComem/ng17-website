@@ -1,18 +1,17 @@
 /*
  *  A PROPOS
  */
-
-
 #a-propos {
   position: relative;
 
-  @include at-breakpoint('medium') {
+  @include at-breakpoint ('medium') {
     a.mei-logo {
       top: -1.8em;
-      right:-1em;
+      right: -1em;
     }
-    background:none;
+    background: none;
     height: 100vh;
+
     &:before {
       content: "";
       position: absolute;
@@ -28,21 +27,24 @@
     }
   }
 
-  &>div {
-    overflow:hidden;
+  & > div {
+    overflow: hidden;
   }
+
   #qui-sommes-nous {
     position: relative;
     background: $color-primary;
+
     a.mei-logo {
-      position:absolute;
-      right:1em;
+      position: absolute;
+      right: 1em;
       top: 1em;
       width: 55px;
       height: 55px;
-      background: url(../images/mei.png) no-repeat center center / contain;
-      display:block;
+      background: url("../images/mei.png") no-repeat center center / contain;
+      display: block;
     }
+
     h2 {
       padding-top: 1em;
       padding-right: 60px;
@@ -51,44 +53,45 @@
     }
 
     .small-container {
-      overflow:hidden;
+      overflow: hidden;
     }
 
     &:after {
       content: "";
-      position:absolute;
+      position: absolute;
       bottom: -3em;
       border-style: solid;
-      border-width: 3em  100vw 0 0 ;
-      border-color: $color-primary   transparent transparent  transparent;
+      border-width: 3em 100vw 0 0;
+      border-color: $color-primary transparent transparent transparent;
     }
-    @include at-breakpoint('medium') {
+
+    @include at-breakpoint ('medium') {
       h2 {
-        overflow:hidden;
+        overflow: hidden;
         position: relative;
         margin-bottom: 2em;
         padding-right: 111px;
       }
-      background:none;
+      background: none;
+
       &:after {
-        display:none;
+        display: none;
       }
     }
-
   }
 
   #contact {
-    text-align:right;
+    text-align: right;
     margin-top: 12vh;
 
-    @include at-breakpoint('medium') {
+    @include at-breakpoint ('medium') {
       margin-top: 40vh;
     }
 
-    &>p {
+    & > p {
       width: 75%;
-      text-align:left;
-      float:right;
+      text-align: left;
+      float: right;
     }
   }
 }

@@ -6,11 +6,16 @@ button {
   padding: 0.5em;
   opacity: 0.9;
   font-size: 1.2em;
-  @media screen and (max-width: 960px) { font-size: 1.1em;}
-  @media screen and (max-width: 480px) { font-size: 1em;}
+  @media screen and (max-width: 960px) {
+    font-size: 1.1em;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 1em;
+  }
+
   a {
-    text-decoration:none;
-    display:block;
+    text-decoration: none;
+    display: block;
   }
 
   &:hover {
@@ -32,24 +37,25 @@ button {
     color: white;
   }
 }
-
-
 // Forms
-
 form {
   .form-row {
-    clear:both;
+    clear: both;
     margin: 2em 0;
   }
+
   .label-text {
-    float:left;
+    float: left;
     width: 20%;
     margin-right: 5%;
   }
-  textarea,input {
+
+  input,
+  textarea {
     border: 2px solid #555;
     padding: 0.5em;
     width: 70%;
+
     &:focus {
       border-color: $color-secondary;
     }
