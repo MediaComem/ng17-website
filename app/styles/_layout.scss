@@ -6,17 +6,25 @@ body {
 
 section {
   @include at-breakpoint('medium') {
-    overflow:hidden;  
+    overflow:hidden;
   }
 
 }
-.container {
-  max-width: 1200px;
+
+.small-container {
   width: 86%;
   margin:0 auto;
 }
 
 @include at-breakpoint('medium') {
+  .small-container {
+    width: 100%;
+  }
+  .container {
+    max-width: 1200px;
+    width: 86%;
+    margin:0 auto;
+  }
   .left,.right {
     width: 45%;
   }
