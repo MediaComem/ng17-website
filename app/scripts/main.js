@@ -21,7 +21,7 @@ $(function() {
 // Youtube
 function onYouTubeIframeAPIReady() {
   var player;
-  var ytid = 'pXf21A2RGKI';
+  var ytid = 'ncB7LUr1TaE';
 
   player = new YT.Player('youtube', {
     videoId: ytid, // YouTube Video ID
