@@ -13,8 +13,19 @@ section {
   width: 86%;
   margin: 0 auto;
 }
-
+.only-medium {
+  display:none;
+}
+.only-mobile {
+  display:block;
+}
 @include at-breakpoint ('medium') {
+  .only-mobile {
+    display:none;
+  }
+  .only-medium {
+    display:block;
+  }
   .small-container {
     width: 100%;
   }

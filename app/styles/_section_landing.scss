@@ -1,5 +1,9 @@
+body {
+  background: url("../images/home_bg.jpg") no-repeat center center / cover fixed;
+
+}
 #landing {
-  background: url("../images/home_bg.jpg") no-repeat center center / cover;
+  background:transparent;
   height: 100vh;
 
   .video-background {
@@ -9,8 +13,8 @@
   @include at-breakpoint ('medium') {
     .video-background {
       display: block;
-      background: #000;
-      position: absolute;
+      background: $color-tertiary;
+      position: fixed;
       top: 0;
       right: 0;
       bottom: 0;
@@ -47,7 +51,7 @@
     height: 100%;
     overflow: hidden;
     width: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba($color-tertiary,0.5);
   }
 
   #youtube {
@@ -58,6 +62,7 @@
     width: 100%;
     text-align: right;
     overflow: hidden;
+    z-index: 3;
 
     &:after {
       content: "";
@@ -110,6 +115,7 @@
     line-height: 1.4;
     margin: 0;
     font-size: 2.1em;
+    text-shadow: 0 0 0.3em $color-tertiary;
 
     @include at-breakpoint ('small') {
       font-size: 2.8em;
@@ -120,7 +126,7 @@
     }
 
     @include at-breakpoint ('large') {
-      font-size: 3.65em;
+      font-size: 9vh;
     }
   }
 
@@ -136,7 +142,7 @@
   }
 
   @include at-breakpoint ('medium') {
-    width: 70%;
+    //width: 70%;
     margin-top: 6vh;
 
     h2 {

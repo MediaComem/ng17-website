@@ -4,15 +4,16 @@
 @import 'layout';
 @import 'loadfonts';
 @import 'typography';
-@import 'reusable_elements';
+@import 'reusable';
 @import 'section_landing';
+@import 'section_intro';
 @import 'section_details';
-@import 'section_conseils';
+@import 'section_participer';
 @import 'section_apropos';
 
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
-  color: #000;
+  color: $color-tertiary;
   padding: 0.2em 0;
 }

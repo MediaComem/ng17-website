@@ -1,0 +1,140 @@
+#intro {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+
+  .intro-part {
+    &.part-1 {
+      background: $color-secondary;
+      text-align: center;
+      position: relative;
+      margin-bottom: 3em;
+
+      p {
+        padding: 5vh 0;
+      }
+
+      p.paraA {
+        font-size: 1.5em;
+        @include at-breakpoint('medium') {
+          font-size: 2.2em;
+        }
+        @include at-breakpoint('large') {
+          font-size: 2.7em;
+        }
+        text-transform: uppercase;
+      }
+
+      p.paraB {
+        font-size: 1.4em;
+      }
+      // triangle
+      &:after,
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+      }
+      &:after {
+        border-style: solid;
+        border-width: 3em 0 0 100vw;
+        border-color: $color-secondary transparent transparent transparent;
+        margin-bottom: 3em;
+        overflow: hidden;
+      }
+    }
+
+    &.part-2 {}
+
+    &.part-3 {}
+
+    &.part-4 {}
+  }
+  .cols {
+    padding-bottom: 10vh;
+  }
+
+  @include at-breakpoint ('large') {
+    .cols {
+      margin-top: 12vh;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+      -webkit-column-gap: 2vw;
+      -moz-column-gap: 2vw;
+      column-gap: 2vw;
+
+      p {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+        margin-top:0;
+      }
+    }
+  }
+}
+
+#rules {
+  background-color: $color-secondary;
+  padding: 1em 0;
+  margin-top: 5em;
+  z-index: 32;
+  position: relative;
+
+  &:after,
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+  }
+
+  &:before {
+    top: -3em;
+    border-style: solid;
+    border-width: 0 0 3em 100vw;
+    border-color: transparent transparent $color-secondary transparent;
+  }
+
+  &:after {
+    bottom: -3em;
+    border-style: solid;
+    border-width: 3em 0 0 100vw;
+    border-color: $color-secondary transparent transparent transparent;
+  }
+
+  @include at-breakpoint ('medium') {
+    &:after,
+    &:before {
+      display: none;
+    }
+    background: transparent;
+    position: absolute;
+    display: block;
+    width: 0;
+    left: 0;
+    height: 0;
+    bottom: 0;
+    border-bottom: 100vh solid $color-secondary;
+    border-right: 80vw solid transparent;
+    z-index: -1;
+
+    .rules-inner {
+      width: 100vw;
+      position: absolute;
+      margin-top: 50vh;
+      @media screen and (max-height: 760px) {
+        margin-top: 40vh;
+      }
+    }
+
+    .left {
+      width: 50%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

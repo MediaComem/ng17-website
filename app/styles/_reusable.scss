@@ -1,4 +1,9 @@
+section {
+  background:white;
+}
+
 button {
+  cursor:pointer;
   background: transparent;
   border: 2px solid $color-primary;
   color: $color-primary;
@@ -41,7 +46,7 @@ button {
 form {
   .form-row {
     clear: both;
-    margin: 2em 0;
+    margin: 2vh 0;
   }
 
   .label-text {
@@ -60,4 +65,19 @@ form {
       border-color: $color-secondary;
     }
   }
+}
+
+.tabs {
+  margin:1em 0;padding:0;
+    .tab {
+      display:inline-block;
+      margin-right: 1em;
+      .tablink {
+        display:block;
+        font-size: 1.2em;
+        padding: 0.5em;
+        font-weight: bold;
+        text-decoration:none;
+      }
+    }
 }

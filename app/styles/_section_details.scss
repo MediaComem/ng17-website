@@ -1,34 +1,72 @@
+// Tabs
+
 #details {
+  .inner { padding: 5vh 0 }
   position: relative;
+  background:transparent;
   min-height: 100vh;
-  padding: 2em 0;
+  .tab-content {
+    padding: 0 0;
+    background: $color-primary;
+    position:relative;
+    .container {
+      padding: 10vh 0;
+    }
+    &:after,
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+    }
+    &:before {
+      top: -3em;
+      border-style: solid;
+      border-width:   0 0 3em 100vw;
+      border-color:  transparent transparent  $color-primary transparent;
+      margin-bottom: 3em;
+      overflow: hidden;
+    }
+    &:after {
+      border-style: solid;
+      border-width: 3em 0 0 100vw;
+      border-color: $color-primary transparent transparent transparent;
+      margin-bottom: 3em;
+      overflow: hidden;
+    }
+
+  }
+  .tabs {
+    position:relative;
+    margin-bottom: 10vh;
+    z-index:10;
+      .tab {
+        .tablink {
+          padding: 0.5em 1em;
+          text-transform:uppercase;
+          border: 2px solid white;
+          background-color: $color-tertiary;
+          margin-right: 2vw;
+          color:white;
+          &.active {
+            background-color: $color-primary;
+          }
+        }
+      }
+  }
+
+  .wireframe {
+    height: 50vh;
+    background: url(../images/wireframe_3.png) no-repeat center center / contain;
+  }
+
 
   @include at-breakpoint ('medium') {
     padding: 0;
-
-    .details-part {
-      width: 50vw;
-      margin-right: 1vw;
-      margin-top: 5vh;
-      float: right;
-      clear: both;
-
-      &.part-1 {
-        margin-right: 26vw;
-      }
-
-      &.part-2 {
-        margin-right: 14vw;
-      }
-
-      &.part-3 {
-        margin-right: 1vw;
-      }
-
-      &.part-4 {
-        margin-right: 0;
-        width: 35vw;
-      }
+    .wireframe {
+      float:right;
+      width: 50%;
     }
   }
 
@@ -37,67 +75,9 @@
       width: 45vw;
     }
   }
-}
 
-#rules {
-  background-color: $color-secondary;
-  padding: 1em 0;
-  margin-top: 5em;
-  z-index: 32;
-  position: relative;
 
-  &:after,
-  &:before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-  }
-
-  &:before {
-    top: -3em;
-    border-style: solid;
-    border-width: 0 0 3em 100vw;
-    border-color: transparent transparent $color-secondary transparent;
-  }
-
-  &:after {
-    bottom: -3em;
-    border-style: solid;
-    border-width: 3em 0 0 100vw;
-    border-color: $color-secondary transparent transparent transparent;
-  }
-
-  @include at-breakpoint ('medium') {
-    &:after,
-    &:before {
-      display: none;
-    }
-    background: transparent;
-    position: absolute;
-    display: block;
-    width: 0;
-    left: 0;
-    height: 0;
-    bottom: 0;
-    border-bottom: 100vh solid $color-secondary;
-    border-right: 80vw solid transparent;
-    z-index: -1;
-
-    .rules-inner {
-      width: 100vw;
-      position: absolute;
-      margin-top: 50vh;
-      @media screen and (max-height: 760px) {
-        margin-top: 40vh;
-      }
-    }
-
-    .left {
-      width: 50%;
-      margin: 0;
-      padding: 0;
-    }
+  .rules {
+    overflow:hidden;
   }
 }

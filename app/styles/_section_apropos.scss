@@ -3,13 +3,19 @@
  */
 #a-propos {
   position: relative;
+  z-index:1;
+  background:white;
+
 
   @include at-breakpoint ('medium') {
+    .container {
+      position:relative;
+      height: 100%;
+    }
     a.mei-logo {
       top: -1.8em;
       right: -1em;
     }
-    background: none;
     height: 100vh;
 
     &:before {
@@ -22,7 +28,7 @@
       bottom: 0;
       border-top: 120vh solid $color-primary;
       border-right: 80vw solid transparent;
-      z-index: -1;
+      z-index: 0;
       top: -10vh;
     }
   }
@@ -69,7 +75,7 @@
       h2 {
         overflow: hidden;
         position: relative;
-        margin-bottom: 2em;
+        margin-bottom: 2vh;
         padding-right: 111px;
       }
       background: none;
@@ -85,7 +91,10 @@
     margin-top: 12vh;
 
     @include at-breakpoint ('medium') {
-      margin-top: 40vh;
+      position:absolute;
+      margin-top: 0;
+      bottom:0;
+      right:0;
     }
 
     & > p {

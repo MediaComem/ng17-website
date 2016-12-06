@@ -3,8 +3,11 @@
  */
 body {
   font-family: "gotham_regular", sans-serif;
+  color: $color-tertiary;
 }
-
+a {
+   outline: 0;
+}
 p {
   line-height: 1.5;
 }
@@ -31,6 +34,12 @@ li {
 }
 
 h2 {
-  font-family: "gotham_lightregular";
+  font-family: "gotham_mediumregular";
+  font-weight: 500;
   font-size: 1.7em;
+}
+
+.light {
+  font-family: "gotham_lightregular";
+  font-weight: 200;
 }
