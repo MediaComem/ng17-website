@@ -10,7 +10,7 @@
       margin-bottom: 3em;
 
       p {
-        padding: 5vh 0;
+        padding: 4vh 0;
       }
 
       p.paraA {
@@ -38,7 +38,7 @@
       }
       &:after {
         border-style: solid;
-        border-width: 3em 0 0 100vw;
+        border-width: 7em 0 0 100vw;
         border-color: $color-secondary transparent transparent transparent;
         margin-bottom: 3em;
         overflow: hidden;
