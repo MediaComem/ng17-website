@@ -114,7 +114,7 @@ body {
   h1.huge {
     line-height: 1.4;
     margin: 0;
-    font-size: 2.1em;
+    font-size: 7vh;
     text-shadow: 0 0 0.3em $color-tertiary;
 
     @include at-breakpoint ('small') {
