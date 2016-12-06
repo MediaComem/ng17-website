@@ -66,7 +66,9 @@ $('ul.tabs').each(function(){
     e.preventDefault();
     // Make the old tab inactive.
     $active.removeClass('active');
-    $content.fadeOut(400);
+    $content.fadeOut(0, function() {
+
+    });
 
     // Update the variables with the new link and content
     $active = $(this);
@@ -74,7 +76,7 @@ $('ul.tabs').each(function(){
 
     // Make the tab active.
     $active.addClass('active');
-    $content.fadeIn(400);
+    $content.fadeIn(0);
 
   });
 });

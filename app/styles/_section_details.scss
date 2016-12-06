@@ -1,17 +1,22 @@
 // Tabs
 
 #details {
-  .inner { padding: 5vh 0 }
+  .inner {
+    padding: 5vh 0;
+  }
   position: relative;
-  background:transparent;
+  background: rgba($color-tertiary,0.8);
   min-height: 100vh;
+
   .tab-content {
-    padding: 0 0;
+    padding: 0;
     background: $color-primary;
-    position:relative;
+    position: relative;
+
     .container {
-      padding: 10vh 0;
+      padding: 5vh 0;
     }
+
     &:after,
     &:before {
       content: "";
@@ -20,14 +25,16 @@
       width: 0;
       height: 0;
     }
+
     &:before {
       top: -3em;
       border-style: solid;
-      border-width:   0 0 3em 100vw;
-      border-color:  transparent transparent  $color-primary transparent;
+      border-width: 0 0 3em 100vw;
+      border-color: transparent transparent $color-primary transparent;
       margin-bottom: 3em;
       overflow: hidden;
     }
+
     &:after {
       border-style: solid;
       border-width: 3em 0 0 100vw;
@@ -35,38 +42,40 @@
       margin-bottom: 3em;
       overflow: hidden;
     }
-
   }
+
   .tabs {
-    position:relative;
+    position: relative;
     margin-bottom: 10vh;
-    z-index:10;
-      .tab {
-        .tablink {
-          padding: 0.5em 1em;
-          text-transform:uppercase;
-          border: 2px solid white;
-          background-color: $color-tertiary;
-          margin-left: 1vw;
-          margin-right: 1vw;
-          color:white;
-          &.active {
-            background-color: $color-primary;
-          }
+    z-index: 10;
+
+    .tab {
+      .tablink {
+        padding: 0.5em 1em;
+        text-transform: uppercase;
+        border: 2px solid white;
+        background-color: $color-tertiary;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        color: white;
+
+        &.active {
+          background-color: $color-primary;
         }
       }
+    }
   }
 
   .wireframe {
     height: 50vh;
-    background: url(../images/wireframe_3.png) no-repeat center center / contain;
+    background: url("../images/wireframe_3.png") no-repeat center center / contain;
   }
-
 
   @include at-breakpoint ('medium') {
     padding: 0;
+
     .wireframe {
-      float:right;
+      float: right;
       width: 50%;
     }
   }
@@ -77,8 +86,26 @@
     }
   }
 
-
   .rules {
-    overflow:hidden;
+    font-size: 0.9em;
+    //padding: 1em;
+    overflow: hidden;
+    //background: $color-tertiary;
+  }
+
+  .region-buttons {
+    .inner {
+      padding-top:0;
+      button {
+        display:inline-block;
+        margin-right: 1em;
+        background: $color-secondary;
+        border-color:white;
+        color:white;
+      }
+      .button-participate button {
+        background: $color-tertiary;
+      }
+    }
   }
 }
