@@ -17,6 +17,7 @@
     .container {
       padding: 5vh 0;
     }
+    margin-bottom: 3em;
 
     &:after,
     &:before {
@@ -40,7 +41,6 @@
       border-style: solid;
       border-width: 3em 0 0 100vw;
       border-color: $color-primary transparent transparent transparent;
-      margin-bottom: 3em;
       overflow: hidden;
     }
   }
@@ -52,7 +52,10 @@
 
     .tab {
       .tablink {
-        padding: 0.5em 1em;
+        padding: 0.3em;
+        font-size: 1em;
+        margin-top: 0.5em;
+        margin-bottom:0.5em;
         text-transform: uppercase;
         border: 2px solid white;
         background-color: $color-tertiary;
@@ -60,6 +63,12 @@
         margin-right: 2vw;
         color: white;
 
+        @include at-breakpoint('small') {
+          font-size: 1.2em;
+          padding: 0.5em 1em;
+          margin-top:0;
+          margin-bottom:0;
+        }
         &.active {
           background-color: $color-primary;
         }
@@ -97,7 +106,9 @@
   .region-buttons {
     .inner {
       padding-top:0;
+
       button {
+        margin-bottom: 1em;
         display:inline-block;
         margin-right: 1em;
         background: $color-secondary;

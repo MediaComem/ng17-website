@@ -4,9 +4,7 @@ body {
 }
 
 section {
-  @include at-breakpoint ('medium') {
-    overflow: hidden;
-  }
+  overflow:hidden;
 }
 
 .small-container {
