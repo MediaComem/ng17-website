@@ -2,7 +2,7 @@
  * Typography
  */
 body {
-  font-family: "gotham_regular", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: $color-tertiary;
 }
 a {
@@ -10,12 +10,12 @@ a {
 }
 p {
   line-height: 1.5;
+  font-weight: 500;
 }
 
 b,
 strong {
-  font-family: "gotham_mediumregular", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 h1,
@@ -25,16 +25,11 @@ h4 {
   text-transform: uppercase;
 }
 
-h1 {
-  font-family: "gotham_blackregular";
-}
-
 li {
   line-height: 1.5;
 }
 
 h2 {
-  font-family: "gotham_mediumregular";
   font-weight: 500;
   font-size: 1.7em;
 }
@@ -43,6 +38,8 @@ h2 {
 }
 
 .light {
-  font-family: "gotham_lightregular";
-  font-weight: 200;
+  font-weight: 100;
+}
+.red {
+	color: $color-secondary !important;
 }

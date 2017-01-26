@@ -46,6 +46,14 @@ form {
     clear: both;
     margin: 2vh 0;
   }
+  .fifty {
+	  overflow: hidden;
+	  label {
+		width: 50%;
+		float: left;
+	    box-sizing: border-box;
+	  }
+  }
 
   .label-text {
     float: left;

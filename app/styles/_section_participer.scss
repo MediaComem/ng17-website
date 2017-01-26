@@ -1,6 +1,8 @@
 #participer {
   position: relative;
-  min-height: 100vh;
   padding: 2em 0;
   background: $color-tertiary;
+  form {
+	  margin-top: 60px;
+  }
 }

@@ -7,12 +7,28 @@
   }
   position: relative;
   background: rgba($color-tertiary,0.8);
-  min-height: 100vh;
 
   .tab-content {
     padding: 0;
-    background: $color-primary;
     position: relative;
+    &.one {
+	   background: $color-primary; 
+	   &:before {
+			border-color: transparent transparent $color-primary transparent;
+		}
+		&:after {
+			border-color: $color-primary transparent transparent transparent;
+		}
+    }
+    &.two {
+	    background: $color-secondary;
+		&:before {
+			border-color: transparent transparent $color-secondary transparent;
+		}
+		&:after {
+			border-color: $color-secondary transparent transparent transparent;
+		}
+    }
 
     .container {
       padding: 5vh 0;
@@ -32,7 +48,7 @@
       top: -3em;
       border-style: solid;
       border-width: 0 0 3em 100vw;
-      border-color: transparent transparent $color-primary transparent;
+      
       margin-bottom: 3em;
       overflow: hidden;
     }
@@ -40,7 +56,6 @@
     &:after {
       border-style: solid;
       border-width: 3em 0 0 100vw;
-      border-color: $color-primary transparent transparent transparent;
       overflow: hidden;
     }
   }
@@ -69,15 +84,18 @@
           margin-top:0;
           margin-bottom:0;
         }
-        &.active {
+        &.active.one {
           background-color: $color-primary;
+        }
+        &.active.two {
+          background-color: $color-secondary;
         }
       }
     }
   }
 
   .wireframe {
-    height: 40vh;
+  	min-height: 270px;
     background: url("../images/wireframe_3.png") no-repeat center center / contain;
   }
 

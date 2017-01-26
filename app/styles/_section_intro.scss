@@ -1,17 +1,17 @@
 #intro {
   position: relative;
-  min-height: 100vh;
-  padding: 0 0 10vh 0;
+  padding: 0;
   overflow:hidden;
 
   .intro-part {
     &.part-1 {
       background: $color-secondary;
       position: relative;
+      padding-top: 2em;
       margin-bottom: 3em;
 
       p {
-        padding: 4vh 0;
+        padding: 10px 0;
       }
 
       p.paraA {
@@ -26,7 +26,16 @@
       }
 
       p.paraB {
-        font-size: 1.4em;
+        font-size: 1.2em;
+        width: 90%;
+        @include at-breakpoint('medium') {
+        	width: 70%;
+        	font-size: 1.4em;
+        }
+        @include at-breakpoint('large') {
+			width: 55%;
+        	font-size: 1.4em;
+        }
       }
       // triangle
       &:after {
