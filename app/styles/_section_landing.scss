@@ -54,7 +54,7 @@ body {
     }
     @media (min-aspect-ratio: 16/9) {
       .video-foreground {
-        height: 100%;
+        height: 200%;
         top: -50%;
       }
     }
@@ -144,11 +144,11 @@ body {
     }
 
     @include at-breakpoint ('medium') {
-      font-size: 3.3em;
+      font-size: 2.2em;
     }
 
     @include at-breakpoint ('large') {
-      font-size: 5vh;
+      font-size: 2.6em;
     }
   }
 

@@ -67,13 +67,13 @@
 
   @include at-breakpoint ('large') {
     .cols {
-      margin-top: 12vh;
+      margin-top: 140px;
       -webkit-column-count: 2;
       -moz-column-count: 2;
       column-count: 2;
       -webkit-column-gap: 2vw;
       -moz-column-gap: 2vw;
-      column-gap: 2vw;
+      column-gap: 4vw;
 
       p {
         -webkit-column-break-inside: avoid;
