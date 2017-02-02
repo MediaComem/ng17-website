@@ -28,13 +28,15 @@
       p.paraB {
         font-size: 1.2em;
         width: 90%;
+        padding-bottom: 40px;
         @include at-breakpoint('medium') {
         	width: 70%;
         	font-size: 1.4em;
         }
         @include at-breakpoint('large') {
-			width: 55%;
+			width: 800px;
         	font-size: 1.4em;
+        	
         }
       }
       // triangle
@@ -62,12 +64,13 @@
     &.part-4 {}
   }
   .cols {
-    padding-bottom: 10vh;
+	padding-top: 30px;
+    padding-bottom: 40px;
   }
 
   @include at-breakpoint ('large') {
     .cols {
-      margin-top: 140px;
+      margin-top: 80px;
       -webkit-column-count: 2;
       -moz-column-count: 2;
       column-count: 2;

@@ -40,7 +40,24 @@
   #qui-sommes-nous {
     position: relative;
     background: $color-primary;
-
+    @include at-breakpoint ('small') {
+	    
+    }
+    
+    @include at-breakpoint ('medium') {
+	    width: 50%;
+	    .para-1 {
+		    width: 100%;
+	    }
+	    .para-2 {
+		    width: 85%;
+	    }
+    }
+    
+    @include at-breakpoint('large') {
+	    
+    }
+    
     a.mei-logo {
       position: absolute;
       right: 1em;

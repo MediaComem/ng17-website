@@ -97,6 +97,11 @@
   .wireframe {
   	min-height: 270px;
     background: url("../images/wireframe_3.png") no-repeat center center / contain;
+    
+    @include at-breakpoint('small') {
+	    min-height: 350px;
+    }
+    
   }
 
   @include at-breakpoint ('medium') {
