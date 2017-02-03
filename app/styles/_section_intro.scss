@@ -36,7 +36,6 @@
         @include at-breakpoint('large') {
 			width: 800px;
         	font-size: 1.4em;
-        	
         }
       }
       // triangle
@@ -55,13 +54,7 @@
           border-top-width: 7em;
         }
       }
-    }
-
-    &.part-2 {}
-
-    &.part-3 {}
-
-    &.part-4 {}
+	}
   }
   .cols {
 	padding-top: 30px;
@@ -69,6 +62,9 @@
   }
 
   @include at-breakpoint ('large') {
+	.col-part-2 {
+		margin-top: 55px;
+	}
     .cols {
       margin-top: 80px;
       -webkit-column-count: 2;
