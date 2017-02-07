@@ -1,5 +1,7 @@
 // generated on 2016-11-16 using generator-webapp 2.3.2
 const gulp = require('gulp');
+const argv = require('yargs').argv;
+const gulpif = require('gulp-if');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync').create();
 const del = require('del');
@@ -9,7 +11,7 @@ const runSequence = require('run-sequence');
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
-var dev = true;
+var dev = false;
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')
@@ -84,42 +86,46 @@ gulp.task('extras', () => {
 });
 
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
-
-gulp.task('serve', () => {
-  runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], () => {
-    browserSync.init({
-      notify: false,
-      port: 9000,
-      server: {
-        baseDir: ['.tmp', 'app'],
-        routes: {
-          '/bower_components': 'bower_components'
-        }
-      }
-    });
-
-    gulp.watch([
-      'app/*.html',
-      'app/images/**/*',
-      '.tmp/fonts/**/*'
-    ]).on('change', reload);
-
-    gulp.watch('app/styles/**/*.scss', ['styles']);
-    gulp.watch('app/scripts/**/*.js', ['scripts']);
-    gulp.watch('app/fonts/**/*', ['fonts']);
-    gulp.watch('bower.json', ['wiredep', 'fonts']);
-  });
-});
+if(!argv.production) {
+	gulp.task('serve', () => {
+	  runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], () => {
+	    browserSync.init({
+	      notify: false,
+	      port: 9000,
+	      server: {
+	        baseDir: ['.tmp', 'app'],
+	        routes: {
+	          '/bower_components': 'bower_components'
+	        }
+	      }
+	    });
+	
+	    gulp.watch([
+	      'app/*.html',
+	      'app/images/**/*',
+	      '.tmp/fonts/**/*'
+	    ]).on('change', reload);
+	
+	    gulp.watch('app/styles/**/*.scss', ['styles']);
+	    gulp.watch('app/scripts/**/*.js', ['scripts']);
+	    gulp.watch('app/fonts/**/*', ['fonts']);
+	    gulp.watch('bower.json', ['wiredep', 'fonts']);
+	  });
+	});
+}
 
 gulp.task('serve:dist', ['default'], () => {
-  browserSync.init({
-    notify: false,
-    port: 9000,
-    server: {
-      baseDir: ['dist']
-    }
-  });
+	if(!argv.production) {
+		browserSync.init({
+		    notify: false,
+		    port: 9000,
+		    server: {
+		      baseDir: ['dist']
+		    }
+		});
+	}
 });
+
 
 gulp.task('serve:test', ['scripts'], () => {
   browserSync.init({
