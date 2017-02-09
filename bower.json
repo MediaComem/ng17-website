@@ -4,7 +4,8 @@
   "dependencies": {
     "jquery": "~2.1.1",
     "modernizr": "~2.8.1",
-    "fine-uploader": "^5.11.8"
+    "fine-uploader": "^5.11.8",
+    "lity": "^2.2.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
