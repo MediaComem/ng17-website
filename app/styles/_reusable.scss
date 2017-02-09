@@ -38,7 +38,12 @@ button,.button {
   * {
     border-color: white;
     color: white;
+    input {
+		color: black;
+		border: black;
+	}
   }
+  
 }
 // Forms
 form {

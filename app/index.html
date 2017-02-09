@@ -122,45 +122,26 @@
       </div>
     </div>
   </section>
-<!--
-    <div class="region-buttons container small-container">
-      <p class="inner">
-        <a href="#"><button>Télécharger <span class="light">le kit de base</span></button></a><a class="button-participate" href="#participer"><button>Participer !</button></a>
-      </p>
-    </div>
--->
 
   <section id="participer" class="negative">
 	  <div class="container small-container">
 	  	<h2>Je Participe</h2>
 	  	<p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
-	      <form>
+	      <form action="https://formspree.io/raphael.baumann@heig-vd.ch" method="POST">
 	        <div class="form-row">
 	          <label for="first-name">
 	            <span class="label-text">prénom:<span class="red">*</span></span>
 	            <input id="first-name" type="text" name="first-name" value="" />
 	          </label>
-	          </div>
-	        <div class="form-row">
-	          <label for="last-name fifty">
-	            <span class="label-text">nom:<span class="red">*</span></span>
-	            <input id="last-name" type="text" name="last-name" value="" />
-	          </label>
 	        </div>
 	        <div class="form-row">
-	            <label for="pseudo">
-	            <span class="label-text">Pseudo:</span>
-	            <input id="pseudo" type="text" name="pseudo" value="" />
-	          </label>
-	        </div>
-	        <div class="form-row">
-	          <label for="email">
+	          <label for="_replyto">
 	            <span class="label-text">Email:<span class="red">*</span></span>
-	            <input id="email" type="email" name="email" value="" />
+	            <input id="email" type="email" name="_replyto" value="" />
 	          </label>
 	        </div>
 	        <div class="form-row align-right">
-	          <button type="submit" name="submit">Participer</button>
+	          <button type="submit" name="submit" value="Send">Participer</button>
 	        </div>
 	      </form>
     </div>
@@ -183,7 +164,7 @@
         <div class="small-container">
           <h2>Contact</h2>
           <p>En attendant de pouvoir soumettre vos propositions, posez-nous vos questions.</p>
-          <form>
+          <form action="https://formspree.io/raphael.baumann@heig-vd.ch" method="POST">
             <div class="form-row">
               <label for="name">
                 <span class="label-text">Nom:</span>
@@ -191,9 +172,9 @@
               </label>
             </div>
             <div class="form-row">
-              <label for="email">
+              <label for="_replyto">
                 <span class="label-text">Email:</span>
-                <input id="email" type="email" name="email" value="" />
+                <input id="email" type="email" name="_replyto" value="" />
               </label>
             </div>
             <div class="form-row">
@@ -203,7 +184,7 @@
               </label>
             </div>
             <div class="form-row">
-              <button type="submit" name="submit">Envoyer</button>
+              <button type="submit" name="submit" value="Send">Envoyer</button>
             </div>
           </form>
         </div>
@@ -244,7 +225,6 @@
 
   <!-- build:js scripts/main.js -->
   <script src="scripts/main.js"></script>
-  <script src="dist/lity.js"></script>
   <!-- endbuild -->
 </body>
 
