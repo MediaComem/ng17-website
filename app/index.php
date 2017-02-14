@@ -8,22 +8,22 @@ $message = '';
 
 if (isset($_SESSION['return_data'])) {
 
-    $formOK = $_SESSION['return_data']['formOK'];
-    $entries = $_SESSION['return_data']['entries'];
-    $errors = $_SESSION['return_data']['errors'];
-    unset($_SESSION['return_data']);
+	$formOK = $_SESSION['return_data']['formOK'];
+	$entries = $_SESSION['return_data']['entries'];
+	$errors = $_SESSION['return_data']['errors'];
+	unset($_SESSION['return_data']);
 
-    if (!$formOK) {
-        foreach ($entries as $key => $value) {
-            ${$key} = $value;
-        }
-        $submitmessage = 'There were some problems with your submission.';
-        $responsetype = 'failure';
-    }
-    else {
-        $submitmessage = 'Thank you! Your email has been submitted.';
-        $responsetype = 'success';
-    }
+	if (!$formOK) {
+		foreach ($entries as $key => $value) {
+			${$key} = $value;
+		}
+		$submitmessage = 'There were some problems with your submission.';
+		$responsetype = 'failure';
+	}
+	else {
+		$submitmessage = 'Thank you! Your email has been submitted.';
+		$responsetype = 'success';
+	}
 }
 ?>
 <!DOCTYPE html>
@@ -207,7 +207,7 @@ if (isset($_SESSION['return_data'])) {
                         </div>
 
                         <div class="form-row">
-                           <label class="label-text" for="message"> Message: </label>
+                            <label class="label-text" for="message">Message:</label>
                             <textarea id="message" type="" name="message" rows="4" <?php if (isset($errors['message'])) { echo 'class="error"';}?> required="required"><?php echo $message; ?></textarea>
                             <?php if (isset($errors['message'])): ?><label class="error"><?php echo $errors['message']; ?></label><?php endif; ?>
                         </div>
@@ -229,16 +229,16 @@ if (isset($_SESSION['return_data'])) {
 	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
+
 	    ga('create', 'UA-91100429-1', 'auto');
 	    ga('send', 'pageview');
 
     </script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <script src="/bower_components/lity/dist/lity.min.js"></script>
+    <script src="/jquery.js"></script>
+    <script src="/modernizr.js"></script>
+    <script src="../bower_components/lity/dist/lity.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- youtube -->
