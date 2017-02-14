@@ -27,8 +27,7 @@ if (isset($_SESSION['return_data'])) {
 }
 ?>
 <!doctype html>
-<html class="no-js" lang="">
-
+<html class="no-js" lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Tente l'expérience du vidéo mapping, en grandeur nature !">
