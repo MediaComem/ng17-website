@@ -95,7 +95,7 @@ if(!argv.production) {
 	      server: {
 	        baseDir: ['.tmp', 'app'],
 	        routes: {
-	          '../bower_components': 'bower_components'
+	          'bower_components': '../bower_components'
 	        }
 	      }
 	    });
