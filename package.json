@@ -43,5 +43,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "jquery-validation": "^1.16.0"
   }
 }
