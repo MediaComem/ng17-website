@@ -1,31 +1,4 @@
-<?php
 
-session_start();
-
-$name = '';
-$email = '';
-$message = '';
-
-if (isset($_SESSION['return_data'])) {
-
-    $formOK = $_SESSION['return_data']['formOK'];
-    $entries = $_SESSION['return_data']['entries'];
-    $errors = $_SESSION['return_data']['errors'];
-    unset($_SESSION['return_data']);
-
-    if (!$formOK) {
-        foreach ($entries as $key => $value) {
-            ${$key} = $value;
-        }
-        $submitmessage = 'There were some problems with your submission.';
-        $responsetype = 'failure';
-    }
-    else {
-        $submitmessage = 'Thank you! Your email has been submitted.';
-        $responsetype = 'success';
-    }
-}
-?>
 <!DOCTYPE html>
 
 <html class="no-js" lang="fr">
@@ -192,24 +165,20 @@ if (isset($_SESSION['return_data'])) {
                     <h2>Contact</h2>
 
                     <p>En attendant de pouvoir soumettre vos propositions, posez-nous vos questions.</p>
-
-                    <form id="ajax-contact" action="mailer.php" method="post">
+					<form id="ajax-contact" action="mailer.php" method="post">
                         <div class="form-row">
                             <label class="label-text" for="name">Nom:</label>
-                            <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
-                            <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
+                            <input id="name" type="text" name="name" value="" required="required">
                         </div>
 
                         <div class="form-row">
                             <label class="label-text" for="email">Email:</label>
-                            <input id="email" type="email" name="_replyto" <?php if (isset($errors['email'])) { echo 'class="error"';}?> value="<?php echo $email; ?>" required="required">
-                            <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
+                            <input id="email" type="email" name="_replyto" value="" required="required">
                         </div>
 
                         <div class="form-row">
-                            Message: <label class="label-text" for="message">
-                            <textarea id="message" type="" name="message" rows="4" <?php if (isset($errors['message'])) { echo 'class="error"';}?> required="required"><?php echo $message; ?></label>
-                            <?php if (isset($errors['message'])): ?><label class="error"><?php echo $errors['message']; ?></label><?php endif; ?>
+                            <label class="label-text" for="message">Message: </label>
+                            <textarea id="message" type="" name="message" rows="4" required="required"></textarea>
                         </div>
 
                         <div class="form-row">
@@ -218,7 +187,7 @@ if (isset($_SESSION['return_data'])) {
                     </form>
 
                     <div id="form-message">
-                        <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
+                        <span class="hidden"></span>
                     </div>
                 </div>
             </div>
@@ -236,8 +205,8 @@ if (isset($_SESSION['return_data'])) {
     </script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/lity/dist/lity.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
