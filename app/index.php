@@ -1,31 +1,4 @@
-<?php
 
-session_start();
-
-$name = '';
-$email = '';
-$message = '';
-
-if (isset($_SESSION['return_data'])) {
-
-    $formOK = $_SESSION['return_data']['formOK'];
-    $entries = $_SESSION['return_data']['entries'];
-    $errors = $_SESSION['return_data']['errors'];
-    unset($_SESSION['return_data']);
-
-    if (!$formOK) {
-        foreach ($entries as $key => $value) {
-            ${$key} = $value;
-        }
-        $submitmessage = 'There were some problems with your submission.';
-        $responsetype = 'failure';
-    }
-    else {
-        $submitmessage = 'Thank you! Your email has been submitted.';
-        $responsetype = 'success';
-    }
-}
-?>
 <!DOCTYPE html>
 
 <html class="no-js" lang="fr">
@@ -193,34 +166,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <p>En attendant de pouvoir soumettre vos propositions, posez-nous vos questions.</p>
 
-                    <form id="ajax-contact" action="mailer.php" method="post">
-                        <div class="form-row">
-                            <label class="label-text" for="name">Nom:</label>
-                            <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
-                            <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
-                        </div>
-
-                        <div class="form-row">
-                            <label class="label-text" for="email">Email:</label>
-                            <input id="email" type="email" name="_replyto" <?php if (isset($errors['email'])) { echo 'class="error"';}?> value="<?php echo $email; ?>" required="required">
-                            <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
-                        </div>
-
-                        <div class="form-row">
-                            Message: <label class="label-text" for="message">
-                            <textarea id="message" type="" name="message" rows="4" <?php if (isset($errors['message'])) { echo 'class="error"';}?> required="required"><?php echo $message; ?></label>
-                            <?php if (isset($errors['message'])): ?><label class="error"><?php echo $errors['message']; ?></label><?php endif; ?>
-                        </div>
-
-                        <div class="form-row">
-                            <button type="submit" name="submit" value="Send">Envoyer</button>
-                        </div>
-                    </form>
-
-                    <div id="form-message">
-                        <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
-                    </div>
-                </div>
+                                    </div>
             </div>
         </div>
     </section><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
