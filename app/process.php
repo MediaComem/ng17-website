@@ -2,6 +2,10 @@
 require_once('../includes/config.php');
 require_once('../includes/PHPMailer/class.phpmailer.php');
 
+ini_set("log_errors", 1);
+ini_set("error_log", "/tmp/php-error.log");
+error_log( "Hello, errors!" );
+
 function sanitize($text) {
     $text = trim($text);
     
@@ -46,8 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Passing true causes PHPMailer to throw exceptions
         $mail = new PHPMailer(true);
         
-        try {
-	        
+        try { 
             $mail->IsSMTP();
             $mail->SMTPDebug = 2;
             $mail->SMTPAuth = true;
