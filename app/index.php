@@ -193,7 +193,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <p>En attendant de pouvoir soumettre vos propositions, posez-nous vos questions.</p>
 
-                    <form id="ajax-contact" action="/process.php" method="post">
+                    <form id="contact-form" action="process.php" method="post" novalidate="novalidate">
                         <div class="form-row">
                             <label class="label-text" for="name">Nom:</label>
                             <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
