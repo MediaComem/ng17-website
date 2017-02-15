@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         try {
             $mail->IsSMTP();
-            $mail->SMTPDebug = 1;
+            $mail->SMTPDebug = true;
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = "ssl";
             $mail->Host = MAIL_HOST;
