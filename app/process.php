@@ -45,12 +45,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     
     if (empty($errors)) {
-        
+        error_log( "setup to send" );
         $formOK = true;        
         // Passing true causes PHPMailer to throw exceptions
         $mail = new PHPMailer(true);
-        
+        error_log( "mail" );
         try { 
+	        error_log( "try" );
             $mail->IsSMTP();
             $mail->SMTPDebug = 2;
             $mail->SMTPAuth = true;
