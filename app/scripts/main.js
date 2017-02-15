@@ -102,52 +102,44 @@ $(function() {
     });
 });
 
-// mail manager
 $(function() {
-    // Get the form.
-    var form = $('#ajax-contact');
-
-    // Get the messages div.
-    var formMessages = $('#form-message');
-
-	// Set up an event listener for the contact form.
-	$(form).submit(function(event) {
-	    // Stop the browser from submitting the form.
-	    event.preventDefault();
-	
-	    // Serialize the form data.
-		var formData = $(form).serialize();
-		
-		// Submit the form using AJAX.
-		$.ajax({
-		    type: 'POST',
-		    url: $(form).attr('action'),
-		    data: formData
-		}).done(function(response) {
-		    // Make sure that the formMessages div has the 'success' class.
-		    $(formMessages).removeClass('error');
-		    $(formMessages).addClass('success');
-		
-		    // Set the message text.
-		    $(formMessages).text(response);
-		
-		    // Clear the form.
-		    $('#name').val('');
-		    $('#email').val('');
-		    $('#message').val('');
-		}).fail(function(data) {
-		    // Make sure that the formMessages div has the 'error' class.
-		    $(formMessages).removeClass('success');
-		    $(formMessages).addClass('error');
-		
-		    // Set the message text.
-		    if (data.responseText !== '') {
-		        $(formMessages).text(data.responseText);
-		    } else {
-		        $(formMessages).text('Oops! An error occured and your message could not be sent.');
-		    }
-		});
-	});
+    
+    // Form validation via plugin
+    var submitMessage     = $('#submit-message'),
+        messageContainer  = submitMessage.find('span'),
+        loading           = $('#loading');
+        
+    function showMessage(message, classAttr) {
+        messageContainer.text(message)
+        messageContainer.attr('class', classAttr);
+    }
+    
+        
+    $('#contact-form').validate({        
+               
+        // Override to submit the form via ajax
+        submitHandler: function(form) {
+            var options = {
+                beforeSubmit: function() {
+                    loading.show();
+                },
+                success: function() {
+                    showMessage('Thank you! Your email has been submitted.', 'success');
+                    form.reset();
+                    loading.hide();
+                },
+                error: function() {
+                    showMessage('We\'re sorry, your email could not be sent. Please try again later.', 'failure');
+                    loading.hide();
+                }
+            };
+            $(form).ajaxSubmit(options);
+        },
+        invalidHandler: function() {
+            showMessage('There were some problems with your submission.', 'failure');
+        }
+    });
 });
+
 
 
