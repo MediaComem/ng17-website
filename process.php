@@ -1,7 +1,6 @@
 <?php
 require_once('includes/config.php');
 require_once('includes/PHPMailer/class.phpmailer.php');
-require_once('includes/PHPMailer/class.smtp.php');
 
 function sanitize($text) {
     $text = trim($text);
@@ -51,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $mail->IsSMTP();
             $mail->SMTPDebug = 0;
             $mail->SMTPAuth = true;
-            $mail->SMTPSecure = "tls";
+            $mail->SMTPSecure = "ssl";
             $mail->Host = MAIL_HOST;
             $mail->Port = MAIL_PORT;
             $mail->Username = MAIL_USER;
