@@ -5,7 +5,8 @@
     "jquery": "~2.1.1",
     "modernizr": "~2.8.1",
     "fine-uploader": "^5.11.8",
-    "lity": "^2.2.2"
+    "lity": "^2.2.2",
+    "jquery-validation": "^1.16.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
