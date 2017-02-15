@@ -67,6 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $mail->Send();
         }
         catch (phpmailerException $e) {
+	        error_log($e->errorMessage());
             header("HTTP/1.1 500 Internal Server Error");
             echo "Exception occurred: ".$e->errorMessage();
             exit();
