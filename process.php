@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $mail->IsSMTP();
             $mail->SMTPDebug = 0;
             $mail->SMTPAuth = true;
-            $mail->SMTPSecure = "ssl";
+            $mail->SMTPSecure = "tls";
             $mail->Host = MAIL_HOST;
             $mail->Port = MAIL_PORT;
             $mail->Username = MAIL_USER;
