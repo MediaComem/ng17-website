@@ -217,7 +217,7 @@ if (isset($_SESSION['return_data'])) {
                         </div>
                     </form>
 
-                    <div id="form-message">
+                    <div id="submit-message">
                         <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
                     </div>
                 </div>
