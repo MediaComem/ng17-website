@@ -239,6 +239,7 @@ if (isset($_SESSION['return_data'])) {
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/lity/dist/lity.min.js"></script>
+    <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- youtube -->
