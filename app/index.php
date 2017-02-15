@@ -202,7 +202,7 @@ if (isset($_SESSION['return_data'])) {
 
                         <div class="form-row">
                             <label class="label-text" for="email">Email:</label>
-                            <input id="email" type="email" name="_replyto" <?php if (isset($errors['email'])) { echo 'class="error"';}?> value="<?php echo $email; ?>" required="required">
+                            <input id="email" type="email" name="email" <?php if (isset($errors['email'])) { echo 'class="error"';}?> value="<?php echo $email; ?>" required="required">
                             <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
                         </div>
 
