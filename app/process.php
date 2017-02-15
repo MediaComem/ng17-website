@@ -46,9 +46,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Passing true causes PHPMailer to throw exceptions
         $mail = new PHPMailer(true);
         
+        $pop = new POP3();
+
+        
         try {
+	        $pop->Authorise(MAIL_HOST, 465, 30, MAIL_USER, MAIL_PASS, 1);
+	        
             $mail->IsSMTP();
-            $mail->SMTPDebug = 0;
+            $mail->SMTPDebug = 2;
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = "ssl";
             $mail->Host = MAIL_HOST;
