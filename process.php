@@ -45,28 +45,35 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         $formOK = true;        
         // Passing true causes PHPMailer to throw exceptions
-        $mail = new PHPMailer(true);
+        $mail = new PHPMailer;
         
-        try {
-            $mail->IsSMTP();
-            $mail->SMTPDebug = true;
-            $mail->SMTPAuth = true;
-            $mail->SMTPSecure = "ssl";
-            $mail->Host = MAIL_HOST;
-            $mail->Port = MAIL_PORT;
-            $mail->Username = MAIL_USER;
-            $mail->Password = MAIL_PASS;
-            $mail->SetFrom($email, $name);
-            $mail->Subject = "Contact Form Submission";
-            $mail->Body = "Your received the following message from $name <$email>:\r\n\r\n$message";
-            $mail->AddAddress(MAIL_ADDR);
-            $mail->Send();
-        }
+        $mail->IsSMTP();
+        $mail->SMTPDebug = true;
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = "ssl";
+        $mail->Host = MAIL_HOST;
+        $mail->Port = MAIL_PORT;
+        $mail->Username = MAIL_USER;
+        $mail->Password = MAIL_PASS;
+        $mail->SetFrom($email, $name);
+        $mail->Subject = "Contact Form Submission";
+        $mail->Body = "Your received the following message from $name <$email>:\r\n\r\n$message";
+        $mail->AddAddress(MAIL_ADDR);
+        
+        if(!$mail->send()) {
+		    echo 'Message could not be sent.';
+		    echo 'Mailer Error: ' . $mail->ErrorInfo;
+		} else {
+		    echo 'Message has been sent';
+		}
+
+/*
         catch (phpmailerException $e) {
             header("HTTP/1.1 500 Internal Server Error");
             echo "Exception occurred: ".$e->errorMessage();
             exit();
         }
+*/
     }
     else {
         $formOK = false;
