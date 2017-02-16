@@ -1,10 +1,9 @@
 <?php
 require_once('../includes/config.php');
-require_once('../includes/PHPMailer/class.phpmailer.php');
+require_once('../includes/PHPMailer/PHPMailerAutoload.php');
 
 ini_set("log_errors", 1);
 ini_set("error_log", "/tmp/php-error.log");
-error_log( "Hello, errors!" );
 
 function sanitize($text) {
     $text = trim($text);
@@ -72,6 +71,51 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "Exception occurred: ".$e->errorMessage();
             exit();
         }
+        
+/*
+        //Create a new PHPMailer instance
+		$mail = new PHPMailer;
+		//Tell PHPMailer to use SMTP
+		$mail->isSMTP();
+		//Enable SMTP debugging
+		// 0 = off (for production use)
+		// 1 = client messages
+		// 2 = client and server messages
+		$mail->SMTPDebug = 2;
+		//Ask for HTML-friendly debug output
+		$mail->Debugoutput = 'html';
+		//Set the hostname of the mail server
+		$mail->Host = MAIL_HOST;
+		//Set the SMTP port number - likely to be 25, 465 or 587
+		$mail->Port = MAIL_PORT;
+		//Whether to use SMTP authentication
+		$mail->SMTPAuth = true;
+		//Username to use for SMTP authentication
+		$mail->Username = MAIL_USER;
+		//Password to use for SMTP authentication
+		$mail->Password = MAIL_PASS;
+		//Set who the message is to be sent from
+		$mail->setFrom('from@example.com', 'First Last');
+		//Set an alternative reply-to address
+		$mail->addReplyTo('replyto@example.com', 'First Last');
+		//Set who the message is to be sent to
+		$mail->addAddress('whoto@example.com', 'John Doe');
+		//Set the subject line
+		$mail->Subject = 'PHPMailer SMTP test';
+		//Read an HTML message body from an external file, convert referenced images to embedded,
+		//convert HTML into a basic plain-text alternative body
+		$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
+		//Replace the plain text body with one created manually
+		$mail->AltBody = 'This is a plain-text message body';
+		
+		//send the message, check for errors
+		if (!$mail->send()) {
+		    echo "Mailer Error: " . $mail->ErrorInfo;
+		} else {
+		    echo "Message sent!";
+		}
+*/
+
     }
     else {
         $formOK = false;
