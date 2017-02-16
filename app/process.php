@@ -74,8 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
 */
         
-        //Create a new PHPMailer instance
-		$mail = new PHPMailer;
+       $mail = new PHPMailer;
 		//Tell PHPMailer to use SMTP
 		$mail->isSMTP();
 		//Enable SMTP debugging
@@ -91,14 +90,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$mail->Port = MAIL_PORT;
 		//Whether to use SMTP authentication
 		$mail->SMTPAuth = false;
-/*
-		//Username to use for SMTP authentication
-		$mail->Username = MAIL_USER;
-		//Password to use for SMTP authentication
-		$mail->Password = MAIL_PASS;
-*/
-		// ssl tls?
-		//$mail->SMTPSecure = "ssl";
 		//Set who the message is to be sent from
 		$mail->setFrom($email, $name);
 		//Set an alternative reply-to address
