@@ -96,16 +96,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		//Password to use for SMTP authentication
 		$mail->Password = MAIL_PASS;
 		//Set who the message is to be sent from
-		$mail->setFrom('from@example.com', 'First Last');
+		$mail->setFrom($email, $name);
 		//Set an alternative reply-to address
-		$mail->addReplyTo('replyto@example.com', 'First Last');
+		$mail->addReplyTo($email, $name);
 		//Set who the message is to be sent to
-		$mail->addAddress('whoto@example.com', 'John Doe');
+		$mail->addAddress(MAIL_ADDR, 'NG17 MEI');
 		//Set the subject line
 		$mail->Subject = 'PHPMailer SMTP test';
 		//Read an HTML message body from an external file, convert referenced images to embedded,
 		//convert HTML into a basic plain-text alternative body
-		$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
+		$mail->msgHTML($message);
 		//Replace the plain text body with one created manually
 		$mail->AltBody = 'This is a plain-text message body';
 		
