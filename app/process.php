@@ -44,6 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     
     if (empty($errors)) {
+/*
         error_log( "setup to send" );
         $formOK = true;        
         // Passing true causes PHPMailer to throw exceptions
@@ -71,8 +72,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "Exception occurred: ".$e->errorMessage();
             exit();
         }
+*/
         
-/*
         //Create a new PHPMailer instance
 		$mail = new PHPMailer;
 		//Tell PHPMailer to use SMTP
@@ -114,7 +115,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		} else {
 		    echo "Message sent!";
 		}
-*/
 
     }
     else {
