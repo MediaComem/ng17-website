@@ -95,6 +95,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$mail->Username = MAIL_USER;
 		//Password to use for SMTP authentication
 		$mail->Password = MAIL_PASS;
+		// ssl tls?
+		$mail->SMTPSecure = "ssl";
 		//Set who the message is to be sent from
 		$mail->setFrom($email, $name);
 		//Set an alternative reply-to address
