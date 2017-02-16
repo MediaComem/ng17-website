@@ -177,13 +177,14 @@ if (isset($_SESSION['return_data'])) {
                     <p class="para-1">Nous sommes le <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), l'unité de recherche de la <strong>HEIG-VD</strong> active dans le domaine des médias numériques.</p>
 
                     <p class="para-2">Nous soutenons activement ce festival d'un genre nouveau depuis sa création. Pour 2017, nous souhaitons embarquer un maximum de passionés dans l'aventure. Voici les liens sur nos contributions précédentes:</p>
-                    <p>
 
-                    <p><a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/"><button type="button" name="projection-2015"><a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/">Performance 2015</a>
-                    <p>
+	                    <a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/">
+		                    <button type="button" name="projection-2015">Performance 2015</button>
+		                </a>
 
-                    <p></p><a href="https://www.youtube.com/watch?v=zwJcBfS-gbU" data-lity=""><button type="button" name="projection-2016"><a href="https://www.youtube.com/watch?v=zwJcBfS-gbU" data-lity="">Performance 2016</a>
-                    <p></button></a></button></a></p>
+	                    <a href="https://www.youtube.com/watch?v=zwJcBfS-gbU" data-lity="">
+		                    <button type="button" name="projection-2016">Performance 2016</button>
+		                </a>
                 </div>
             </div>
 
@@ -240,6 +241,7 @@ if (isset($_SESSION['return_data'])) {
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/lity/dist/lity.min.js"></script>
     <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/bower_components/jquery-form/jquery.form.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- youtube -->

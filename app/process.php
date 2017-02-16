@@ -44,9 +44,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     
     if (empty($errors)) {
-/*
+
         error_log( "setup to send" );
-        $formOK = true;        
+        $formOK = true;
+/*
         // Passing true causes PHPMailer to throw exceptions
         $mail = new PHPMailer(true);
         error_log( "mail" );
@@ -73,8 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             exit();
         }
 */
-        
-       $mail = new PHPMailer;
+        $mail = new PHPMailer;
 		//Tell PHPMailer to use SMTP
 		$mail->isSMTP();
 		//Enable SMTP debugging
