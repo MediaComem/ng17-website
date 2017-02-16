@@ -4,6 +4,7 @@ require_once('../includes/PHPMailer/PHPMailerAutoload.php');
 
 ini_set("log_errors", 1);
 ini_set("error_log", "/tmp/php-error.log");
+error_log( "Start" );
 
 function sanitize($text) {
     $text = trim($text);
@@ -15,7 +16,7 @@ function sanitize($text) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    
+    error_log( "POST POST POST POST" );
     $entries = array();
     $errors = array();
     
@@ -74,6 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             exit();
         }
 */
+
         $mail = new PHPMailer;
 		//Tell PHPMailer to use SMTP
 		$mail->isSMTP();
@@ -103,13 +105,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$mail->msgHTML($message);
 		//Replace the plain text body with one created manually
 		$mail->AltBody = 'This is a plain-text message body';
-		
+		error_log( "before send" );
 		//send the message, check for errors
 		if (!$mail->send()) {
 		    echo "Mailer Error: " . $mail->ErrorInfo;
 		} else {
 		    echo "Message sent!";
 		}
+		
+		error_log( "post send" );
 /*
 
 	$mail = new PHPMailer;
@@ -160,12 +164,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	} else {
 	    echo "Message sent!";
 	}
+*/
 
     }
     else {
         $formOK = false;
     }
-*/
     
     //if this is not an ajax request  
     if(empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest'){  
