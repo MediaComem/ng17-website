@@ -1,6 +1,7 @@
 <?php
+date_default_timezone_set('Etc/UTC');
 require_once('includes/config.php');
-require_once('includes/PHPMailer/PHPMailerAutoload.php');
+require 'includes/PHPMailer/PHPMailerAutoload.php';
 
 function sanitize($text) {
     $text = trim($text);
