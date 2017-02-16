@@ -1,7 +1,6 @@
 <?php
 require_once('includes/config.php');
-require_once('includes/PHPMailer/class.phpmailer.php');
-require_once('includes/PHPMailer/class.smtp.php');
+require_once('includes/PHPMailer/PHPMailerAutoload.php');
 
 function sanitize($text) {
     $text = trim($text);
