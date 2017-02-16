@@ -90,13 +90,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		//Set the SMTP port number - likely to be 25, 465 or 587
 		$mail->Port = MAIL_PORT;
 		//Whether to use SMTP authentication
-		$mail->SMTPAuth = true;
+		$mail->SMTPAuth = false;
+/*
 		//Username to use for SMTP authentication
 		$mail->Username = MAIL_USER;
 		//Password to use for SMTP authentication
 		$mail->Password = MAIL_PASS;
+*/
 		// ssl tls?
-		$mail->SMTPSecure = "ssl";
+		//$mail->SMTPSecure = "ssl";
 		//Set who the message is to be sent from
 		$mail->setFrom($email, $name);
 		//Set an alternative reply-to address
@@ -117,11 +119,62 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		} else {
 		    echo "Message sent!";
 		}
+/*
+
+	$mail = new PHPMailer;
+	//Tell PHPMailer to use SMTP
+	$mail->isSMTP();
+	//Enable SMTP debugging
+	// 0 = off (for production use)
+	// 1 = client messages
+	// 2 = client and server messages
+	$mail->SMTPDebug = 2;
+	//Ask for HTML-friendly debug output
+	$mail->Debugoutput = 'html';
+	//Set the hostname of the mail server
+	$mail->Host = 'smtp.gmail.com';
+	// use
+	// $mail->Host = gethostbyname('smtp.gmail.com');
+	// if your network does not support SMTP over IPv6
+	//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
+	$mail->Port = 587;
+	//Set the encryption system to use - ssl (deprecated) or tls
+	$mail->SMTPSecure = 'tls';
+	//Whether to use SMTP authentication
+	$mail->SMTPAuth = true;
+	//Username to use for SMTP authentication - use full email address for gmail
+	$mail->Username = "c0rkn0t@gmail.com";
+	//Password to use for SMTP authentication
+	$mail->Password = "A$nifichg";
+	//Set who the message is to be sent from
+	//Set who the message is to be sent from
+	$mail->setFrom($email, $name);
+	//Set an alternative reply-to address
+	$mail->addReplyTo($email, $name);
+	//Set who the message is to be sent to
+	$mail->addAddress(MAIL_ADDR, 'NG17 MEI')
+	//Set who the message is to be sent to
+	$mail->addAddress('c0rkn0t@gmail.com', 'c0rkn');
+	//Set the subject line
+	$mail->Subject = 'PHPMailer GMail SMTP test';
+	//Read an HTML message body from an external file, convert referenced images to embedded,
+	//convert HTML into a basic plain-text alternative body
+	$mail->msgHTML($message);
+	//Replace the plain text body with one created manually
+	$mail->AltBody = 'This is a plain-text message body';
+
+	//send the message, check for errors
+	if (!$mail->send()) {
+	    echo "Mailer Error: " . $mail->ErrorInfo;
+	} else {
+	    echo "Message sent!";
+	}
 
     }
     else {
         $formOK = false;
     }
+*/
     
     //if this is not an ajax request  
     if(empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) !== 'xmlhttprequest'){  
