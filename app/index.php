@@ -154,7 +154,7 @@ if (isset($_SESSION['return_data'])) {
 
             <form id="participation-form" action="process.php" method="post" novalidate="novalidate">
 	            <input type="hidden" name="subject" value="NG17 participant">
-				<textarea type="hidden" name="message" value="participation">participation</textarea>
+				<input type="hidden" name="message" value="participation">
                 <div class="form-row">
                     <label class="label-text" for="name">Nom:</label>
                     <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
