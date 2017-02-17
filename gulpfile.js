@@ -1,12 +1,14 @@
 // generated on 2016-11-16 using generator-webapp 2.3.2
 const gulp = require('gulp');
+const php = require('gulp-connect-php');
 const argv = require('yargs').argv;
 const gulpif = require('gulp-if');
 const gulpLoadPlugins = require('gulp-load-plugins');
-const browserSync = require('browser-sync').create();
+const browserSync = require('browser-sync');
 const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
+const httpProxy = require('http-proxy');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -63,6 +65,7 @@ gulp.task('html', ['styles', 'scripts'], () => {
     .pipe($.if('*.html', $.htmlmin({collapseWhitespace: true})))
     .pipe(gulp.dest('dist'));
 });
+
 gulp.task('php', ['styles', 'scripts'], () => {
   return gulp.src('app/*.php')
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
@@ -88,40 +91,63 @@ gulp.task('fonts', () => {
 gulp.task('extras', () => {
   return gulp.src([
     'app/*',
-    '!app/*.html'
+    '!app/*.html',
+    '!app/*.php'
   ], {
     dot: true
   }).pipe(gulp.dest('dist'));
 });
 
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
-if(!argv.production) {
-	gulp.task('serve', () => {
-	  runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], () => {
-	    browserSync.init({
-	      notify: false,
-	      port: 9000,
-	      server: {
-	        baseDir: ['.tmp', 'app'],
-	        routes: {
-	          '/bower_components': 'bower_components'
-	        }
-	      }
-	    });
-	
-	    gulp.watch([
-	      'app/*.html',
-	      'app/images/**/*',
-	      '.tmp/fonts/**/*'
-	    ]).on('change', reload);
-	
-	    gulp.watch('app/styles/**/*.scss', ['styles']);
-	    gulp.watch('app/scripts/**/*.js', ['scripts']);
-	    gulp.watch('app/fonts/**/*', ['fonts']);
-	    gulp.watch('bower.json', ['wiredep', 'fonts']);
-	  });
+
+gulp.task('dev:php', () => {
+  runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], ['browser-sync'],() => {
+    gulp.watch([
+      'app/*.html',
+      'app/*.php',
+      'app/images/**/*',
+      '.tmp/fonts/**/*'
+    ]).on('change', reload);
+
+    gulp.watch('app/styles/**/*.scss', ['styles']);
+    gulp.watch('app/scripts/**/*.js', ['scripts']);
+    gulp.watch('app/fonts/**/*', ['fonts']);
+    gulp.watch('bower.json', ['wiredep', 'fonts']);
+  });
+});
+
+gulp.task('browser-sync', function() {
+	php.server({
+	    base: 'app',
+	    port: 8020,
+	    keepalive: true
 	});
-}
+	
+	var proxy = httpProxy.createProxyServer({});
+	
+    browserSync({
+        port: 8080,
+        open: true,
+        notify: false,
+        server: {
+            baseDir: 'app',
+            routes: {
+		        '/scripts': '.tmp/scripts',
+		        '/styles': '.tmp/styles',
+		        '/bower_components': 'bower_components'
+		    },
+            middleware: function (req, res, next) {
+                var url = req.url;
+
+                if (!url.match(/^\/(styles|scripts|fonts|bower_components)\//)) {
+                    proxy.web(req, res, { target: 'http://127.0.0.1:8020' });
+                } else {
+                    next();
+                }
+            }
+        }
+    });
+});
 
 gulp.task('serve:dist', ['default'], () => {
 	if(!argv.production) {
@@ -135,25 +161,6 @@ gulp.task('serve:dist', ['default'], () => {
 	}
 });
 
-
-gulp.task('serve:test', ['scripts'], () => {
-  browserSync.init({
-    notify: false,
-    port: 9000,
-    ui: false,
-    server: {
-      baseDir: 'test',
-      routes: {
-        '/scripts': '.tmp/scripts',
-        '/bower_components': 'bower_components'
-      }
-    }
-  });
-
-  gulp.watch('app/scripts/**/*.js', ['scripts']);
-  gulp.watch(['test/spec/**/*.js', 'test/index.html']).on('change', reload);
-  gulp.watch('test/spec/**/*.js', ['lint:test']);
-});
 
 // inject bower components
 gulp.task('wiredep', () => {
@@ -175,7 +182,7 @@ gulp.task('build', ['lint', 'html', 'php', 'includes', 'images', 'fonts', 'extra
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
-gulp.task('default', () => {
+gulp.task('default',() => {
   return new Promise(resolve => {
     dev = false;
     runSequence(['clean', 'wiredep'], 'build', resolve);
