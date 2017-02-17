@@ -17,11 +17,11 @@ if (isset($_SESSION['return_data'])) {
 		foreach ($entries as $key => $value) {
 			${$key} = $value;
 		}
-		$submitmessage = 'There were some problems with your submission.';
+		$submitmessage = 'Oups, il y a eu un problème.';
 		$responsetype = 'failure';
 	}
 	else {
-		$submitmessage = 'Thank you! Your email has been submitted.';
+		$submitmessage = 'Merci! Votre email est envoyé.';
 		$responsetype = 'success';
 	}
 }
@@ -91,7 +91,7 @@ if (isset($_SESSION['return_data'])) {
             <div class="col-part-1">
                 <p><strong>Numerik Games</strong> est un festival tout public, organisé par la <a href="http://www.ailleurs.ch">Maison d'Ailleurs</a>, la ville d'<a href="http://www.ylb.ch">Yverdon-les-Bains</a> et la <a href="http://www.heig-vd.ch">HEIG-VD</a>, qui propose des conférences, des performances et des animations relatives au thème de la transition numérique.</p>
 
-                <p>Pour cette édition, nous allons célébrer encore cette nouvelle ère qui s’ouvre à nous, innondée de nouvelles technologies. Nos modes d’organisation sont bouleversés, de nouvelles pratiques apparaissent, sociales, culturelles, etc. Une transformation profonde est en cours, c’est bien clair&nbsp;! Faut-il pour autant la voir d’un œil sombre&nbsp;?</p>
+                <p>Pour cette édition, nous allons célébrer cette nouvelle ère qui s’ouvre à nous, innondée de nouvelles technologies. Nos modes d’organisation sont bouleversés, de nouvelles pratiques apparaissent, sociales, culturelles, etc. Une transformation profonde est en cours, c’est bien clair&nbsp;! Faut-il pour autant la voir d’un œil sombre&nbsp;?</p>
 
                 <p>Ce festival est forcément festif, mais il doit aussi nous permettre de réfléchir&nbsp;!</p>
             </div>
@@ -150,21 +150,24 @@ if (isset($_SESSION['return_data'])) {
 
             <p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
 
-            <form action="https://formspree.io/raphael.baumann@heig-vd.ch" method="post">
+            <form id="contact-form" action="process.php" method="post" novalidate="novalidate">
                 <div class="form-row">
-                    <label for="first-name"><span class="label-text">prénom:<span class="red">*</span></span>
-                    <input id="first-name" type="text" name="first-name" value=""></label>
+                    <label class="label-text" for="name">Nom:</label>
+                    <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
+                    <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
                 </div>
-
+				<div class="form-row">
+                    <label class="label-text" for="email">Email:</label>
+                    <input id="email" type="email" name="email" <?php if (isset($errors['email'])) { echo 'class="error"';}?> value="<?php echo $email; ?>" required="required">
+                    <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
+                </div>
                 <div class="form-row">
-                    <label for="_replyto"><span class="label-text">Email:<span class="red">*</span></span>
-                    <input id="email" type="email" name="_replyto" value=""></label>
-                </div>
-
-                <div class="form-row align-right">
                     <button type="submit" name="submit" value="Send">Participer</button>
                 </div>
             </form>
+            <div id="submit-message">
+                <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
+            </div>
         </div>
     </section>
 
@@ -220,6 +223,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <div id="submit-message">
                         <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
+						<span id="loading"></span>
                     </div>
                 </div>
             </div>

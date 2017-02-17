@@ -113,10 +113,9 @@ $(function() {
         messageContainer.text(message)
         messageContainer.attr('class', classAttr);
     }
-    
         
-    $('#contact-form').validate({        
-               
+    $('#contact-form').validate({     
+	       
         // Override to submit the form via ajax
         submitHandler: function(form) {
             var options = {
@@ -124,19 +123,19 @@ $(function() {
                     loading.show();
                 },
                 success: function() {
-                    showMessage('Thank you! Your email has been submitted.', 'success');
+                    showMessage('Merci! Votre email est envoyé.', 'success');
                     form.reset();
                     loading.hide();
                 },
                 error: function() {
-                    showMessage('We\'re sorry, your email could not be sent. Please try again later.', 'failure');
+                    showMessage('Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard.', 'failure');
                     loading.hide();
                 }
             };
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
-            showMessage('There were some problems with your submission.', 'failure');
+            showMessage('Oups, il y a eu un problème.', 'failure');
         }
     });
 });
