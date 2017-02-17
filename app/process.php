@@ -17,7 +17,7 @@ function sanitize($text) {
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $entries = array();
     $errors = array();
-    error_log($entries);
+
     // Escape and extract all the post values
     foreach ($_POST as $key => $value) {
         $entries[$key] = sanitize($value);
@@ -25,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     // Get a set of variable variables for easier use
     foreach ($entries as $key => $value) {
+	    error_log($value);
         ${$key} = $value;
     }
     
@@ -69,13 +70,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		//Set who the message is to be sent to
 		$mail->addAddress(MAIL_ADDR, 'NG17 MEI');
 		//Set the subject line
-		$mail->Subject = 'NG17 contact';
+		$mail->Subject = $subject;
 		//Read an HTML message body from an external file, convert referenced images to embedded,
 		//convert HTML into a basic plain-text alternative body
 		$mail->msgHTML($message);
 		//Replace the plain text body with one created manually
 		$mail->AltBody = 'This is a plain-text message body';
-		error_log( "before send" );
+		
 		//send the message, check for errors
 		if (!$mail->send()) {
 		    echo "Mailer Error: " . $mail->ErrorInfo;
@@ -83,7 +84,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		    echo "Message sent!";
 		}
 		
-		error_log( "post send" );
 
     }
     else {

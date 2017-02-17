@@ -105,13 +105,13 @@ $(function() {
 $(function() {
     
     // Form validation via plugin
-    var submitMessage     = $('#submit-message'),
-        messageContainer  = submitMessage.find('span'),
-        loading           = $('#loading');
+    var submitMessageContact     = $('#submit-message-contact'),
+        messageContainerContact  = submitMessageContact.find('span'),
+        loadingContact           = $('#loading-contact');
         
-    function showMessage(message, classAttr) {
-        messageContainer.text(message)
-        messageContainer.attr('class', classAttr);
+    function showMessageContact(message, classAttr) {
+        messageContainerContact.text(message)
+        messageContainerContact.attr('class', classAttr);
     }
         
     $('#contact-form').validate({     
@@ -120,24 +120,63 @@ $(function() {
         submitHandler: function(form) {
             var options = {
                 beforeSubmit: function() {
-                    loading.show();
+                    loadingContact.show();
                 },
                 success: function() {
-                    showMessage('Merci! Votre email est envoyé.', 'success');
+                    showMessageContact('Merci! Votre email est envoyé.', 'success');
                     form.reset();
-                    loading.hide();
+                    loadingContact.hide();
                 },
                 error: function() {
-                    showMessage('Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard.', 'failure');
-                    loading.hide();
+                    showMessageContact('Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard.', 'failure');
+                    loadingContact.hide();
                 }
             };
+            console.log("form",form);
+            console.log("option", options);
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
-            showMessage('Oups, il y a eu un problème.', 'failure');
+            showMessageContact('Oups, il y a eu un problème.', 'failure');
         }
     });
+        
+     // Form validation via plugin
+    var submitMessageParticipation     = $('#submit-message-participation'),
+        messageContainerParticipation  = submitMessageParticipation.find('span'),
+        loadingParticipation = $('#loading-participation');
+        
+    function showMessageParticipation(message, classAttr) {
+        messageContainerParticipation.text(message)
+        messageContainerParticipation.attr('class', classAttr);
+    }
+    $('#participation-form').validate({     
+	       
+        // Override to submit the form via ajax
+        submitHandler: function(form) {
+            var options = {
+                beforeSubmit: function() {
+                    loadingParticipation.show();
+                },
+                success: function() {
+                    showMessageParticipation('Merci! Votre email est envoyé.', 'success');
+                    form.reset();
+                    loadingParticipation.hide();
+                },
+                error: function() {
+                    showMessageParticipation('Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard.', 'failure');
+                    loadingParticipation.hide();
+                }
+            };
+            console.log("form",form);
+            console.log("option", options);
+            $(form).ajaxSubmit(options);
+        },
+        invalidHandler: function() {
+            showMessageParticipation('Oups, il y a eu un problème.', 'failure');
+        }
+    });
+
 });
 
 

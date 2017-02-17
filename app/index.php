@@ -1,4 +1,6 @@
 <?php
+ini_set("log_errors", 1);
+ini_set("error_log", "./tmp/php-error.log");
 
 session_start();
 
@@ -150,7 +152,8 @@ if (isset($_SESSION['return_data'])) {
 
             <p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
 
-            <form id="contact-form" action="process.php" method="post" novalidate="novalidate">
+            <form id="participation-form" action="process.php" method="post" novalidate="novalidate">
+	            <input type="hidden" name="subject" value="NG17 paticipant">
                 <div class="form-row">
                     <label class="label-text" for="name">Nom:</label>
                     <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
@@ -163,9 +166,10 @@ if (isset($_SESSION['return_data'])) {
                 </div>
                 <div class="form-row">
                     <button type="submit" name="submit" value="Send">Participer</button>
+                    <span id="loading-participation"></span>
                 </div>
             </form>
-            <div id="submit-message">
+            <div id="submit-message-participation">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
         </div>
@@ -197,7 +201,8 @@ if (isset($_SESSION['return_data'])) {
 
                     <p>En attendant de pouvoir soumettre vos propositions, posez-nous vos questions.</p>
 
-                    <form id="contact-form" action="process.php" method="post" novalidate="novalidate">
+                    <form id="contact-form" action="process.php" method="post" subject="NG17 contact" novalidate="novalidate">
+	                    <input type="hidden" name="subject" value="NG17 contact">
                         <div class="form-row">
                             <label class="label-text" for="name">Nom:</label>
                             <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
@@ -218,12 +223,12 @@ if (isset($_SESSION['return_data'])) {
 
                         <div class="form-row">
                             <button type="submit" name="submit" value="Send">Envoyer</button>
+                            <span id="loading-contact"></span>
                         </div>
                     </form>
 
-                    <div id="submit-message">
+                    <div id="submit-message-contact">
                         <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
-						<span id="loading"></span>
                     </div>
                 </div>
             </div>
