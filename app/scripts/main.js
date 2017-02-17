@@ -132,8 +132,6 @@ $(function() {
                     loadingContact.hide();
                 }
             };
-            console.log("form",form);
-            console.log("option", options);
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
@@ -168,8 +166,6 @@ $(function() {
                     loadingParticipation.hide();
                 }
             };
-            console.log("form",form);
-            console.log("option", options);
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
