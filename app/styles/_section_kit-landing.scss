@@ -1,0 +1,36 @@
+body {
+  background: url("../images/home_bg.jpg") no-repeat center center / cover fixed;
+}
+ #kit-landing {
+  background:transparent;
+  height: 100vh;
+  position:relative;
+  overflow: hidden;
+
+  .inner {
+  	padding-top: 300px;
+  	height: 100%;
+    overflow: hidden;
+    width: 100%;
+    background: rgba($color-tertiary,0.5);
+  }
+  
+  .triangle-topleft {
+	  display: block;
+	  position: absolute;
+	  z-index: 9;
+	  background: url("../images/appelprojets-small.png") no-repeat;
+	  min-width: 330px;
+	  min-height: 165px;
+	  @include at-breakpoint ('medium') {
+		background: url("../images/appelprojets.png") no-repeat;
+        min-width: 660px;
+	    min-height: 330px;
+      }
+      @include at-breakpoint ('small') {
+	      background: url("../images/appelprojets.png") no-repeat;
+        min-width: 660px;
+	    min-height: 330px;
+      }
+    }
+  }

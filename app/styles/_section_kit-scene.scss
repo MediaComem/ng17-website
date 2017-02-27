@@ -1,0 +1,28 @@
+#kit-scene {
+  background: $color-primary;
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0px;
+  padding: 10px 0 80px 0;
+  overflow: visible;
+  @include angle(before);
+  .logos {
+	  //background-color: white;
+	  display: inline-block;
+	  img {
+		  height: 30px;
+		  margin-right: 20px;
+	  }
+	  span {
+		color: $color-tertiary;
+		vertical-align: super;
+		margin-right: 10px;
+	  }
+	  button {
+		  margin: 10px 20px;
+		  border-color: $color-tertiary;
+		  background-color: white;
+		  
+	  }
+  }
+}

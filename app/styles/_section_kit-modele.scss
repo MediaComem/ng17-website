@@ -1,0 +1,37 @@
+#kit-modele {
+  background: $color-secondary;
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0px;
+  padding: 10px 0 80px 0;
+  overflow: visible;
+  @include angle(before);
+  .section {
+	  p {
+		  width: 100%;
+		  display: inline-block;
+	  }
+	  .button-container {
+		  display: inline-block;
+		  width: 100%;
+		  height: 42px;
+		  position: relative;
+		  top: 0px;
+		  button {
+			  position: absolute;
+		  }
+	  }
+  }
+  
+  @include at-breakpoint('medium') {
+	.section {
+		p {
+			margin-left: 1%;
+			width: 69%;
+		}
+		.button-container {
+			width: 29%;
+		}
+	}
+  }
+}

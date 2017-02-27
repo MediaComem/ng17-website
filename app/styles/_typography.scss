@@ -13,6 +13,13 @@ p {
   line-height: 1.5;
   font-weight: 100;
 }
+ul {
+	li {
+		font-weight: 100;
+		line-height: 1.5;
+		padding-left: 10px;
+	}
+}
 
 b,
 strong {

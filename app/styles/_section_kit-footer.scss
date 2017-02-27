@@ -1,0 +1,28 @@
+#kit-footer {
+  background: $color-tertiary;
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0px;
+  padding: 20px 20px;
+  overflow: visible;
+  @include angle(before);
+  
+  @include at-breakpoint ('large') {
+    .cols {
+		overflow: hidden;
+      .col {
+	      float: left;
+		  width: 48%;
+		  margin-left: 4%;
+		  &:first-child {
+			  margin-left: 0%
+		  } 
+      }
+      margin-bottom:40px;
+    }
+  }
+  
+  .centered {
+	  margin-bottom: 60px;
+  }
+}
