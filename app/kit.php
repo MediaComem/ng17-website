@@ -45,8 +45,8 @@ if (isset($_SESSION['return_data'])) {
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"><!-- endbuild -->
+    <script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <!-- build:js scripts/vendor/modernizr.js -->
-	<script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <script src="/bower_components/modernizr/modernizr.js" type="text/javascript">
 </script><!-- endbuild -->
 </head>
@@ -227,7 +227,7 @@ if (isset($_SESSION['return_data'])) {
 				<h4>Contact</h4>
 
                     <form id="contact-form" action="process.php" method="post" novalidate="novalidate">
-	                    <input type="hidden" name="subject" value="NG17 contact">
+	                    <input type="hidden" name="subject" value="NG17 contact from kit">
                         <div class="form-row">
                             <label class="label-text" for="name">Nom:</label>
                             <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">

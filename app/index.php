@@ -45,8 +45,8 @@ if (isset($_SESSION['return_data'])) {
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"><!-- endbuild -->
+    <script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <!-- build:js scripts/vendor/modernizr.js -->
-	<script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <script src="/bower_components/modernizr/modernizr.js" type="text/javascript">
 </script><!-- endbuild -->
 </head>
