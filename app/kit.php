@@ -46,7 +46,7 @@ if (isset($_SESSION['return_data'])) {
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"><!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
-
+	<script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <script src="/bower_components/modernizr/modernizr.js" type="text/javascript">
 </script><!-- endbuild -->
 </head>
@@ -217,10 +217,44 @@ if (isset($_SESSION['return_data'])) {
 				<h4>Licence</h4>
 				<p>Tous les fichiers échangés sont sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC Attribution-ShareAlike 4.0 International.</a></p>
 				<h4>Contact</h4>
-				<p>mei@heig-vd.ch</p>
+				<p></p>
+				<div class="social"> <a href="https://www.facebook.com/media.heigvd/"><i class="fa fa-facebook fa-2x"></i></a></div>
+				<div class="social"> <a href="https://www.linkedin.com/company-beta/15221961/"><i class="fa fa-linkedin fa-2x"></i></a></div>
+				<div class="social"> <a href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
+				<div class="social"> <a href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
 			</div>
 			<div class="col">
-				<p> quelque chose</p>
+				<h4>Contact</h4>
+
+                    <form id="contact-form" action="process.php" method="post" novalidate="novalidate">
+	                    <input type="hidden" name="subject" value="NG17 contact">
+                        <div class="form-row">
+                            <label class="label-text" for="name">Nom:</label>
+                            <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
+                            <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
+                        </div>
+
+                        <div class="form-row">
+                            <label class="label-text" for="email">Email:</label>
+                            <input id="email" type="email" name="email" <?php if (isset($errors['email'])) { echo 'class="error"';}?> value="<?php echo $email; ?>" required="required">
+                            <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
+                        </div>
+
+                        <div class="form-row">
+                            <label class="label-text" for="message">Message:</label>
+                            <textarea id="message" type="" name="message" rows="4" <?php if (isset($errors['message'])) { echo 'class="error"';}?> required="required"><?php echo $message; ?></textarea>
+                            <?php if (isset($errors['message'])): ?><label class="error"><?php echo $errors['message']; ?></label><?php endif; ?>
+                        </div>
+
+                        <div class="form-row">
+                            <button type="submit" name="submit" value="Send">Envoyer</button>
+                            <span id="loading-contact"></span>
+                        </div>
+                    </form>
+
+                    <div id="submit-message-contact">
+                        <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
+                    </div>
 			</div>
 		</div>
 	</section>
