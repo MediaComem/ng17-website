@@ -36,7 +36,7 @@ if (isset($_SESSION['return_data'])) {
     <meta name="description" content="Tente l'expérience du vidéo mapping, en grandeur nature !">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Numerik Games 2017 - Eclairâges</title><!-- Place favicon.ico in the root directory -->
+    <title>Numerik Games 2017 - Eclairâges kit</title><!-- Place favicon.ico in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
@@ -62,7 +62,7 @@ if (isset($_SESSION['return_data'])) {
         <div class="inner">
 	        <div class="container small-container">
 		        <div id="landingIntro">
-					<h1 class="huge">Opération « clair - obscur »</h1>
+					<h1 class="huge">« clair - obscur »</h1>
 					<h3 class="light">Un expérience de vidéomapping participatif dans le cadre des Numerik Games 2017</h3>
 		        </div>
 	        </div>
@@ -71,11 +71,11 @@ if (isset($_SESSION['return_data'])) {
 
     <section id="kit-intro" class="fullscreen">
 		<div class="container small-container centered">
-			<p>Si ce genre de challenge est nouveau pour vous, ne vous inquiétez pas !</p>
+			<p>Si le mapping vidéo est nouveau pour vous, ne vous inquiétez pas&nbsp;!</p>
 			
-			<p>L’objectif est simple : vous nous fournissez du contenu et nous nous occupons de la partie technique.</p>
+			<p>L’objectif est simple&nbsp;: vous nous fournissez du contenu et nous nous occupons de la partie technique.</p>
 			
-			<p>Vous trouverez ci-dessous les instructions, les modèles et les masques utiles à exprimer votre talent !</p>
+			<p>Vous trouverez ci-dessous les instructions, les modèles et les masques utiles à exprimer votre talent&nbsp;!</p>
 			
 			<p>Si des informations vous manquent, n'hésitez pas à nous contacter sur mei@heig-vd.ch.</p>
 		</div>
@@ -88,7 +88,6 @@ if (isset($_SESSION['return_data'])) {
 				<p><b>Où :</b><span>Place Pestalozzi, 1400 Yverdon-les-Bains</span></p>
 				<p><b>Projecteur :</b><span>Christie Boxer, 4k, 30'000 lumens !</span></p>
 				<p><b>Ecran :</b><span>Façade néoclassique du <a href="http://heig.ch/dahi">Temple Pestalozzi</a></span></p>
-				<p><b>Spectateurs :</b><span>Beaucoup !</span></p>
             </div>
             <div class="col-part-2">
 				<h4>Déroulement type d’une soirée</h4>
@@ -105,7 +104,7 @@ if (isset($_SESSION['return_data'])) {
 			<ul>
 				<li>Prise en compte du thème « clair-obscur »</li>
 				<li>Prise en compte de l’architecture du bâtiment</li>
-				<li>Visuels tout public, et respect du droit d’auteur Sans bande son</li>
+				<li>Visuels tout public, et respect du droit d’auteur sans bande son</li>
 				<li>Durée préconisée, entre 30 et 120 secondes</li>
 				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
 				<li>Codec souhaité pour le rendu final :</li>
@@ -155,9 +154,9 @@ if (isset($_SESSION['return_data'])) {
 			<h4>en 2D</h4>
 			<p>Si vous décidez de travailler avec un programme 2D (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), voici les images de référence et les masques sur lesquels vous caler :</p>
 			<div class="logos"> 
-				<button><a href="https://drive.google.com/file/d/0B71jdVFE0ObJRnBkWWlEYVZDdTA/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a></button>
-				<button><a href="https://drive.google.com/file/d/0B71jdVFE0ObJTlJYcnhOcDdnclE/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a></button>
-				<button><a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJY0lDRXFXendOMGM?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
+				<button><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJRnBkWWlEYVZDdTA/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a></button>
+				<button><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJTlJYcnhOcDdnclE/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a></button>
+				<button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJY0lDRXFXendOMGM?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
 			</div>
 			
 			<h4>en 3D</h4>
@@ -166,10 +165,10 @@ if (isset($_SESSION['return_data'])) {
 			<p>Des scènes avec des caméras déjà placées correctement se trouvent dans le dossier suivant :</p>
 			<h5>Scene 3D</h5>
 			<div class="logos"> 
-				<button><a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJbk1SU2RXWExXSzg?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a></button>
-				<button><a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd0NKTmgxbG9LWTA?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a></button>
-				<button><a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJeTJEWmZDRi1wRTA?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a></button>
-				<button><a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJdkdrZnFxbnlBQkk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
+				<button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJbk1SU2RXWExXSzg?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a></button>
+				<button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd0NKTmgxbG9LWTA?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a></button>
+				<button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJeTJEWmZDRi1wRTA?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a></button>
+				<button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJdkdrZnFxbnlBQkk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
 			</div>
 			
 			<p>Si vous utilisez un autre logiciel nous pouvons vous aider à caler votre caméra.</p>
@@ -192,16 +191,16 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container">
 			<h4>Les Modèles 3D</h4>
 			<div class="section">
-				<div class="button-container"><button><a href="https://drive.google.com/file/d/0B71jdVFE0ObJek9hTmRyUTVSbEE/view?usp=sharing">Temple-PointCloud.las</a></button></div>	
+				<div class="button-container"><button><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJek9hTmRyUTVSbEE/view?usp=sharing">Temple-PointCloud.las</a></button></div>	
 				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles (nombre de points ?).</p>
 			</div>
 			<div class="section">	
-				<div class="button-container"><button><a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOENfc3VGYVhDalk?usp=sharing">Temple-scan</a></button></div>
+				<div class="button-container"><button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOENfc3VGYVhDalk?usp=sharing">Temple-scan</a></button></div>
 				
 				<p>Un dossier contenant un modèle du temple généré directement depuis le nuage de points. Ce modèle est un compromis entre la qualité et les besoins de performance de votre machine (200’000 points).</p>
 			</div>
 			<div class="section">
-				<div class="button-container"><button><a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWFdZX2o0MEJlOW8?usp=sharing">Temple-model</a></button></div>
+				<div class="button-container"><button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWFdZX2o0MEJlOW8?usp=sharing">Temple-model</a></button></div>
 				
 				<p>Un dossier contenant un modèle du temple modélisé avec des photos et le nuage de point comme référence. Ce fichier est beaucoup plus léger mais ne contient pas tous les détails (nombre de points ?).</p>
 			</div>
