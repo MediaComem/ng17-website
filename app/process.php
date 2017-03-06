@@ -86,6 +86,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		
 		//SENT RESOPONSE MESSAGE
 		if($subject == 'NG17 participant') {
+			//Clear recipiant
+			$mail->ClearAllRecipients();
 			//Set who the message is to be sent from
 			$mail->setFrom(MAIL_ADDR, 'NG17 MEI');
 			//Set an alternative reply-to address
