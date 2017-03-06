@@ -84,23 +84,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		    echo "Message sent!";
 		}
 		
-		//Set who the message is to be sent from
-		$mail->setFrom(MAIL_ADDR, 'NG17 MEI');
-		//Set an alternative reply-to address
-		$mail->addReplyTo(MAIL_ADDR, 'NG17 MEI');
-		//Set who the message is to be sent to
-		$mail->addAddress($email, $name);
-		
-		//convert HTML into a basic plain-text alternative body
-		$mail->msgHTML('<p>helloooo voici le message</p>');
-
-		
-		//send the message, check for errors
-		if (!$mail->send()) {
-		    echo "Mailer Error: " . $mail->ErrorInfo;
-		} else {
-		    echo "Message sent!";
+		//SENT RESOPONSE MESSAGE
+		if($subject == 'NG17 participant') {
+			//Set who the message is to be sent from
+			$mail->setFrom(MAIL_ADDR, 'NG17 MEI');
+			//Set an alternative reply-to address
+			$mail->addReplyTo(MAIL_ADDR, 'NG17 MEI');
+			//Set who the message is to be sent to
+			$mail->addAddress($email, $name);
+			
+			//convert HTML into a basic plain-text alternative body
+			$mail->msgHTML('<p>Bonjour, merci pour votre intérêt.</p><p>Vous trouvère les informations nécessaires pour commencer votre projet sur cette page. sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p>');
+	
+			
+			//send the message, check for errors
+			if (!$mail->send()) {
+			    echo "Mailer Error: " . $mail->ErrorInfo;
+			} else {
+			    echo "Message sent!";
+			}
 		}
+		
 
     }
     else {
