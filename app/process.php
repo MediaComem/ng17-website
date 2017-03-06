@@ -84,6 +84,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		    echo "Message sent!";
 		}
 		
+		//Set who the message is to be sent from
+		$mail->setFrom(MAIL_ADDR, 'NG17 MEI');
+		//Set an alternative reply-to address
+		$mail->addReplyTo(MAIL_ADDR, 'NG17 MEI');
+		//Set who the message is to be sent to
+		$mail->addAddress($email, $name);
+		
+		//convert HTML into a basic plain-text alternative body
+		$mail->msgHTML('<p>helloooo voici le message</p>');
+
+		
+		//send the message, check for errors
+		if (!$mail->send()) {
+		    echo "Mailer Error: " . $mail->ErrorInfo;
+		} else {
+		    echo "Message sent!";
+		}
 
     }
     else {
