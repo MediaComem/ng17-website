@@ -73,9 +73,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$mail->Subject = $subject;
 		//Read an HTML message body from an external file, convert referenced images to embedded,
 		//convert HTML into a basic plain-text alternative body
-		$mail->msgHTML($message);
+		$mail->msgHTML('<p>contact:'+ $name + " : " + $email + "</p>"+$message);
 		//Replace the plain text body with one created manually
-		$mail->AltBody = 'This is a plain-text message body';
+		$mail->AltBody = 'Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.
+Vous trouverez les informations nécessaires pour commencer votre projet sur cette page: ng17.heig-vd.ch/kit
+Cette page web est sujette à changements dans les prochaines semaines. En cas de changement, on vous contactera par e-mail pour vous avertir. 
+Meilleures salutations.
+Le Media Engineering Institute';
 		
 		//send the message, check for errors
 		if (!$mail->send()) {
@@ -97,7 +101,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$mail->addAddress($email, $name);
 			
 			//convert HTML into a basic plain-text alternative body
-			$mail->msgHTML('<p>Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.</p><p>Vous trouvère les informations nécessaires pour commencer votre projet sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p><p>Cette page web est sujette à changements dans les prochaines semaines. Au cas ou un changement est fait, on vous contactera par e-mail pour vous avertir.</p><p>meilleures salutations</p><p><img src="http://www.heig-vd.ch/images/default-source/formation-temoignages-decouverte/mei_logo08326f52ce6060dfac07ff000015d99b.png?sfvrsn=0" alt="Media Engineering Institute" /></p>');
+			$mail->msgHTML('<p>Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.</p><p>Vous trouverez les informations nécessaires pour commencer votre projet sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p><p>Cette page web est sujette à changements dans les prochaines semaines. En cas de changement, on vous contactera par e-mail pour vous avertir. </p><p>Meilleures salutations</p><p><img src="http://www.heig-vd.ch/images/default-source/formation-temoignages-decouverte/mei_logo08326f52ce6060dfac07ff000015d99b.png?sfvrsn=0" alt="Le Media Engineering Institute" /></p>');
 	
 			
 			//send the message, check for errors

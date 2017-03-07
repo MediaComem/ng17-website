@@ -218,7 +218,7 @@ if (isset($_SESSION['return_data'])) {
 				<h4>Contact</h4>
 				<p></p>
 				<div class="social"> <a href="https://www.facebook.com/media.heigvd/"><i class="fa fa-facebook fa-2x"></i></a></div>
-				<div class="social"> <a href="https://www.linkedin.com/company-beta/15221961/"><i class="fa fa-linkedin fa-2x"></i></a></div>
+				<div class="social"> <a href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
 				<div class="social"> <a href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
 				<div class="social"> <a href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
 			</div>
