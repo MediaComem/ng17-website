@@ -36,7 +36,7 @@ if (isset($_SESSION['return_data'])) {
     <meta name="description" content="Tente l'expérience du vidéo mapping, en grandeur nature !">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Numerik Games 2017 - Eclairâges</title><!-- Place favicon.ico in the root directory -->
+    <title>Numerik Games 2017</title><!-- Place favicon.ico in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
@@ -128,7 +128,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <div class="wireframe only-mobile"></div>
 
-                    <p>En principe, votre projet d'animation vidéo sera affiché au moins une fois pendant le festival. La projection durera plus de six heures, sur deux soirs. Elle sera entrecoupée de performances interactives mettant en oeuvre les smartphones du public. Un <strong>jury</strong> interne tiendra compte des critères suivants: traitement du thème, dimension esthétique, prise en compte de l'architecture. Les meilleurs projets seront projetés plusieurs fois. Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
+                    <p>Votre projet d'animation vidéo sera affiché au moins une fois pendant le festival. La projection durera plus de six heures, sur deux soirs. Elle sera entrecoupée de performances interactives mettant en oeuvre les smartphones du public. Un <strong>jury</strong> interne tiendra compte des critères suivants: traitement du thème, dimension esthétique, prise en compte de l'architecture. Les meilleurs projets seront projetés plusieurs fois. Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
                 </div>
             </div>
 
@@ -138,7 +138,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <h2><span class="light">Création d'</span>images</h2>
 
-                    <p>Manque de temps&nbsp;! Vous pouvez également nous proposer une illustration ou une collection d'images. Comme pour la <strong>catégorie</strong> "animations", les meilleures propositions pourront être vues à plusieurs reprises. Elles seront diffusées par le biais d'un <a href="https://youtu.be/q6tX4YJ9FXE">jeu collectif</a> tout public. Les joueurs équipés d'un smartphone collaborent pour que leurs actions individuelles contribuent à révéler votre oeuvre&nbsp;! Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
+                    <p>Manque de temps&nbsp;? Vous pouvez également nous proposer une illustration ou une collection d'images. Comme pour la <strong>catégorie</strong> "animations", les meilleures propositions pourront être vues à plusieurs reprises. Elles seront diffusées par le biais d'un <a href="https://youtu.be/q6tX4YJ9FXE">jeu collectif</a> tout public. Les joueurs équipés d'un smartphone collaborent pour que leurs actions individuelles contribuent à révéler votre oeuvre&nbsp;! Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
 
                     <div class="wireframe only-mobile"></div>
                 </div>
@@ -173,6 +173,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="submit-message-participation">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
+            <p>Deadline pour la livraison est fixée au 15 juillet 2017, 00h00</p>
         </div>
     </section>
 

@@ -49,6 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail = new PHPMailer;
 		//Tell PHPMailer to use SMTP
 		$mail->isSMTP();
+		// set utf8 char
+		$mail->CharSet = 'UTF-8';
 		//Enable SMTP debugging
 		// 0 = off (for production use)
 		// 1 = client messages

@@ -90,6 +90,7 @@ $(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        console.log(target);
         if (target.length) {
           $('html, body')
             .animate({
@@ -100,6 +101,26 @@ $(function() {
         }
       }
     });
+});
+
+$(function() {
+	$('a[href*="#"].tablink:not([href="#"])').click(function() {
+		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			var target = $('#details');
+			if(target.offset().top > $(window).scrollTop()) {
+				if (target.length) {
+					$('html, body')
+					.animate({
+				  scrollTop: target.offset()
+				    .top
+				  }, 200);
+				  return false;
+				}
+			}
+			
+      }
+
+	});
 });
 
 $(function() {

@@ -63,7 +63,9 @@ if (isset($_SESSION['return_data'])) {
 	        <div class="container small-container">
 		        <div id="landingIntro">
 					<h1 class="huge">« clair - obscur »</h1>
-					<h3 class="light">Un expérience de vidéomapping participatif dans le cadre des Numerik Games 2017</h3>
+					<h3 class="light">Une expérience de vidéomapping participatif dans le cadre de Numerik Games 2017</h3>
+					
+					<h3><span class="light">Deadline pour la livraison est fixée au</span> 15 juillet 2017, 00h00</h3>
 		        </div>
 	        </div>
         </div>
@@ -109,7 +111,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
 				<li>Codec souhaité pour le rendu final :</li>
 					<ul>
-						<li>DXV 3 https://resolume.com/software/codec </li>
+						<li>DXV 3 <a href="https://resolume.com/software/codec">Plus d'info</a></li>
 					</ul>
 			</ul>
 			<h3>Catégorie image</h3>
@@ -120,8 +122,6 @@ if (isset($_SESSION['return_data'])) {
 				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
 				<li>Format PNG</li>
 			</ul>
-			
-			<p>Deadline pour la livraison fixée au 15 juillet 2017, 00h00</p>
 		</div>
 	</section>
 	<section id="kit-conseil">
@@ -138,9 +138,9 @@ if (isset($_SESSION['return_data'])) {
 			
 			<h4>Esthétique</h4>
 			<p>Vous ne pouvez pas considérer la façade comme un simple écran. Plus vous jouerez avec l’architecture du bâtiment plus le rendu graphique sera saisissant.</p>
-			<h4>Contrastes.</h4>
-			<p>Malgré la nuit, la lumière ambiante, ainsi que l’aspect jauni des pierres qui constituent la façade, ont tendance à ternir les couleurs. Le rendu sur votre écran n’est donc pas fiable. Pour lutter contre ce phénomène, jouez des contrastes !
-			Exemples (copie d’écran à gauche, photo de façade à droite) :</p>
+			<h4>Contrastes</h4>
+			<p>Malgré la nuit, la lumière ambiante, ainsi que l’aspect jauni des pierres qui constituent la façade, ont tendance à ternir les couleurs. Le rendu sur votre écran n’est donc pas fiable. Pour lutter contre ce phénomène, jouez avec les contrastes&nbsp;!
+			Exemples (copie d’écran à gauche, photo de façade à droite)&nbsp;:</p>
 			<img class="thumb" src="images/contrast_1.jpg"></img>
 			<img class="thumb" src="images/contrast_2.jpg"></img>
 		</div>
@@ -152,7 +152,7 @@ if (isset($_SESSION['return_data'])) {
 			
 			
 			<h4>en 2D</h4>
-			<p>Si vous décidez de travailler avec un programme 2D (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), voici les images de référence et les masques sur lesquels vous caler :</p>
+			<p>Si vous décidez de travailler avec un programme 2D (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), voici les images de référence et les masques sur lesquels vous caler&nbsp;:</p>
 			<div class="logos"> 
 				<button><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJRnBkWWlEYVZDdTA/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a></button>
 				<button><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJTlJYcnhOcDdnclE/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a></button>
@@ -162,7 +162,7 @@ if (isset($_SESSION['return_data'])) {
 			<h4>en 3D</h4>
 			<p>Si vous travaillez avec un programme 3D (Blender, Maya, C4D, etc.) il faut faire très attention à la position de la caméra. Elle doit être dans la même position que le projecteur.</p>
 			
-			<p>Des scènes avec des caméras déjà placées correctement se trouvent dans le dossier suivant :</p>
+			<p>Des scènes avec des caméras déjà placées correctement se trouvent dans le dossier suivant&nbsp;:</p>
 			<h5>Scene 3D</h5>
 			<div class="logos"> 
 				<button><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJbk1SU2RXWExXSzg?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a></button>
@@ -175,16 +175,16 @@ if (isset($_SESSION['return_data'])) {
 			<p>Voici quelques informations utiles :</p>
 			<ul>
 				<li>Le temple placé au point 0,0,0 depuis son point de pivot.</li>
-				<li>La caméra dispose d’un capteur de 23.11mm de largeur, 18mm de hauter et 32mm de diagonale</li>
+				<li>La caméra dispose d’un capteur de 23.11mm de largeur, 18mm de hauter et 32mm de diagonale.</li>
 				<ul>
-					<li>elle est placée à 50 m. devant le point de pivot du temple, et à 6 m. d’altitude</li>
+					<li>elle est placée à 50 m. devant le point de pivot du temple, et à 6 m. d’altitude.</li>
 					<li>elle pointe perpendiculairement à la façade</li>
-					<li>elle utilise un offset (lens-shift / tilt-shift) vertical pour cadrer le temple en entier sans déplacer la caméra tout en conservant les perspectives</li>
-					<li>La valeur pour l’offset peut être différente dans chaque logiciel. La solution consiste à essayer d’ajuster la valeur jusqu'à ce que votre rendu se superpose correctement au masque (cf. superpose.png)</li>
+					<li>elle utilise un offset (lens-shift / tilt-shift) vertical pour cadrer le temple en entier sans déplacer la caméra tout en conservant les perspectives.</li>
+					<li>La valeur pour l’offset peut être différente dans chaque logiciel. La solution consiste à essayer d’ajuster la valeur jusqu'à ce que votre rendu se superpose correctement au masque (cf. superpose.png).</li>
 				</ul>
 			</ul>
 			
-			<p>Besoin d’aide ? Contactez-nous</p>
+			<p>Besoin d’aide ? Contactez-nous.</p>
 		</div>
 	</section>
 	<section id="kit-modele" class="negative">
@@ -209,7 +209,7 @@ if (isset($_SESSION['return_data'])) {
 	</section>
 	<section id="kit-footer" class="negative">
 		<div class="container small-container centered">
-			<p>Besoin d’aide ? d’autres idées ou propositions&nbsp? Contactez-nous&nbsp!</p>
+			<p>Besoin d’aide ? d’autres idées ou propositions&nbsp? Contactez-nous&nbsp;!</p>
 		</div>
 		<div class="container small-container cols">
 			<div class="col">
