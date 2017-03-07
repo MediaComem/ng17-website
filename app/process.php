@@ -44,7 +44,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     
     if (empty($errors)) {
-
         $formOK = true;
 
         $mail = new PHPMailer;
@@ -73,13 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$mail->Subject = $subject;
 		//Read an HTML message body from an external file, convert referenced images to embedded,
 		//convert HTML into a basic plain-text alternative body
-		$mail->msgHTML('<p>contact:'+ $name + " : " + $email + "</p>"+$message);
-		//Replace the plain text body with one created manually
-		$mail->AltBody = 'Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.
-Vous trouverez les informations nécessaires pour commencer votre projet sur cette page: ng17.heig-vd.ch/kit
-Cette page web est sujette à changements dans les prochaines semaines. En cas de changement, on vous contactera par e-mail pour vous avertir. 
-Meilleures salutations.
-Le Media Engineering Institute';
+		$mail->msgHTML($message);
 		
 		//send the message, check for errors
 		if (!$mail->send()) {
@@ -101,7 +94,7 @@ Le Media Engineering Institute';
 			$mail->addAddress($email, $name);
 			
 			//convert HTML into a basic plain-text alternative body
-			$mail->msgHTML('<p>Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.</p><p>Vous trouverez les informations nécessaires pour commencer votre projet sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p><p>Cette page web est sujette à changements dans les prochaines semaines. En cas de changement, on vous contactera par e-mail pour vous avertir. </p><p>Meilleures salutations</p><p><span><img height="100" src="http://age.heig-vd.ch/wp-content/uploads/2013/09/HEIG-VD_Logo.png" alt="Haute École d\'Ingénierie et de Gestion du Canton de Vaud" /></span><span><img height="100" src="http://www.heig-vd.ch/images/default-source/formation-temoignages-decouverte/mei_logo08326f52ce6060dfac07ff000015d99b.png?sfvrsn=0" alt="Le Media Engineering Institute" /></span></p>');
+			$mail->msgHTML('<p>Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.</p><p>Vous trouverez les informations nécessaires pour commencer votre projet sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p><p>Cette page web est sujette à changements dans les prochaines semaines. En cas de changement, on vous contactera par e-mail pour vous avertir. </p><p>Meilleures salutations</p><p><span><img height="80" src="http://age.heig-vd.ch/wp-content/uploads/2013/09/HEIG-VD_Logo.png" alt="Haute École d\'Ingénierie et de Gestion du Canton de Vaud" /></span><span><img height="80" src="http://www.heig-vd.ch/images/default-source/formation-temoignages-decouverte/mei_logo08326f52ce6060dfac07ff000015d99b.png?sfvrsn=0" alt="Le Media Engineering Institute" /></span></p>');
 	
 			
 			//send the message, check for errors
