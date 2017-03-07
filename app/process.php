@@ -86,17 +86,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		
 		//SENT RESOPONSE MESSAGE
 		if($subject == 'NG17 participant') {
+			$subject == 'NG17 participation';
 			//Clear recipiant
 			$mail->ClearAllRecipients();
 			//Set who the message is to be sent from
-			$mail->setFrom(MAIL_ADDR, 'NG17 MEI');
+			$mail->setFrom("mei@heig-vd,ch", 'NG17 MEI');
 			//Set an alternative reply-to address
-			$mail->addReplyTo(MAIL_ADDR, 'NG17 MEI');
+			$mail->addReplyTo("mei@heig-vd,ch", 'NG17 MEI');
 			//Set who the message is to be sent to
 			$mail->addAddress($email, $name);
 			
 			//convert HTML into a basic plain-text alternative body
-			$mail->msgHTML('<p>Bonjour, merci pour votre intérêt.</p><p>Vous trouvère les informations nécessaires pour commencer votre projet sur cette page. sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p>');
+			$mail->msgHTML('<p>Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.</p><p>Vous trouvère les informations nécessaires pour commencer votre projet sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p><p>Cette page web est sujette à changements dans les prochaines semaines. Au cas ou un changement est fait, on vous contactera par e-mail pour vous avertir.</p><p>meilleures salutations</p><p><img src="http://www.heig-vd.ch/images/default-source/formation-temoignages-decouverte/mei_logo08326f52ce6060dfac07ff000015d99b.png?sfvrsn=0" alt="Media Engineering Institute" /></p>');
 	
 			
 			//send the message, check for errors
