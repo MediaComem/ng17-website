@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$mail->Subject = $subject;
 		//Read an HTML message body from an external file, convert referenced images to embedded,
 		//convert HTML into a basic plain-text alternative body
-		$mail->msgHTML('<p>contact: '+ $name + ': ' + $email + '</p> ' + $message);
+		$mail->msgHTML('<p>contact: '. $name . ': ' . $email . '</p>' . $message);
 		
 		//send the message, check for errors
 		if (!$mail->send()) {
