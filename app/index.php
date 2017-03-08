@@ -180,7 +180,7 @@ if (isset($_SESSION['return_data'])) {
                     <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
                 </div>
                 <div class="form-row">
-                    <button class="gt_participate" type="submit" name="submit" value="Send">Participer</button>
+                    <button id="gtm_participate" type="submit" name="submit" value="Send">Participer</button>
                     <span id="loading-participation"></span>
                 </div>
             </form>
@@ -238,7 +238,7 @@ if (isset($_SESSION['return_data'])) {
                         </div>
 
                         <div class="form-row">
-                            <button class="gt_index_contact" type="submit" name="submit" value="Send">Envoyer</button>
+                            <button id="gtm_index_contact" type="submit" name="submit" value="Send">Envoyer</button>
                             <span id="loading-contact"></span>
                         </div>
                     </form>
