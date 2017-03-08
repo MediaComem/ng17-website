@@ -62,6 +62,7 @@ $('ul.tabs').each(function(){
 
   // Bind the click event handler
   $(this).on('click', 'a', function(e){
+
     // Prevent the anchor's default click action
     e.preventDefault();
     // Make the old tab inactive.
@@ -104,7 +105,7 @@ $(function() {
 });
 
 $(function() {
-	$('a[href*="#"].tablink:not([href="#"])').click(function() {
+	$('ul.tabs').on('click', 'a.tablink', function() {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 			var target = $('#details');
 			if(target.offset().top > $(window).scrollTop()) {
