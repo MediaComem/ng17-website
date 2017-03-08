@@ -170,9 +170,9 @@ if (isset($_SESSION['return_data'])) {
 			<h4>en 2D</h4>
 			<p>Si vous décidez de travailler avec un programme 2D (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), voici les images de référence et les masques sur lesquels vous caler&nbsp;:</p>
 			<div class="logos"> 
-				<button><a id="gtm_2d_photoshop" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJRnBkWWlEYVZDdTA/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a></button>
-				<button><a id="gtm_2d_png" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJTlJYcnhOcDdnclE/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a></button>
-				<button><a id="gtm_2d_all" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJY0lDRXFXendOMGM?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
+				<button id="gtm_2d_photoshop"><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJRnBkWWlEYVZDdTA/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a></button>
+				<button id="gtm_2d_png"><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJTlJYcnhOcDdnclE/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a></button>
+				<button id="gtm_2d_all"><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJY0lDRXFXendOMGM?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
 			</div>
 			
 			<h4>en 3D</h4>
@@ -181,10 +181,10 @@ if (isset($_SESSION['return_data'])) {
 			<p>Des scènes avec des caméras déjà placées correctement se trouvent dans le dossier suivant&nbsp;:</p>
 			<h5>Scene 3D</h5>
 			<div class="logos"> 
-				<button><a id="gtm_scene_blender" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJbk1SU2RXWExXSzg?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a></button>
-				<button><a id="gtm_scene_maya" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd0NKTmgxbG9LWTA?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a></button>
-				<button><a id="gtm_scene_cinema4d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJeTJEWmZDRi1wRTA?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a></button>
-				<button><a id="gtm_scene_all" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJdkdrZnFxbnlBQkk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
+				<button id="gtm_scene_blender"><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJbk1SU2RXWExXSzg?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a></button>
+				<button id="gtm_scene_maya"><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd0NKTmgxbG9LWTA?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a></button>
+				<button id="gtm_scene_cinema4d"><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJeTJEWmZDRi1wRTA?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a></button>
+				<button id="gtm_scene_all"><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJdkdrZnFxbnlBQkk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a></button>
 			</div>
 			
 			<p>Si vous utilisez un autre logiciel nous pouvons vous aider à caler votre caméra.</p>
@@ -207,15 +207,15 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container">
 			<h4>Les Modèles 3D</h4>
 			<div class="section">
-				<div class="button-container"><button><a id="gtm_model_las" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJek9hTmRyUTVSbEE/view?usp=sharing">Temple-PointCloud.las</a></button></div>	
+				<div class="button-container"><button id="gtm_model_las"><a target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJek9hTmRyUTVSbEE/view?usp=sharing">Temple-PointCloud.las</a></button></div>	
 				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles (nombre de points ?).</p>
 			</div>
 			<div class="section">	
-				<div class="button-container"><button><a id="gtm_model_scan" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOENfc3VGYVhDalk?usp=sharing">Temple-scan</a></button></div>
+				<div class="button-container"><button id="gtm_model_scan"><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOENfc3VGYVhDalk?usp=sharing">Temple-scan</a></button></div>
 				<p>Un dossier contenant un modèle du temple généré directement depuis le nuage de points. Ce modèle est un compromis entre la qualité et les besoins de performance de votre machine (200’000 points).</p>
 			</div>
 			<div class="section">
-				<div class="button-container"><button><a id="gtm_model_model" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWFdZX2o0MEJlOW8?usp=sharing">Temple-model</a></button></div>
+				<div class="button-container"><button id="gtm_model_model"><a target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWFdZX2o0MEJlOW8?usp=sharing">Temple-model</a></button></div>
 				<p>Un dossier contenant un modèle du temple modélisé avec des photos et le nuage de point comme référence. Ce fichier est beaucoup plus léger mais ne contient pas tous les détails (nombre de points ?).</p>
 			</div>
 			<div class="section">
@@ -231,10 +231,10 @@ if (isset($_SESSION['return_data'])) {
 				<p>Tous les fichiers échangés sont sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC Attribution-ShareAlike 4.0 International.</a></p>
 				<h4>Contact</h4>
 				<p></p>
-				<div class="social" > <a id="gtm_facebook" href="https://www.facebook.com/media.heigvd/"><i class="fa fa-facebook fa-2x"></i></a></div>
-				<div class="social" > <a id="gtm_linkedin" href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
-				<div class="social" > <a id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
-				<div class="social" > <a id="gtm_mail" href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
+				<div class="social" id="gtm_facebook" > <a href="https://www.facebook.com/media.heigvd/"><i class="fa fa-facebook fa-2x"></i></a></div>
+				<div class="social" id="gtm_linkedin" > <a href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
+				<div class="social" id="gtm_mei" > <a href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
+				<div class="social" id="gtm_mail" > <a href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
 			</div>
 			<div class="col">
 				<h4>Contact</h4>

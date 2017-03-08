@@ -154,6 +154,7 @@ $(function() {
                     loadingContact.hide();
                 }
             };
+            dataLayer.push({'clickedButton': {{element id}}});
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
@@ -188,6 +189,7 @@ $(function() {
                     loadingParticipation.hide();
                 }
             };
+            dataLayer.push({'event':'formSubmit'});
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
