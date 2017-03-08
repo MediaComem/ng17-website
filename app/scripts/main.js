@@ -154,7 +154,7 @@ $(function() {
                     loadingContact.hide();
                 }
             };
-            dataLayer.push({'clickedButton': {{element id}}});
+			dataLayer.push({'event':'formSubmit'});
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
