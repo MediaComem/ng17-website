@@ -77,7 +77,7 @@ if (isset($_SESSION['return_data'])) {
 </script><!-- endbuild -->
 </head>
 
-<body>
+<body id="kit">
 	
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
