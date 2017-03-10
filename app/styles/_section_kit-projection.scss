@@ -5,8 +5,22 @@
   form {
 	  margin-top: 60px;
   }
+  .cols {
+	  span {
+		  display: block;
+	  }
+  }
+  @include at-breakpoint ('small') {
+	  .cols {
+		  span {
+			  display: inline-block;
+		  }
+	  }
+  }
+  
   @include at-breakpoint ('large') {
     .cols {
+	  
       margin-top: 0px;
       -webkit-column-count: 2;
       -moz-column-count: 2;
