@@ -62,7 +62,7 @@ if (isset($_SESSION['return_data'])) {
 	<meta name="msapplication-TileImage" content="images/favicon.ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-    <title>Numerik Games 2017 - Eclairâges kit</title><!-- Place favicon.ico in the root directory -->
+    <title>Numerik Games | clair-obscur</title><!-- Place favicon.ico in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
