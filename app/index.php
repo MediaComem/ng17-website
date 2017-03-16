@@ -35,7 +35,38 @@ if (isset($_SESSION['return_data'])) {
     <meta charset="utf-8">
     <meta name="description" content="Tente l'expérience du vidéo mapping, en grandeur nature !">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+	<html itemscope itemtype="http://schema.org/Article">
+	
+	<!-- Place this data between the <head> tags of your website -->
+	<title>Page Title. Maximum length 60-70 characters</title>
+	<meta name="description" content="Appel à projets mapping vidéo de Numerik Games 2017" />
+	
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="Numerik Games | clair-obscur">
+	<meta itemprop="description" content="Appel à projets mapping vidéo de Numerik Games 2017">
+	<meta itemprop="image" content="http://ng17.heig-vd.ch/images/home_bg.jpg">
+	
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@media_heigvd">
+	<meta name="twitter:title" content="Numerik Games | clair-obscur">
+	<meta name="twitter:description" content="Appel à projets mapping vidéo pour Numerik Games 2017">
+	<meta name="twitter:creator" content="@media_heigvd">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:image:src" content="http://ng17.heig-vd.ch/images/home_bg.jpg">
+	
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Numerik Games | clair-obscur" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://ng17.heig-vd.ch" />
+	<meta property="og:image" content="http://ng17.heig-vd.ch/images/home_bg.jpg" />
+	<meta property="og:description" content="Appel à projets mapping vidéo pour Numerik Games 2017" />
+	<meta property="og:site_name" content="Numerik Games | clair-obscur" />
+	<meta property="article:published_time" content="2017-03-16T09:00:00+01:00" />
+<!-- 	<meta property="article:modified_time" content="2017-03-16T19:08:47+01:00" /> -->
+	<meta property="fb:admins" content="Facebook numberic ID" />
+	
     <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -43,6 +74,7 @@ if (isset($_SESSION['return_data'])) {
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-TTFCNHC');</script>
 	<!-- End Google Tag Manager -->
+	
 	
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon.ico/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon.ico/apple-icon-60x60.png">
