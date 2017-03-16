@@ -18,11 +18,18 @@
 		vertical-align: super;
 		margin-right: 10px;
 	  }
-	  button {
+	  .button {
+		  display: inline-block;
+		  align-items: flex-start;
+		  text-align: center;
+		  box-sizing: border-box;
 		  margin: 10px 20px;
 		  border-color: $color-tertiary;
 		  background-color: white;
-		  
+		  font-weight: bold;
+		  padding: 0.5em;
+		  font-size: 1.2em;
+		  text-decoration: none;
 	  }
   }
 }
