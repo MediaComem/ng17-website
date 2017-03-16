@@ -145,6 +145,13 @@ $(function() {
                     loadingContact.show();
                 },
                 success: function() {
+	                dataLayer.push({
+			            'event':'formSubmit',
+			            'formName': form.id,
+						'eventCategory': 'AJAX',
+						'eventAction': "actuib",
+						'eventLabel': "label"
+					});
                     showMessageContact('Merci! Votre email est envoyé.', 'success');
                     form.reset();
                     loadingContact.hide();
@@ -172,7 +179,6 @@ $(function() {
         messageContainerParticipation.attr('class', classAttr);
     }
     $('#participation-form').validate({     
-	       
         // Override to submit the form via ajax
         submitHandler: function(form) {
             var options = {
@@ -180,6 +186,13 @@ $(function() {
                     loadingParticipation.show();
                 },
                 success: function() {
+	                dataLayer.push({
+			            'event':'formSubmit',
+			            'formName': "gtm_participate",
+						'eventCategory': 'AJAX',
+						'eventAction': "actuib",
+						'eventLabel': "label"
+					});
                     showMessageParticipation('Merci! Votre email est envoyé.', 'success');
                     form.reset();
                     loadingParticipation.hide();
@@ -189,7 +202,6 @@ $(function() {
                     loadingParticipation.hide();
                 }
             };
-            dataLayer.push({'event':'formSubmit'});
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
