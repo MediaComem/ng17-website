@@ -151,6 +151,9 @@ body {
 		    width: 70%;
 		    margin-right: 0px;
 		}
+		h1#main-title {
+			font-size: 25px;
+		}
 	}
   @include at-breakpoint ('medium') {
 	button {
@@ -213,7 +216,7 @@ body {
 
    @include at-breakpoint ('small') {
     //width: 70%;
-    margin-top: 35vh;
+    margin-top: 40vh;
 
     h2 {
       font-size: 2.2em;
