@@ -67,6 +67,8 @@ if (isset($_SESSION['return_data'])) {
 <!-- 	<meta property="article:modified_time" content="2017-03-16T19:08:47+01:00" /> -->
 	<meta property="fb:admins" content="Facebook numberic ID" />
 	
+	<link rel="alternate" hreflang="fr" href="http://ng17.heig-vd.ch" />
+	
     <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
