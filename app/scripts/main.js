@@ -148,6 +148,7 @@ $(function() {
 	                dataLayer.push({
 			            'event':'formSubmit',
 			            'formName': form.id,
+			            'formClass': 'gtm_form',
 						'eventCategory': 'AJAX',
 						'eventAction': "actuib",
 						'eventLabel': "label"
@@ -189,6 +190,7 @@ $(function() {
 	                dataLayer.push({
 			            'event':'formSubmit',
 			            'formName': "gtm_participate",
+						'formClass': 'gtm_form',
 						'eventCategory': 'AJAX',
 						'eventAction': "actuib",
 						'eventLabel': "label"
