@@ -173,7 +173,7 @@ if (isset($_SESSION['return_data'])) {
 			<h4>Esthétique</h4>
 			<p>Vous ne pouvez pas considérer la façade comme un simple écran. Plus vous jouerez avec l’architecture du bâtiment plus le rendu graphique sera saisissant.</p>
 			<h4>Contrastes</h4>
-			<p>Malgré la nuit, la lumière ambiante, ainsi que l’aspect jauni des pierres qui constituent la façade, ont tendance à ternir les couleurs. Le rendu sur votre écran n’est donc pas fiable. Pour lutter contre ce phénomène, jouez avec les contrastes&nbsp;!
+			<p>Malgré la nuit, la lumière ambiante, les surfaces comme les pierres jaunâtres, et les vitraux multicouleur qui constituent la façade ont tendance à ternir les couleurs. Le rendu sur votre écran n’est donc pas fiable. Pour lutter contre ce phénomène, jouez avec les contrastes et soyez créatif&nbsp;!
 			Exemples (copie d’écran à gauche, photo de façade à droite)&nbsp;:</p>
 			<img class="thumb" src="images/contrast_1.jpg"></img>
 			<img class="thumb" src="images/contrast_2.jpg"></img>
