@@ -139,7 +139,7 @@ if (isset($_SESSION['return_data'])) {
                     <h3 class="light">25 - 27 août 2017</h3>
 
                     <h1 id="main-title" class="huge">Marre de ton écran&nbsp;?<br>
-                    VOIS PLUS GRAND&nbsp;!</h1><a href="#intro"><button><a href="#intro">En savoir plus</a></button></a>
+                    VOIS PLUS GRAND&nbsp;!</h1><a href="#intro"><button>En savoir plus</button></a>
                 </div>
             </div>
         </div>
