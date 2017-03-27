@@ -290,6 +290,12 @@ if (isset($_SESSION['return_data'])) {
                         </div>
 
                         <div class="form-row">
+	                        <div class="socials">
+			                    <div class="social"><a class="gtm_social" id="gtm_facebook" href="https://www.facebook.com/ng17mapping/"><i class="fa fa-facebook fa-2x"></i></a></div>
+								<div class="social"><a class="gtm_social" id="gtm_linkedin" href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
+								<div class="social"><a class="gtm_social" id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
+								<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
+		                    </div>
                             <button id="gtm_index_contact" type="submit" name="submit" value="Send">Envoyer</button>
                             <span id="loading-contact"></span>
                         </div>
