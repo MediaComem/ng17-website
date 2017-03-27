@@ -159,7 +159,7 @@ if (isset($_SESSION['return_data'])) {
             <div class="col-part-1">
                 <p><strong>Numerik Games</strong> est un festival tout public, organisé par la <a href="http://www.ailleurs.ch">Maison d'Ailleurs</a>, la ville d'<a href="http://www.ylb.ch">Yverdon-les-Bains</a> et la <a href="http://www.heig-vd.ch">HEIG-VD</a>, qui propose des conférences, des performances et des animations relatives au thème de la transition numérique.</p>
 
-                <p>Pour cette édition, nous allons célébrer cette nouvelle ère qui s’ouvre à nous, innondée de nouvelles technologies. Nos modes d’organisation sont bouleversés, de nouvelles pratiques apparaissent, sociales, culturelles, etc. Une transformation profonde est en cours, c’est bien clair&nbsp;! Faut-il pour autant la voir d’un œil sombre&nbsp;?</p>
+                <p>Pour cette édition, nous allons célébrer cette nouvelle ère qui s’ouvre à nous, inondée de nouvelles technologies. Nos modes d’organisation sont bouleversés, de nouvelles pratiques apparaissent, sociales, culturelles, etc. Une transformation profonde est en cours, c’est bien clair&nbsp;! Faut-il pour autant la voir d’un œil sombre&nbsp;?</p>
 
                 <p>Ce festival est forcément festif, mais il doit aussi nous permettre de réfléchir&nbsp;!</p>
             </div>
