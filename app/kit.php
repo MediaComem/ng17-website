@@ -156,6 +156,8 @@ if (isset($_SESSION['return_data'])) {
 				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
 				<li>Format PNG</li>
 			</ul>
+			<h3>Comment rendre le projet?</h3>
+			<p>Vous êtes libre d'utiliser le service de votre choix (google drive, Dropbox, WeTransfer, etc.) pour nous rendre votre travail. Envoyez-nous les liens de votre fichier avec le formulaire de contact ci-dessous et précisez le nom, pseudo ou entreprise qui va apparaitre avec votre vidéo.</p>
 		</div>
 	</section>
 	<section id="kit-conseil">
