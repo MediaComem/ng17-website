@@ -60,6 +60,7 @@ if (isset($_SESSION['return_data'])) {
 	<meta property="og:title" content="Numerik Games | clair-obscur" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="http://ng17.heig-vd.ch" />
+	<meta property="og:image" content="http://ng17.heig-vd.ch/images/NG17-FB-post-link_2.jpg" />
 	<meta property="og:image" content="http://ng17.heig-vd.ch/images/home_bg.jpg" />
 	<meta property="og:description" content="Appel à projets mapping vidéo pour Numerik Games 2017" />
 	<meta property="og:site_name" content="Numerik Games | clair-obscur" />
