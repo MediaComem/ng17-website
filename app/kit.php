@@ -250,13 +250,14 @@ if (isset($_SESSION['return_data'])) {
 			<div class="col">
 				<h4>Licence</h4>
 				<p>Tous les fichiers échangés sont sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC Attribution-ShareAlike 4.0 International.</a></p>
-				<h4>Contact</h4>
-				<p></p>
-				<div class="social"><a class="gtm_social" id="gtm_facebook" href="https://www.facebook.com/ng17mapping/"><i class="fa fa-facebook fa-2x"></i></a></div>
-				<div class="social"><a class="gtm_social" id="gtm_instagram" href="https://www.instagram.com/ng17mapping/"><i class="fa fa-instagram fa-2x"></i></a></div>
-				<div class="social"><a class="gtm_social" id="gtm_linkedin" href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
-				<div class="social"><a class="gtm_social" id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
-				<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
+				<h4>Liens</h4>
+				<div class="socials">
+					<div class="social"><a class="gtm_social" id="gtm_facebook" href="https://www.facebook.com/ng17mapping/"><i class="fa fa-facebook fa-2x"></i></a></div>
+					<div class="social"><a class="gtm_social" id="gtm_instagram" href="https://www.instagram.com/ng17mapping/"><i class="fa fa-instagram fa-2x"></i></a></div>
+					<div class="social"><a class="gtm_social" id="gtm_linkedin" href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
+					<div class="social"><a class="gtm_social" id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
+					<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
+				</div>
 			</div>
 			<div class="col">
 				<h4>Contact</h4>
