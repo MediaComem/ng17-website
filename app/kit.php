@@ -190,9 +190,9 @@ if (isset($_SESSION['return_data'])) {
 			<h4>en 2D</h4>
 			<p>Si vous décidez de travailler avec un programme 2D (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), voici les images de référence et les masques sur lesquels vous caler&nbsp;:</p>
 			<div class="logos"> 
-				<a id="gtm_2d_photoshop" class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJRnBkWWlEYVZDdTA/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a>
-				<a id="gtm_2d_png"  class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJTlJYcnhOcDdnclE/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a>
-				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJY0lDRXFXendOMGM?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
+				<a id="gtm_2d_photoshop" class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJbGRBTExsN0tWem8/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a>
+				<a id="gtm_2d_png"  class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJSnFhSmxnTm56eW8/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a>
+				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd2Rrb2kydWU4WUk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
 			</div>
 			
 			<h4>en 3D</h4>
@@ -201,10 +201,10 @@ if (isset($_SESSION['return_data'])) {
 			<p>Des scènes avec des caméras déjà placées correctement se trouvent dans le dossier suivant&nbsp;:</p>
 			<h5>Scene 3D</h5>
 			<div class="logos"> 
-				<a id="gtm_scene_blender" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJbk1SU2RXWExXSzg?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a>
-				<a id="gtm_scene_maya" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd0NKTmgxbG9LWTA?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a>
-				<a id="gtm_scene_cinema4d" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJeTJEWmZDRi1wRTA?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a>
-				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJdkdrZnFxbnlBQkk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
+				<a id="gtm_scene_blender" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTVYtOV9nR0NHaXc?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a>
+				<a id="gtm_scene_maya" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJYXdXN2RULUFzcVE?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a>
+				<a id="gtm_scene_cinema4d" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJQUtrT3Njc1JOb3M?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a>
+				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWW9BXzdDbVlTcFE?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
 			</div>
 			
 			<p>Si vous utilisez un autre logiciel nous pouvons vous aider à caler votre caméra.</p>
@@ -227,15 +227,15 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container">
 			<h4>Les Modèles 3D</h4>
 			<div class="section">
-				<div class="button-container"><a id="gtm_model_las" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJek9hTmRyUTVSbEE/view?usp=sharing">Temple-PointCloud.las</a></div>	
+				<div class="button-container"><a id="gtm_model_las" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
 				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles (nombre de points ?).</p>
 			</div>
 			<div class="section">	
-				<div class="button-container"><a id="gtm_model_scan" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOENfc3VGYVhDalk?usp=sharing">Temple-scan</a></div>
+				<div class="button-container"><a id="gtm_model_scan" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJNnJvcFA5YU5QTnM?usp=sharing">Temple-scan</a></div>
 				<p>Un dossier contenant un modèle du temple généré directement depuis le nuage de points. Ce modèle est un compromis entre la qualité et les besoins de performance de votre machine (200’000 points).</p>
 			</div>
 			<div class="section">
-				<div class="button-container"><a id="gtm_model_model" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWFdZX2o0MEJlOW8?usp=sharing">Temple-model</a></div>
+				<div class="button-container"><a id="gtm_model_model" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFkxLURnMno4WTA?usp=sharing">Temple-model</a></div>
 				<p>Un dossier contenant un modèle du temple modélisé avec des photos et le nuage de point comme référence. Ce fichier est beaucoup plus léger mais ne contient pas tous les détails (nombre de points ?).</p>
 			</div>
 			<div class="section">
