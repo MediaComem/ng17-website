@@ -213,6 +213,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>Le temple placé au point 0,0,0 depuis son point de pivot.</li>
 				<li>La caméra dispose d’un capteur de 23.11mm de largeur, 18mm de hauter et 32mm de diagonale.</li>
 				<ul>
+					<li>elle a une focale de 56mm</li>
 					<li>elle est placée à 50 m. devant le point de pivot du temple, et à 6 m. d’altitude.</li>
 					<li>elle pointe perpendiculairement à la façade</li>
 					<li>elle utilise un offset (lens-shift / tilt-shift) vertical pour cadrer le temple en entier sans déplacer la caméra tout en conservant les perspectives.</li>
