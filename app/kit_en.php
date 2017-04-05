@@ -94,12 +94,13 @@ if (isset($_SESSION['return_data'])) {
         <div class="triangle-topleft"></div>
 
         <div class="inner">
+	        <div id="language"><a href="/kit">fr</a>/en</div>
 	        <div class="container small-container">
 		        <div id="landingIntro">
-					<h1 class="huge">« clair - obscur »</h1>
-					<h3 class="light">Une expérience de vidéomapping participatif dans le cadre de Numerik Games 2017</h3>
+					<h1 class="huge">"clair-obscur"</h1>
+					<h3 class="light">A video mapping experience for Numerik Games 2017</h3>
 					
-					<h3><span class="light">Deadline pour la livraison est fixée au</span> 15 juillet 2017, 00h00</h3>
+					<h3><span class="light">The deadline is set for the </span>15th of July 2017, 00h00</h3>
 		        </div>
 	        </div>
         </div>
@@ -107,62 +108,59 @@ if (isset($_SESSION['return_data'])) {
 
     <section id="kit-intro" class="fullscreen">
 		<div class="container small-container centered">
-			<p>Si le mapping vidéo est nouveau pour vous, ne vous inquiétez pas&nbsp;!</p>
-			
-			<p>L’objectif est simple&nbsp;: vous nous fournissez du contenu et nous nous occupons de la partie technique.</p>
-			
-			<p>Vous trouverez ci-dessous les instructions, les modèles et les masques utiles à exprimer votre talent&nbsp;!</p>
-			
-			<p>Si des informations vous manquent, n'hésitez pas à nous contacter sur mei@heig-vd.ch.</p>
+			<p>If video mapping is new for you, do not worry&nbsp;!</p>
+			<p>The objective is simple: you create the visuals, we take care of the technical aspects.</p>
+			<p>On this page you will find the instructions, the models, and the masks needed to get started&nbsp;!</p>
+			<p>If you have any questions don't hesitate to contact us on our <a href="https://www.facebook.com/ng17mapping/">Facebook page</a> or by <a href="mailto:mei@heig-vd.ch">email</a>.
 		</div>
     </section>
 	<section  id="kit-projection" class="negative">
 		<div class="container small-container cols">
             <div class="col-part-1">
-				<h2>La projection</h2>
-				<p><b>Quand :</b><span>25 et 26 août 2017, de 20h30 à 00h00</span></p>
-				<p><b>Où :</b><span>Place Pestalozzi, 1400 Yverdon-les-Bains</span></p>
-				<p><b>Projecteur :</b><span>Christie Boxer, 4k, 30'000 lumens !</span></p>
-				<p><b>Ecran :</b><span>Façade néoclassique du <a href="http://heig.ch/dahi">Temple Pestalozzi</a></span></p>
+				<h2>the projection</h2>
+				<p><b>When :</b><span>25th and 26th of August 2017, from 20h30 until 00h00</span></p>
+				<p><b>Where :</b><span>Place Pestalozzi, 1400 Yverdon-les-Bains</span></p>
+				<p><b>Projector :</b><span>Christie Boxer, 4k, 30'000 lumens !</span></p>
+				<p><b>Screen :</b><span>Neoclassical facade of <a href="http://heig.ch/dahi">Pestalozzi Temple</a></span></p>
             </div>
             <div class="col-part-2">
-				<h4>Déroulement type d’une soirée</h4>
-				<p><b>20h30:</b><span>Début de la projection (coucher de soleil)</span></p>
-				<p><b>21h00 - 00h00:</b><span>En alternance : jeux MEI, vos œuvres !</span></p>
+				<h4>Evening planning</h4>
+				<p><b>20h30:</b><span>Projection start (sunset)</span></p>
+				<p><b>21h00 - 00h00:</b><span>Alternating : MEI game, your work&nbsp;!</span></p>
             </div>
 		</div>
 	</section>
 	<section id="kit-specification" class="negative">
 		<div class="container small-container">
-			<h2>Spécifications</h2>
-			<p>Pour que vos travaux soient affichés et vus un maximum de fois par un maximum de spectateurs, ils doivent respecter un minimum de contraintes :</p>
-			<h3>Catégorie vidéo</h3>
+			<h2>Specification</h2>
+			<p>To ensure your work will be projection on the temple they need to respect these guidelines&nbsp;:</p>
+			<h3>For videos</h3>
 			<ul>
-				<li>Prise en compte du thème « clair-obscur »</li>
-				<li>Prise en compte de l’architecture du bâtiment</li>
-				<li>Visuels tout public, et respect du droit d’auteur sans bande son</li>
-				<li>Durée préconisée, entre 30 et 120 secondes</li>
-				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
-				<li>Codec souhaité pour le rendu final :</li>
+				<li>The theme "clair-obscur" is respected</li>
+				<li>The architecture of the building is integrated</li>
+				<li>Visuels are appropriate for all audience and intellectual property is respected</li>
+				<li>The length of the video is between 30 and 120 seconds</li>
+				<li>Resolution: 1300 x 1800 pixels (portrait/vertical mode)</li>
+				<li>Ideal codec :</li>
 					<ul>
-						<li>DXV 3 <a href="https://resolume.com/software/codec">Plus d'info</a></li>
+						<li>DXV 3 <a href="https://resolume.com/software/codec">more information</a></li>
 					</ul>
 			</ul>
-			<h3>Catégorie image</h3>
+			<h3>For images</h3>
 			<ul>
-				<li>Prise en compte du thème « clair-obscur »</li>
-				<li>Prise en compte de l’architecture du bâtiment</li>
-				<li>Visuels tout public, et respect du droit d’auteur</li>
-				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
-				<li>Format PNG</li>
+				<li>The theme "clair-obscur" is respected</li>
+				<li>The architecture of the building is integrated</li>
+				<li>Visuels are appropriate for all audience and intellectual property is respected</li>
+				<li>Resolution: 1300 x 1800 pixels (portrait/vertical mode)</li>
+				<li>Format: PNG</li>
 			</ul>
-			<h3>Comment rendre le projet?</h3>
-			<p>Vous êtes libre d'utiliser le service de votre choix (google drive, Dropbox, WeTransfer, etc.) pour nous rendre votre travail. Envoyez-nous les liens de votre fichier avec le formulaire de contact ci-dessous et précisez le nom, pseudo ou entreprise qui va apparaitre avec votre vidéo.</p>
+			<h3>How to submit your project?</h3>
+			<p>You are free to use the service (google drive, Dropbox, WeTransfer, etc.) of you liking to submit your work. Send us the link of your file(s) with the contact form below et specify the name, nickname or company name that you want to appear with your video along with any other information you'd like to give</p>
 		</div>
 	</section>
 	<section id="kit-conseil">
 		<div class="container small-container">
-			<h3>Kit de base</h3>
+			<h3>Starter kit</h3>
 			
 			<div class="sketchfab-embed-wrapper"><iframe width="100%" height="500" src="https://sketchfab.com/models/c88bd9a1e0914af9b1a330077e6fd367/embed?preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
@@ -172,84 +170,83 @@ if (isset($_SESSION['return_data'])) {
 				</p>
 			</div>
 			
-			<h4>Esthétique</h4>
-			<p>Vous ne pouvez pas considérer la façade comme un simple écran. Plus vous jouerez avec l’architecture du bâtiment plus le rendu graphique sera saisissant.</p>
-			<h4>Contrastes</h4>
-			<p>Malgré la nuit, la lumière ambiante, les surfaces comme les pierres jaunâtres, et les vitraux multicouleur qui constituent la façade ont tendance à ternir les couleurs. Le rendu sur votre écran n’est donc pas fiable. Pour lutter contre ce phénomène, jouez avec les contrastes et soyez créatif&nbsp;!
-			Exemples (copie d’écran à gauche, photo de façade à droite)&nbsp;:</p>
+			<h4>Aesthetics</h4>
+			<p>You cannot consider the facade of the temple as a simple screen. the more you play with the architecture the better.</p>
+			<h4>Contrasts</h4>
+			<p>Despite a powerful projector, the ambiant light, the yellowish tint of the bricks, and the multicolor windows tend to degrade the colors of the projected image. What you see you your screen will not match the projection. To counter this phenomenon, play with contrasts and be creative. (Example of screen capture on the left and picture on the right)</p>
 			<img class="thumb" src="images/contrast_1.jpg"></img>
 			<img class="thumb" src="images/contrast_2.jpg"></img>
 		</div>
 	</section>
 	<section id="kit-scene" class="negative">
 		<div class="container small-container">
-			<h3>Les Scène 3D</h3>
-			<p>Les masques et les modèles disponibles ci-dessous sont produits sur la base de simulations qui tiennent compte de l’emplacement du projecteur et de la focale de sa lentille.</p>
+			<h3>Assets</h3>
+			<p>The masks and models below are created on a simulation that takes the placement of the projection and the focal length of the lens into account.</p>
 			
 			
-			<h4>en 2D</h4>
-			<p>Si vous décidez de travailler avec un programme 2D (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), voici les images de référence et les masques sur lesquels vous caler&nbsp;:</p>
+			<h4>In 2D</h4>
+			<p>If you decide to work with 2d software (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), here are reference images and masks on which you should base your work&nbsp;:
 			<div class="logos"> 
 				<a id="gtm_2d_photoshop" class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJbGRBTExsN0tWem8/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a>
 				<a id="gtm_2d_png"  class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJSnFhSmxnTm56eW8/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a>
-				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd2Rrb2kydWU4WUk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
+				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd2Rrb2kydWU4WUk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>complete folder</span></a>
 			</div>
 			
-			<h4>en 3D</h4>
-			<p>Si vous travaillez avec un programme 3D (Blender, Maya, C4D, etc.) il faut faire très attention à la position de la caméra. Elle doit être dans la même position que le projecteur.</p>
-			
-			<p>Des scènes avec des caméras déjà placées correctement se trouvent dans le dossier suivant&nbsp;:</p>
-			<h5>Scene 3D</h5>
+			<h4>In 3D</h4>
+			<p>If you are working with a 3D software (ex:Blender, Maya, C4D, etc.) watch out for the position of the camera. it needs to be in the same position as the projector.</p>
+			<p>Scenes with camera places in the right location with the right settings can be found here&nbsp;:</p>
+			<h5>3D Scenes</h5>
 			<div class="logos"> 
 				<a id="gtm_scene_blender" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTVYtOV9nR0NHaXc?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a>
 				<a id="gtm_scene_maya" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJYXdXN2RULUFzcVE?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a>
 				<a id="gtm_scene_cinema4d" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJQUtrT3Njc1JOb3M?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a>
-				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWW9BXzdDbVlTcFE?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
+				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWW9BXzdDbVlTcFE?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>complete folder</span></a>
 			</div>
 			
-			<p>Si vous utilisez un autre logiciel nous pouvons vous aider à caler votre caméra.</p>
-			<p>Voici quelques informations utiles :</p>
+			<p>If you are using other software we can help you calibrate your camera.</p>
+			
+			<p>Here are the specifications: </p>
 			<ul>
-				<li>Le temple placé au point 0,0,0 depuis son point de pivot.</li>
-				<li>La caméra dispose d’un capteur de 23.11mm de largeur, 18mm de hauter et 32mm de diagonale.</li>
+				<li>The temples pivot point is set at 0,0,0</li>
+				<li>The cameras sensor is 23.11mm wide, 18mm high and 32mm diagonally</li>
 				<ul>
-					<li>elle a une focale de 56mm</li>
-					<li>elle est placée à 50 m. devant le point de pivot du temple, et à 6 m. d’altitude.</li>
-					<li>elle pointe perpendiculairement à la façade</li>
-					<li>elle utilise un offset (lens-shift / tilt-shift) vertical pour cadrer le temple en entier sans déplacer la caméra tout en conservant les perspectives.</li>
-					<li>La valeur pour l’offset peut être différente dans chaque logiciel. La solution consiste à essayer d’ajuster la valeur jusqu'à ce que votre rendu se superpose correctement au masque (cf. superpose.png).</li>
+					<li>has afocal length of 56mm</li>
+					<li>is placed 50 m. in front of the temples pivot point, and 6 m. from the ground.</li>
+					<li>faces perpendicularly to temple</li>
+					<li>has an vertical offset (lens-shift / tilt-shift) to frame the whole building without moving the camera and therefore conserving the perspective.</li>
+					<li>The value for the offset is different for each software. The solution is trial and error until it fits perfectly with one of the <a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTzZ3ZXdOVjFWLUk?usp=sharing">calibration image</a></li>
 				</ul>
 			</ul>
 			
-			<p>Besoin d’aide ? Contactez-nous.</p>
+			<p>Need help ? Contact us.</p>
 		</div>
 	</section>
 	<section id="kit-modele" class="negative">
 		<div class="container small-container">
-			<h4>Les Modèles 3D</h4>
+			<h4>3D model</h4>
 			<div class="section">
 				<div class="button-container"><a id="gtm_model_las" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
-				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles (nombre de points ?).</p>
+				<p>This is a point cloud file generated by a laser scanner (Lidar). If you have never messed with a point cloud you can ignore this file and use the two other models.</p>
 			</div>
 			<div class="section">	
 				<div class="button-container"><a id="gtm_model_scan" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJNnJvcFA5YU5QTnM?usp=sharing">Temple-scan</a></div>
-				<p>Un dossier contenant un modèle du temple généré directement depuis le nuage de points. Ce modèle est un compromis entre la qualité et les besoins de performance de votre machine (200’000 points).</p>
+				<p>This is a folder containing a model of the temple generated from the point cloud above. This model is a compromise between detail and the performance. (200'000 points)
 			</div>
 			<div class="section">
 				<div class="button-container"><a id="gtm_model_model" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFkxLURnMno4WTA?usp=sharing">Temple-model</a></div>
-				<p>Un dossier contenant un modèle du temple modélisé avec des photos et le nuage de point comme référence. Ce fichier est beaucoup plus léger mais ne contient pas tous les détails (nombre de points ?).</p>
+				<p>This is a folder containing a model of the temple created from photos and the point cloud as référence. This model is a lot lighter but is lacking some details. (10'000 points) </p>
 			</div>
 			<div class="section">
 		</div>
 	</section>
 	<section id="kit-footer" class="negative">
 		<div class="container small-container centered">
-			<p>Besoin d’aide ? d’autres idées ou propositions&nbsp? Contactez-nous&nbsp;!</p>
+			<p>Need help ? Do you have other ideas or suggestions&nbsp;? Contact us&nbsp;!</p>
 		</div>
 		<div class="container small-container cols">
 			<div class="col">
 				<h4>Licence</h4>
-				<p>Tous les fichiers échangés sont sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC Attribution-ShareAlike 4.0 International.</a></p>
+				<p>All files exchanged are under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC Attribution-ShareAlike 4.0 International.</a> licence</p>
 				<h4>Liens</h4>
 				<div class="socials">
 					<div class="social"><a class="gtm_social" id="gtm_facebook" href="https://www.facebook.com/ng17mapping/"><i class="fa fa-facebook fa-2x"></i></a></div>
@@ -264,7 +261,7 @@ if (isset($_SESSION['return_data'])) {
                     <form id="contact-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	                    <input type="hidden" name="subject" value="NG17 contact from kit">
                         <div class="form-row">
-                            <label class="label-text" for="name">Nom:</label>
+                            <label class="label-text" for="name">Name:</label>
                             <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
                             <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
                         </div>
@@ -282,7 +279,7 @@ if (isset($_SESSION['return_data'])) {
                         </div>
 
                         <div class="form-row">
-                            <button id="gtm_kit_contact" type="submit" name="submit" value="Send">Envoyer</button>
+                            <button id="gtm_kit_contact" type="submit" name="submit" value="Send">Send</button>
                             <span id="loading-contact"></span>
                         </div>
                     </form>

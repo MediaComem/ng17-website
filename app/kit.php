@@ -94,6 +94,7 @@ if (isset($_SESSION['return_data'])) {
         <div class="triangle-topleft"></div>
 
         <div class="inner">
+	        <div id="language">fr/<a href="/en/kit">en</a></div>
 	        <div class="container small-container">
 		        <div id="landingIntro">
 					<h1 class="huge">« clair - obscur »</h1>
@@ -217,7 +218,7 @@ if (isset($_SESSION['return_data'])) {
 					<li>elle est placée à 50 m. devant le point de pivot du temple, et à 6 m. d’altitude.</li>
 					<li>elle pointe perpendiculairement à la façade</li>
 					<li>elle utilise un offset (lens-shift / tilt-shift) vertical pour cadrer le temple en entier sans déplacer la caméra tout en conservant les perspectives.</li>
-					<li>La valeur pour l’offset peut être différente dans chaque logiciel. La solution consiste à essayer d’ajuster la valeur jusqu'à ce que votre rendu se superpose correctement au masque (cf. superpose.png).</li>
+					<li>La valeur pour l’offset peut être différente dans chaque logiciel. La solution consiste à essayer d’ajuster la valeur jusqu'à ce que votre rendu se superpose correctement au <a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTzZ3ZXdOVjFWLUk?usp=sharing">images de calibration</a></li>
 				</ul>
 			</ul>
 			
@@ -229,7 +230,7 @@ if (isset($_SESSION['return_data'])) {
 			<h4>Les Modèles 3D</h4>
 			<div class="section">
 				<div class="button-container"><a id="gtm_model_las" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
-				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles (nombre de points ?).</p>
+				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles.</p>
 			</div>
 			<div class="section">	
 				<div class="button-container"><a id="gtm_model_scan" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJNnJvcFA5YU5QTnM?usp=sharing">Temple-scan</a></div>
@@ -237,7 +238,7 @@ if (isset($_SESSION['return_data'])) {
 			</div>
 			<div class="section">
 				<div class="button-container"><a id="gtm_model_model" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFkxLURnMno4WTA?usp=sharing">Temple-model</a></div>
-				<p>Un dossier contenant un modèle du temple modélisé avec des photos et le nuage de point comme référence. Ce fichier est beaucoup plus léger mais ne contient pas tous les détails (nombre de points ?).</p>
+				<p>Un dossier contenant un modèle du temple modélisé avec des photos et le nuage de point comme référence. Ce fichier est beaucoup plus léger mais ne contient pas tous les détails (10'000 points).</p>
 			</div>
 			<div class="section">
 		</div>

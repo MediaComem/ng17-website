@@ -133,6 +133,7 @@ if (isset($_SESSION['return_data'])) {
         </div>
 
         <div class="inner">
+			<div id="language">fr/<a href="/en/kit">en</a></div>
             <div class="container small-container">
                 <div id="landingIntro">
                     <h2 class="light">Numerik Games</h2>
@@ -195,7 +196,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <div class="wireframe only-mobile"></div>
 
-                    <p>Votre projet d'animation vidéo sera affiché au moins une fois pendant le festival. La projection durera plus de six heures, sur deux soirs. Elle sera entrecoupée de performances interactives mettant en oeuvre les smartphones du public. Un <strong>jury</strong> interne tiendra compte des critères suivants: traitement du thème, dimension esthétique, prise en compte de l'architecture. Les meilleurs projets seront projetés plusieurs fois. Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
+                    <p>En principe, Votre projet d'animation vidéo sera affiché au moins une fois pendant le festival. La projection durera plus de six heures, sur deux soirs. Elle sera entrecoupée de performances interactives mettant en oeuvre les smartphones du public. Un <strong>jury</strong> interne tiendra compte des critères suivants: traitement du thème, dimension esthétique, prise en compte de l'architecture. Les meilleurs projets seront projetés plusieurs fois. Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
                 </div>
             </div>
 

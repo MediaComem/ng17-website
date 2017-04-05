@@ -133,6 +133,7 @@ if (isset($_SESSION['return_data'])) {
         </div>
 
         <div class="inner">
+			<div id="language">fr/<a href="/en/kit">en</a></div>
             <div class="container small-container">
                 <div id="landingIntro">
                     <h2 class="light">Numerik Games</h2>
@@ -140,7 +141,7 @@ if (isset($_SESSION['return_data'])) {
                     <h3 class="light">August 25 - 27 2017</h3>
 
                     <h1 id="main-title" class="huge">Bored of your monitor&nbsp;?<br>
-                    THINK BIGGER&nbsp;!</h1><a href="#intro"><button>Find out more</button></a>
+                    Time to go big&nbsp;!</h1><a href="#intro"><button>Learn more</button></a>
                 </div>
             </div>
         </div>
@@ -150,23 +151,23 @@ if (isset($_SESSION['return_data'])) {
         <div class="intro-part part-1 negative centered">
             <p class="paraA light container small-container">video, animation, illustration,<br>
             pixels, vectors, 2D, 3D...<br>
-            <strong>These domaine spike an intrest in you&nbsp;?</strong></p>
+            <strong>Do these domains spike an interest in you&nbsp;?</strong></p>
 
-            <p class="paraB container small-container">If your answer is yes, this is your opportunity to project your creation<br>
-            on a temple in the historical center of Yverdon-les-Bains&nbsp;!</p>
+            <p class="paraB container small-container">If so, this is your opportunity to project your creation<br>
+            on the historic Temple in Yverdon-les-Bains' city center!&nbsp;!</p>
         </div>
 
         <div class="container small-container cols">
             <div class="col-part-1">
                 <p><strong>Numerik Games</strong> is a festival for all, organized by <a href="http://www.ailleurs.ch">la Maison d'Ailleurs</a>, the city of <a href="http://www.ylb.ch">Yverdon-les-Bains</a> and <a href="http://www.heig-vd.ch">HEIG-VD</a>, offers conferences, performances and entertainment around the Digital transition theme.</p>
-				<p>This edition, we are celebrating this new era that is opening up to us, overwhelming with new technologies. Our organization styles are being challanged, new practices appear, socially, culturally, etc. A deep transformation is happening and has been for the past few years. This is clear, but do we have to perceive it in a gloomy light&nbsp;?
+				<p>This edition, we celebrate a new era overwhelming with technologies. Our way of life is disrupted, new social and cultural practices emerge. A deep transformation  is under way. This is clear, but do we have to perceive it in a gloomy light&nbsp;?
 				<p>This festival is a celebration but it must also allow us to think&nbsp;!
             </div>
 
             <div class="col-part-2">
                 <p class="large">How do you see our future&nbsp;?</p>
-				<p>We are offering an unique opportunity to express yourself. The chosen theme is <strong>"Chiaroscuro"</strong>, light and dark, the good or the bar, playing with contrast and the architecture of the building.</p>
-				<p>The subject can be interpreted figuratively, metaphorically, and even abstractly.</p>
+				<p>You have the unique chance of expressing yourself. The chosen theme is The chosen theme is <strong>"clair-obscur"</strong>, light and dark, the good or the bar, playing with contrast and the architecture of the building.</p>
+				<p>The theme can be interpreted abstractly, figuratively, metaphorically.</p>
 				<p>Let your creativity speak for itself&nbsp;!</p>
             </div>
         </div>
@@ -189,7 +190,7 @@ if (isset($_SESSION['return_data'])) {
                     <h2><span class="light">Creating</span> a video</h2>
 
                     <div class="wireframe only-mobile"></div>
-					<p>Abiding to the guidelines, you're video will be shown at least once during the festival. The projectection will last over six hours spread over two days and will be acompanied by an interactive performance utilising the audiences smartphone. An internal <strong>jury</strong> will take in account the following criteria: the interpretation of the theme, the aesthetic dimension, the use of the architecture. The best project will be shown multipletimes. More detailed rules can be found with the <strong>starter kit</strong> that will be sent to you once you send to participation form below.</p>
+					<p>Abiding to the guidelines, you're video will be shown at least once during the festival. The projectecion will last over six hours spread over two nights and will be atlernating with an interactive experiences using the audience's smartphones. An internal <strong>jury</strong> will take in account the following criteria: the interpretation of the theme, the aesthetic dimension, the use of the architecture. The best project will be shown multiple times. More detailed rules can be found on the <strong>starter kit</strong> that will be sent to you after registering below.</p>
                 </div>
             </div>
 
@@ -199,8 +200,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <h2><span class="light">Creating</span> an image</h2>
 					
-					<p>Videos aren't your thing&nbsp;? We are also looking for illustrations to integrate into the interactive portion of the video mapping. Just like the "animation" <strong>category</strong>, the best propositions will be seen multiple times. 
-                    <p>Vides arn't your&nbsp;? Vous pouvez également nous proposer une illustration ou une collection d'images. Comme pour la <strong>catégorie</strong> "animations", les meilleures propositions pourront être vues à plusieurs reprises. Elles seront diffusées par le biais d'un <a href="https://youtu.be/q6tX4YJ9FXE">jeu collectif</a> tout public. Les joueurs équipés d'un smartphone collaborent pour que leurs actions individuelles contribuent à révéler votre oeuvre&nbsp;! Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
+					<p>Low on time&nbsp;? You can also create an illustration or a collection of images that will be integrated in a <a href="https://youtu.be/q6tX4YJ9FXE">collaborative game</a> projected on the temple. The audience, with the use of their smartphone, will be able to interact with the wall discovering you're image hidden behind it. The rules and other guidelines can be found in the <strong>starter kit</strong> that will be sent to you after registering below.
 
                     <div class="wireframe only-mobile"></div>
                 </div>
@@ -210,15 +210,14 @@ if (isset($_SESSION['return_data'])) {
 
     <section id="participer" class="negative">
         <div class="container small-container">
-            <h2>Je Participe</h2>
-
-            <p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
+            <h2>Take part</h2>
+			<p>fill the form below to receive a link by mail with all the information and assets needed to start your projets</p>
 
             <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	            <input type="hidden" name="subject" value="NG17 participant">
 				<input type="hidden" name="message" value="Nouvelle participation">
                 <div class="form-row">
-                    <label class="label-text" for="name">Nom:</label>
+                    <label class="label-text" for="name">Name:</label>
                     <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
                     <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
                 </div>
@@ -228,14 +227,14 @@ if (isset($_SESSION['return_data'])) {
                     <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
                 </div>
                 <div class="form-row">
-                    <button id="gtm_participate" type="submit" name="submit" value="Send">Participer</button>
+                    <button id="gtm_participate" type="submit" name="submit" value="Send">Contribute</button>
                     <span id="loading-participation"></span>
                 </div>
             </form>
             <div id="submit-message-participation">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
-            <p>Deadline pour la livraison est fixée au 15 juillet 2017, 00h00</p>
+            <p>The project submission deadline is set for the 15th of july 2017, 00h00</p>
         </div>
     </section>
 
@@ -243,11 +242,9 @@ if (isset($_SESSION['return_data'])) {
         <div class="container">
             <div id="qui-sommes-nous" class="negative left">
                 <div class="small-container">
-                    <h2>Qui sommes-nous&nbsp;?<a class="mei-logo" href="http://mei.heig-vd.ch"></a></h2>
-
-                    <p class="para-1">Nous sommes le <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), l'unité de recherche de la <strong>HEIG-VD</strong> active dans le domaine des médias numériques.</p>
-
-                    <p class="para-2">Nous soutenons activement ce festival d'un genre nouveau depuis sa création. Pour 2017, nous souhaitons embarquer un maximum de passionés dans l'aventure. Voici les liens sur nos contributions précédentes:</p>
+                    <h2>Who are we&nbsp;?<a class="mei-logo" href="http://mei.heig-vd.ch"></a></h2>
+					<p class="para-1">We are the <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), the reserch unit of the <strong>HEIG-VD</strong> active in the digital media domain.</p>
+					<p class="para-2">We have been actively supporting this festival since it's creation. This year we want you to take part. Here are links to our previous contributions: 
 
 	                    <a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/">
 		                    <button type="button" name="projection-2015">Performance 2015</button>
@@ -262,13 +259,12 @@ if (isset($_SESSION['return_data'])) {
             <div id="contact" class="right">
                 <div class="small-container">
                     <h2>Contact</h2>
-
-                    <p>En attendant de pouvoir soumettre vos propositions, posez-nous vos questions.</p>
+					<p>Ask us anything</p>
 
                     <form id="contact-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	                    <input type="hidden" name="subject" value="NG17 contact">
                         <div class="form-row">
-                            <label class="label-text" for="name">Nom:</label>
+                            <label class="label-text" for="name">Name:</label>
                             <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
                             <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
                         </div>
@@ -293,7 +289,7 @@ if (isset($_SESSION['return_data'])) {
 								<div class="social"><a class="gtm_social" id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
 								<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:mei@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
 		                    </div>
-                            <button id="gtm_index_contact" type="submit" name="submit" value="Send">Envoyer</button>
+                            <button id="gtm_index_contact" type="submit" name="submit" value="Send">Send</button>
                             <span id="loading-contact"></span>
                         </div>
                     </form>
