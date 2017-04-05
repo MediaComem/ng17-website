@@ -67,8 +67,8 @@ gulp.task('html', ['styles', 'scripts'], () => {
 });
 
 gulp.task('php', ['styles', 'scripts'], () => {
-  return gulp.src('app/**/*.php')
-    .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
+  return gulp.src('app/*.php')
+    .pipe($.useref({searchPath: ['.tmp', 'app', '.', 'app/en']}))
     .pipe(gulp.dest('dist'));
 });
 gulp.task('includes', ['styles', 'scripts'], () => {
