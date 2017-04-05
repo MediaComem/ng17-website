@@ -79,22 +79,22 @@ if (isset($_SESSION['return_data'])) {
 	<!-- End Google Tag Manager -->
 	
 	
-	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon.ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon.ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon.ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon.ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon.ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon.ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon.ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon.ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico/favicon-16x16.png">
-	<link rel="manifest" href="images/favicon.ico/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon.ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon.ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon.ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../images/favicon.ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../images/favicon.ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../images/favicon.ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../images/favicon.ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../images/favicon.ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon.ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon.ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon.ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon.ico/favicon-16x16.png">
+	<link rel="manifest" href="../images/favicon.ico/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="images/favicon.ico/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="../images/favicon.ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
     <title>Numerik Games | clair-obscur</title><!-- Place favicon.ico in the root directory -->
@@ -104,7 +104,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="../styles/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"><!-- endbuild -->
     <script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -244,7 +244,7 @@ if (isset($_SESSION['return_data'])) {
                 <div class="small-container">
                     <h2>Who are we&nbsp;?<a class="mei-logo" href="http://mei.heig-vd.ch"></a></h2>
 					<p class="para-1">We are the <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), the reserch unit of the <strong>HEIG-VD</strong> active in the digital media domain.</p>
-					<p class="para-2">We have been actively supporting this festival since it's creation. This year we want you to take part. Here are links to our previous contributions: 
+					<p class="para-2">We have been actively supporting this festival since it's creation. This year we want you to take part. Here are links to our previous contributions:</p>
 
 	                    <a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/">
 		                    <button type="button" name="projection-2015">Performance 2015</button>
@@ -313,7 +313,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- youtube -->
     <script async="" src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js" type="text/javascript"></script>
+    <script src="../scripts/main.js" type="text/javascript"></script>
     <!-- endbuild -->
 </body>
 </html>
