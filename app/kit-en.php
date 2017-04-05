@@ -44,20 +44,20 @@ if (isset($_SESSION['return_data'])) {
 	})(window,document,'script','dataLayer','GTM-TTFCNHC');</script>
 	<!-- End Google Tag Manager -->
 	
-	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon.ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon.ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon.ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon.ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon.ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon.ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon.ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon.ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico/favicon-16x16.png">
-	<link rel="manifest" href="images/favicon.ico/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon.ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon.ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon.ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../images/favicon.ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../images/favicon.ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../images/favicon.ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../images/favicon.ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../images/favicon.ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon.ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon.ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon.ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon.ico/favicon-16x16.png">
+	<link rel="manifest" href="../images/favicon.ico/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="../images/favicon.ico/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -69,7 +69,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="../styles/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"><!-- endbuild -->
     <script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -174,8 +174,8 @@ if (isset($_SESSION['return_data'])) {
 			<p>You cannot consider the facade of the temple as a simple screen. the more you play with the architecture the better.</p>
 			<h4>Contrasts</h4>
 			<p>Despite a powerful projector, the ambiant light, the yellowish tint of the bricks, and the multicolor windows tend to degrade the colors of the projected image. What you see you your screen will not match the projection. To counter this phenomenon, play with contrasts and be creative. (Example of screen capture on the left and picture on the right)</p>
-			<img class="thumb" src="images/contrast_1.jpg"></img>
-			<img class="thumb" src="images/contrast_2.jpg"></img>
+			<img class="thumb" src="../images/contrast_1.jpg"></img>
+			<img class="thumb" src="../images/contrast_2.jpg"></img>
 		</div>
 	</section>
 	<section id="kit-scene" class="negative">
@@ -187,9 +187,9 @@ if (isset($_SESSION['return_data'])) {
 			<h4>In 2D</h4>
 			<p>If you decide to work with 2d software (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), here are reference images and masks on which you should base your work&nbsp;:
 			<div class="logos"> 
-				<a id="gtm_2d_photoshop" class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJbGRBTExsN0tWem8/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a>
-				<a id="gtm_2d_png"  class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJSnFhSmxnTm56eW8/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a>
-				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd2Rrb2kydWU4WUk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>complete folder</span></a>
+				<a id="gtm_2d_photoshop" class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJbGRBTExsN0tWem8/view?usp=sharing"><img src="../images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a>
+				<a id="gtm_2d_png"  class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJSnFhSmxnTm56eW8/view?usp=sharing"><img src="../images/logo/png.png" /><span>.png</span></a>
+				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd2Rrb2kydWU4WUk?usp=sharing"><img src="../images/logo/folder-xxl.png" /><span>complete folder</span></a>
 			</div>
 			
 			<h4>In 3D</h4>
@@ -197,10 +197,10 @@ if (isset($_SESSION['return_data'])) {
 			<p>Scenes with camera places in the right location with the right settings can be found here&nbsp;:</p>
 			<h5>3D Scenes</h5>
 			<div class="logos"> 
-				<a id="gtm_scene_blender" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTVYtOV9nR0NHaXc?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a>
-				<a id="gtm_scene_maya" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJYXdXN2RULUFzcVE?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a>
-				<a id="gtm_scene_cinema4d" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJQUtrT3Njc1JOb3M?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a>
-				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWW9BXzdDbVlTcFE?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>complete folder</span></a>
+				<a id="gtm_scene_blender" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTVYtOV9nR0NHaXc?usp=sharing"><img src="../images/logo/blender-plain.png" /><span>Blender</span></a>
+				<a id="gtm_scene_maya" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJYXdXN2RULUFzcVE?usp=sharing"><img src="../images/logo/maya_logo.png" /><span>Maya</span></a>
+				<a id="gtm_scene_cinema4d" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJQUtrT3Njc1JOb3M?usp=sharing"><img src="../images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a>
+				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWW9BXzdDbVlTcFE?usp=sharing"><img src="../images/logo/folder-xxl.png" /><span>complete folder</span></a>
 			</div>
 			
 			<p>If you are using other software we can help you calibrate your camera.</p>
@@ -303,7 +303,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- youtube -->
     <script async="" src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js" type="text/javascript"></script>
+    <script src="../scripts/main.js" type="text/javascript"></script>
     <!-- endbuild -->
 </body>
 </html>
