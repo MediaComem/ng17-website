@@ -104,7 +104,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="../styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"><!-- endbuild -->
     <script src="https://use.fontawesome.com/941a4b86b2.js"></script>
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -313,7 +313,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- youtube -->
     <script async="" src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
     <!-- build:js scripts/main.js -->
-    <script src="../scripts/main.js" type="text/javascript"></script>
+    <script src="scripts/main.js" type="text/javascript"></script>
     <!-- endbuild -->
 </body>
 </html>
