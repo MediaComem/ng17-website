@@ -150,8 +150,8 @@ $(function() {
 			            'formName': form.id,
 			            'formClass': 'gtm_form',
 						'eventCategory': 'AJAX',
-						'eventAction': "actuib",
-						'eventLabel': "label"
+						'eventAction': 'actuib',
+						'eventLabel': 'label'
 					});
                     showMessageContact('Merci! Votre email est envoyé.', 'success');
                     form.reset();
@@ -189,11 +189,11 @@ $(function() {
                 success: function() {
 	                dataLayer.push({
 			            'event':'formSubmit',
-			            'formName': "gtm_participate",
+			            'formName': 'gtm_participate',
 						'formClass': 'gtm_form',
 						'eventCategory': 'AJAX',
-						'eventAction': "actuib",
-						'eventLabel': "label"
+						'eventAction': 'actuib',
+						'eventLabel': 'label'
 					});
                     showMessageParticipation('Merci! Votre email est envoyé.', 'success');
                     form.reset();
