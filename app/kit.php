@@ -94,7 +94,7 @@ if (isset($_SESSION['return_data'])) {
         <div class="triangle-topleft"></div>
 
         <div class="inner">
-	        <div id="language">fr/<a href="/en/kit">en</a></div>
+	        <div id="language">fr/<a href="/kit-en">en</a></div>
 	        <div class="container small-container">
 		        <div id="landingIntro">
 					<h1 class="huge">« clair - obscur »</h1>
