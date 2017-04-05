@@ -133,7 +133,7 @@ if (isset($_SESSION['return_data'])) {
         </div>
 
         <div class="inner">
-			<div id="language">fr/<a href="/en/kit">en</a></div>
+			<div id="language">fr/<a href="/en">en</a></div>
             <div class="container small-container">
                 <div id="landingIntro">
                     <h2 class="light">Numerik Games</h2>
