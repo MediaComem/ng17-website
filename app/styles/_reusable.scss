@@ -178,8 +178,13 @@ form {
 
   .label-text {
     float: left;
-    width: 20%;
+    width: auto;
     margin-right: 5%;
+  }
+  @include at-breakpoint('small') {
+	  .label-text {
+	    width: 20%;
+	  }
   }
 
   input,

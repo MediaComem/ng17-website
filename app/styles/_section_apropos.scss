@@ -131,11 +131,7 @@
 	  display: inline-block;
 	  text-align: right;
 	  overflow: hidden;
-	  @include at-breakpoint ('small') {
-	    margin-right: 20px;
-      }
-
-	  margin-right: 0px;
+	  margin-right: 20px;
 	  .social {
 		  float: left;
 		  margin-left: 15px;
