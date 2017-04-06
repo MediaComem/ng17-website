@@ -154,14 +154,14 @@ if (isset($_SESSION['return_data'])) {
             <strong>Do these domains spike an interest in you&nbsp;?</strong></p>
 
             <p class="paraB container small-container">If so, this is your opportunity to project your creation<br>
-            on the historic Temple in Yverdon-les-Bains' city center!&nbsp;!</p>
+            on the historic Temple in Yverdon-les-Bains' city center&nbsp;!</p>
         </div>
 
         <div class="container small-container cols">
             <div class="col-part-1">
-                <p><strong>Numerik Games</strong> is a festival for all, organized by <a href="http://www.ailleurs.ch">la Maison d'Ailleurs</a>, the city of <a href="http://www.ylb.ch">Yverdon-les-Bains</a> and <a href="http://www.heig-vd.ch">HEIG-VD</a>, offers conferences, performances and entertainment around the Digital transition theme.</p>
+                <p><strong>Numerik Games</strong> is a festival for all organized by <a href="http://www.ailleurs.ch">la Maison d'Ailleurs</a>, the city of <a href="http://www.ylb.ch">Yverdon-les-Bains</a> and <a href="http://www.heig-vd.ch">HEIG-VD</a>. It offers conferences, performances and entertainment around the Digital transition theme.</p>
 				<p>This edition, we celebrate a new era overwhelming with technologies. Our way of life is disrupted, new social and cultural practices emerge. A deep transformation  is under way. This is clear, but do we have to perceive it in a gloomy light&nbsp;?
-				<p>This festival is a celebration but it must also allow us to think&nbsp;!
+				<p>This festival is a celebration but it is also a platform for critical thinking&nbsp;!
             </div>
 
             <div class="col-part-2">
@@ -190,7 +190,7 @@ if (isset($_SESSION['return_data'])) {
                     <h2><span class="light">Creating</span> a video</h2>
 
                     <div class="wireframe only-mobile"></div>
-					<p>Abiding to the guidelines, you're video will be shown at least once during the festival. The projectecion will last over six hours spread over two nights and will be atlernating with an interactive experiences using the audience's smartphones. An internal <strong>jury</strong> will take in account the following criteria: the interpretation of the theme, the aesthetic dimension, the use of the architecture. The best project will be shown multiple times. More detailed rules can be found on the <strong>starter kit</strong> that will be sent to you after registering below.</p>
+					<p>Abiding by the guidelines, you're video will be shown at least once during the festival. The projection will last over six hours spread over two nights. Alternating between your videos and an interactive experiences using the audience's smartphones. An internal <strong>jury</strong> will take the following criteria into account: the interpretation of the theme, the aesthetic dimension, the use of the architecture. The best projects will be shown multiple times. More detailed guidlines can be found on the <strong>starter kit</strong> that will be sent to you after registering below.</p>
                 </div>
             </div>
 
@@ -200,7 +200,7 @@ if (isset($_SESSION['return_data'])) {
 
                     <h2><span class="light">Creating</span> an image</h2>
 					
-					<p>Low on time&nbsp;? You can also create an illustration or a collection of images that will be integrated in a <a href="https://youtu.be/q6tX4YJ9FXE">collaborative game</a> projected on the temple. The audience, with the use of their smartphone, will be able to interact with the wall discovering you're image hidden behind it. The rules and other guidelines can be found in the <strong>starter kit</strong> that will be sent to you after registering below.
+					<p>Low on time&nbsp;? You can also create an illustration or a collection of images that will be integrated in a <a href="https://youtu.be/q6tX4YJ9FXE">collaborative game</a> projected on the temple. The audience, with the use of their smartphone, will be able to interact with the wall revealing the image hidden behind it. Further rules and guidelines can be found in the <strong>starter kit</strong> that will be sent to you after registering below.
 
                     <div class="wireframe only-mobile"></div>
                 </div>
@@ -211,7 +211,7 @@ if (isset($_SESSION['return_data'])) {
     <section id="participer" class="negative">
         <div class="container small-container">
             <h2>Take part</h2>
-			<p>fill the form below to receive a link by mail with all the information and assets needed to start your projets</p>
+			<p>Fill the form below to receive a link by mail with all the information and assets needed to start your projets.</p>
 
             <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	            <input type="hidden" name="subject" value="NG17 participant">
@@ -243,7 +243,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="qui-sommes-nous" class="negative left">
                 <div class="small-container">
                     <h2>Who are we&nbsp;?<a class="mei-logo" href="http://mei.heig-vd.ch"></a></h2>
-					<p class="para-1">We are the <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), the reserch unit of the <strong>HEIG-VD</strong> active in the digital media domain.</p>
+					<p class="para-1">We are the <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), the research unit of the <strong>HEIG-VD</strong> active in digital media.</p>
 					<p class="para-2">We have been actively supporting this festival since it's creation. This year we want you to take part. Here are links to our previous contributions:</p>
 
 	                    <a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/">

@@ -155,7 +155,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>Format: PNG</li>
 			</ul>
 			<h3>How to submit your project?</h3>
-			<p>You are free to use the service (google drive, Dropbox, WeTransfer, etc.) of you liking to submit your work. Send us the link of your file(s) with the contact form below et specify the name, nickname or company name that you want to appear with your video along with any other information you'd like to give</p>
+			<p>You are free to use the service (google drive, Dropbox, WeTransfer, etc.) of you liking to submit your work. Send us the link of your file(s) with the contact form below. Specify the name, nickname or company name you want to display with your video along with any other information you'd like to give</p>
 		</div>
 	</section>
 	<section id="kit-conseil">
@@ -171,7 +171,7 @@ if (isset($_SESSION['return_data'])) {
 			</div>
 			
 			<h4>Aesthetics</h4>
-			<p>You cannot consider the facade of the temple as a simple screen. the more you play with the architecture the better.</p>
+			<p>You cannot consider the facade of the temple as a standard screen. The architecture gives you a great opportunity for interesting visual effects. The more you play with it, the better.</p>
 			<h4>Contrasts</h4>
 			<p>Despite a powerful projector, the ambiant light, the yellowish tint of the bricks, and the multicolor windows tend to degrade the colors of the projected image. What you see you your screen will not match the projection. To counter this phenomenon, play with contrasts and be creative. (Example of screen capture on the left and picture on the right)</p>
 			<img class="thumb" src="../images/contrast_1.jpg"></img>
@@ -247,7 +247,7 @@ if (isset($_SESSION['return_data'])) {
 			<div class="col">
 				<h4>Licence</h4>
 				<p>All files exchanged are under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC Attribution-ShareAlike 4.0 International.</a> licence</p>
-				<h4>Liens</h4>
+				<h4>Links</h4>
 				<div class="socials">
 					<div class="social"><a class="gtm_social" id="gtm_facebook" href="https://www.facebook.com/ng17mapping/"><i class="fa fa-facebook fa-2x"></i></a></div>
 					<div class="social"><a class="gtm_social" id="gtm_instagram" href="https://www.instagram.com/ng17mapping/"><i class="fa fa-instagram fa-2x"></i></a></div>
