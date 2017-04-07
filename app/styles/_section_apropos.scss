@@ -40,6 +40,17 @@
   #qui-sommes-nous {
     position: relative;
     background: $color-primary;
+    button {
+	    margin-top: 10px;
+    }
+    a {
+	    text-decoration: none;
+    }
+    p {
+	    a {
+		    text-decoration: underline;
+	    }
+    }
     @include at-breakpoint ('small') {
 	    
     }
@@ -52,10 +63,17 @@
 	    .para-2 {
 		    width: 85%;
 	    }
+	    
+    }
+    
+    .small-container{
+	    padding-bottom: 30px;
     }
     
     @include at-breakpoint('large') {
-	    
+	    .small-container{
+		    padding-bottom: 0px;
+	    }
     }
     
     a.mei-logo {
