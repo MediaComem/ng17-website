@@ -5,5 +5,11 @@
   background: $color-tertiary;
   form {
 	  margin-top: 60px;
+	  button {
+		float: right;
+	  }
+  }
+  .deadline {
+	  margin-top: 50px;
   }
 }

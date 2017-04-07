@@ -241,7 +241,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="submit-message-participation">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
-            <p>Deadline pour la livraison est fixée au 15 juillet 2017, 00h00</p>
+            <p class="deadline">Deadline pour la livraison est fixée au 15 juillet 2017, 00h00</p>
         </div>
     </section>
 

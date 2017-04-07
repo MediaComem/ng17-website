@@ -234,7 +234,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="submit-message-participation">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
-            <p>The project submission deadline is set for the 15th of july 2017, 00h00</p>
+            <p class="deadline">The project submission deadline is set for the 15th of july 2017, 00h00</p>
         </div>
     </section>
 
