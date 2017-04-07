@@ -91,7 +91,7 @@ if (isset($_SESSION['return_data'])) {
     <![endif]-->
 
     <section id="kit-landing" class="fullscreen home negative">
-        <div class="triangle-topleft"></div>
+        <div class="triangle-topleft-en"></div>
 
         <div class="inner">
 	        <div id="language"><a href="/kit">fr</a>/en</div>

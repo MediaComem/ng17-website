@@ -40,6 +40,37 @@ body {
       min-height: 330px;
   }    
   }
+  
+  .triangle-topleft-en {
+	display: block;
+	position: absolute;
+	z-index: 9;
+	background: url("../images/appelprojets-small_en.png") no-repeat;
+	min-width: 330px;
+	min-height: 165px;
+	@include at-breakpoint ('small') {
+		background: url("../images/appelprojets-small_en.png") no-repeat;
+		min-width: 330px;
+		min-height: 165px;
+	  }
+  @include at-breakpoint ('medium') {
+	@media (orientation: landscape) {
+		background: url("../images/appelprojets-small_en.png") no-repeat;
+		min-width: 330px;
+		min-height: 165px;
+	}
+	@media (orientation: portrait) {
+		background: url("../images/appelprojets_en.png") no-repeat;
+        min-width: 660px;
+		min-height: 330px;
+	}
+  }
+  @include at-breakpoint ('large') {
+	  background: url("../images/appelprojets_en.png") no-repeat;
+      min-width: 660px;
+      min-height: 330px;
+  }    
+  }
 
   @include at-breakpoint ('medium') {
     .video-background {
