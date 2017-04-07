@@ -10,6 +10,10 @@
 	  }
   }
   .deadline {
-	  margin-top: 50px;
+	  margin-top: 0px;
+	  @include at-breakpoint('medium') {
+	  	margin-top: 35px;
+  	  }
   }
+  
 }
