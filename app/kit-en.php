@@ -108,17 +108,17 @@ if (isset($_SESSION['return_data'])) {
 
     <section id="kit-intro" class="fullscreen">
 		<div class="container small-container centered">
-			<p>If video mapping is new for you, do not worry&nbsp;!</p>
-			<p>The objective is simple: you create the visuals, we take care of the technical aspects.</p>
+			<p>If video mapping is new for you, don't worry&nbsp;!</p>
+			<p>You create the visuals, we take care of the technical aspects.</p>
 			<p>On this page you will find the instructions, the models, and the masks needed to get started&nbsp;!</p>
-			<p>If you have any questions don't hesitate to contact us on our <a href="https://www.facebook.com/ng17mapping/">Facebook page</a> or by <a href="mailto:mei@heig-vd.ch">email</a>.
+			<p>If you have any questions, contact us on our <a href="https://www.facebook.com/ng17mapping/">Facebook page</a> or by <a href="mailto:mei@heig-vd.ch">email</a>.
 		</div>
     </section>
 	<section  id="kit-projection" class="negative">
 		<div class="container small-container cols">
             <div class="col-part-1">
 				<h2>the projection</h2>
-				<p><b>When :</b><span>25th and 26th of August 2017, from 20h30 until 00h00</span></p>
+				<p><b>When :</b><span>25th and 26th of August 2017, 20h30-00h00</span></p>
 				<p><b>Where :</b><span>Place Pestalozzi, 1400 Yverdon-les-Bains</span></p>
 				<p><b>Projector :</b><span>Christie Boxer, 4k, 30'000 lumens !</span></p>
 				<p><b>Screen :</b><span>Neoclassical facade of <a href="http://heig.ch/dahi">Pestalozzi Temple</a></span></p>
@@ -138,7 +138,7 @@ if (isset($_SESSION['return_data'])) {
 			<ul>
 				<li>The theme "clair-obscur" is respected</li>
 				<li>The architecture of the building is integrated</li>
-				<li>Visuels are appropriate for all audience and intellectual property is respected</li>
+				<li>Visuals are appropriate for all audiences and intellectual property is respected</li>
 				<li>The length of the video is between 30 and 120 seconds</li>
 				<li>Resolution: 1300 x 1800 pixels (portrait/vertical mode)</li>
 				<li>Ideal codec :</li>
@@ -150,12 +150,12 @@ if (isset($_SESSION['return_data'])) {
 			<ul>
 				<li>The theme "clair-obscur" is respected</li>
 				<li>The architecture of the building is integrated</li>
-				<li>Visuels are appropriate for all audience and intellectual property is respected</li>
+				<li>Visuals are appropriate for all audiences and intellectual property is respected</li>
 				<li>Resolution: 1300 x 1800 pixels (portrait/vertical mode)</li>
 				<li>Format: PNG</li>
 			</ul>
 			<h3>How to submit your project?</h3>
-			<p>You are free to use the service (google drive, Dropbox, WeTransfer, etc.) of you liking to submit your work. Send us the link of your file(s) with the contact form below. Specify the name, nickname or company name you want to display with your video along with any other information you'd like to give</p>
+			<p>You are free to use the service (google drive, Dropbox, WeTransfer, etc.) of you liking. Send us the link of your project(s) with the contact form below. Specify the name, nickname or company name you want to display with your video along with any other information you'd like to give</p>
 		</div>
 	</section>
 	<section id="kit-conseil">
@@ -173,7 +173,7 @@ if (isset($_SESSION['return_data'])) {
 			<h4>Aesthetics</h4>
 			<p>You cannot consider the facade of the temple as a standard screen. The architecture gives you a great opportunity for interesting visual effects. The more you play with it, the better.</p>
 			<h4>Contrasts</h4>
-			<p>Despite a powerful projector, the ambiant light, the yellowish tint of the bricks, and the multicolor windows tend to degrade the colors of the projected image. What you see you your screen will not match the projection. To counter this phenomenon, play with contrasts and be creative. (Example of screen capture on the left and picture on the right)</p>
+			<p>Despite a powerful projector, the ambiant light, the yellowish tint of the bricks, and the multicolor windows tend to degrade the colors of the projected image. What you see on your screen will not exactly match the projection. To counter this phenomenon, play with contrasts and be creative. (Example of screen capture on the left and picture on the right)</p>
 			<img class="thumb" src="../images/contrast_1.jpg"></img>
 			<img class="thumb" src="../images/contrast_2.jpg"></img>
 		</div>
@@ -181,8 +181,6 @@ if (isset($_SESSION['return_data'])) {
 	<section id="kit-scene" class="negative">
 		<div class="container small-container">
 			<h3>Assets</h3>
-			<p>The masks and models below are created on a simulation that takes the placement of the projection and the focal length of the lens into account.</p>
-			
 			
 			<h4>In 2D</h4>
 			<p>If you decide to work with 2d software (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), here are reference images and masks on which you should base your work&nbsp;:
@@ -210,9 +208,9 @@ if (isset($_SESSION['return_data'])) {
 				<li>The temples pivot point is set at 0,0,0</li>
 				<li>The cameras sensor is 23.11mm wide, 18mm high and 32mm diagonally</li>
 				<ul>
-					<li>has afocal length of 56mm</li>
-					<li>is placed 50 m. in front of the temples pivot point, and 6 m. from the ground.</li>
-					<li>faces perpendicularly to temple</li>
+					<li>has a focal length of 56mm</li>
+					<li>is placed 50 m. in front of the temple's pivot point, and 6 m. from the ground.</li>
+					<li>faces temple perpendicularly</li>
 					<li>has an vertical offset (lens-shift / tilt-shift) to frame the whole building without moving the camera and therefore conserving the perspective.</li>
 					<li>The value for the offset is different for each software. The solution is trial and error until it fits perfectly with one of the <a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTzZ3ZXdOVjFWLUk?usp=sharing">calibration image</a></li>
 				</ul>
@@ -226,7 +224,7 @@ if (isset($_SESSION['return_data'])) {
 			<h4>3D model</h4>
 			<div class="section">
 				<div class="button-container"><a id="gtm_model_las" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
-				<p>This is a point cloud file generated by a laser scanner (Lidar). If you have never messed with a point cloud you can ignore this file and use the two other models.</p>
+				<p>This is a point cloud file generated by a laser scanner (Lidar). If you have never experimented with a point cloud you can ignore this file and use the two other models.</p>
 			</div>
 			<div class="section">	
 				<div class="button-container"><a id="gtm_model_scan" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJNnJvcFA5YU5QTnM?usp=sharing">Temple-scan</a></div>
@@ -234,7 +232,7 @@ if (isset($_SESSION['return_data'])) {
 			</div>
 			<div class="section">
 				<div class="button-container"><a id="gtm_model_model" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFkxLURnMno4WTA?usp=sharing">Temple-model</a></div>
-				<p>This is a folder containing a model of the temple created from photos and the point cloud as référence. This model is a lot lighter but is lacking some details. (10'000 points) </p>
+				<p>This is a folder containing a model of the temple created from photos and the point cloud as reference. This model is a lot lighter but is lacking some details. (10'000 points) </p>
 			</div>
 			<div class="section">
 		</div>
