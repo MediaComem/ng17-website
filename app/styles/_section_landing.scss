@@ -1,6 +1,7 @@
 body {
-  background: url("../images/home_bg.jpg") no-repeat center center / cover fixed;
-
+  background: url("../images/home_bg.jpg") no-repeat top center fixed;
+  background-size: auto 150vh;
+  background-color: $color-secondary;
 }
 #landing {
   background:transparent;
@@ -41,7 +42,7 @@ body {
   }    
   }
   
-  .triangle-topleft-en {
+  .triangle-topleft {
 	display: block;
 	position: absolute;
 	z-index: 9;
