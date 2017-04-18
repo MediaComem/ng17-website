@@ -89,14 +89,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			//Clear recipiant
 			$mail->ClearAllRecipients();
 			//Set who the message is to be sent from
-			$mail->setFrom("mei@heig-vd.ch", 'NG17 MEI');
+			$mail->setFrom("mei@heig-vd.ch", 'Numerik Games - Media Engineering Institute');
 			//Set an alternative reply-to address
-			$mail->addReplyTo("mei@heig-vd.ch", 'NG17 MEI');
+			$mail->addReplyTo("mei@heig-vd.ch", 'Numerik Games - Media Engineering Institute');
 			//Set who the message is to be sent to
 			$mail->addAddress($email, $name);
 			
 			//convert HTML into a basic plain-text alternative body
-			$mail->msgHTML('<table><tr><td style="padding-bottom: 60px"><p>Merci pour votre intérêt au projet de mapping vidéo de Numerik Games 2017.</p><p>Vous trouverez les informations nécessaires pour commencer votre projet sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p><p>Cette page web est sujet à changements dans les prochaines semaines. En cas de changement, on vous contactera par e-mail.</p><p>N’hésitez pas à nous contacter en cas de question ou de doute</p><p>Bonne création</p></td></tr><tr><td style="padding-bottom: 20px"><p>Thank you for you interest to Numerik Games 2017\'s video mapping project.</p><p>You will find all the information you need on this page <a href="ng17.heig-vd.ch/kit-en">ng17.heig-vd.ch/kit-en</a></p><p>This page is subject to change in the early days of the project. If this is the case will inform you by e-mail.</p><p>Don\'t hesitate to contact us with any questions or doubt.</p><p>happy creating</p></td></tr><tr><td><span style="padding-right: 40px"><img height="60" src="http://age.heig-vd.ch/wp-content/uploads/2013/09/HEIG-VD_Logo.png" alt="Haute École d\'Ingénierie et de Gestion du Canton de Vaud"></span><span><img height="60" src="http://www.heig-vd.ch/images/default-source/formation-temoignages-decouverte/mei_logo08326f52ce6060dfac07ff000015d99b.png?sfvrsn=0" alt="Le Media Engineering Institute"></span></td></tr></table>');
+			$mail->msgHTML('<table><tr><td style="padding-bottom: 60px"><p>Bonjour,</p><p>Vous souhaitez participer à la performance "mapping vidéo" qui se tiendra à l\'édition 2017 du festival Numerik Games? Vous produisez des visuels, nous assurons la projection et tous les aspects techniques!</p><p>Vous trouverez les fichiers source pour démarrer votre projet sur cette page: <a href="ng17.heig-vd.ch/kit">ng17.heig-vd.ch/kit</a></p><p>N’hésitez pas à nous contacter en cas de question.</p><p>Nous nous permettrons de reprendre contact avec vous prochainement.</p><p>Bonne création</p><p>Avec nos meilleures salutations.</p><p>Raphaël Baumann</p><p>Collaborateur scientifique au Media Engineering Institute<br>Haute Ecole d\'Ingénierie et de Gestion du canton de Vaud<br>Av. des Sports 20<br>1400 Yverdon-les-Bains</p></td></tr><tr><td style="padding-bottom: 20px"><p>Hi,</p><p>Welcome to the behind the scene of Numerik Games 2017\'s video mapping project.</p><p>You will find all the information you need on this page <a href="ng17.heig-vd.ch/kit-en">ng17.heig-vd.ch/kit-en</a></p><p>This page is subject to change in the early days of the project. If this is the case will inform you by e-mail.</p><p>Don\'t hesitate to contact us with any questions or doubt.</p><p>happy creating</p><p>Raphael Baumann</p><p>Scientifique Collaborator at the Media Engineering Institut<br>Haute Ecole d\'Ingénierie et de Gestion du canton de Vaud<br>Av. des Sports 20<br>1400 Yverdon-les-Bains</p></td></tr></table>');
 	
 			
 			//send the message, check for errors
