@@ -19,11 +19,11 @@ if (isset($_SESSION['return_data'])) {
 		foreach ($entries as $key => $value) {
 			${$key} = $value;
 		}
-		$submitmessage = 'Oups, il y a eu un problème.';
+		$submitmessage = 'Sorry, there was an issue.';
 		$responsetype = 'failure';
 	}
 	else {
-		$submitmessage = 'Merci! Votre email est envoyé.';
+		$submitmessage = 'Thank you. your email was sent. <a href="http://ng17.heig-vd.ch/kit-en">Here are the assets to get you started</a>';
 		$responsetype = 'success';
 	}
 }
@@ -212,6 +212,7 @@ if (isset($_SESSION['return_data'])) {
         <div class="container small-container">
             <h2>Take part</h2>
 			<p>Fill the form below to receive a link by mail with all the information and assets needed to start your projets.</p>
+			<p>If you do not recieve a mail in the next 5 minutes, <strong>check you spam folder.</strong></p>
 
             <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	            <input type="hidden" name="subject" value="NG17 participant">

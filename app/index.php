@@ -23,7 +23,7 @@ if (isset($_SESSION['return_data'])) {
 		$responsetype = 'failure';
 	}
 	else {
-		$submitmessage = 'Merci! Votre email est envoyé.';
+		$submitmessage = 'Merci! Votre email est envoyé. <a href="http://ng17.heig-vd.ch/kit">Voici le kit de base </a> pour vous lancer dans votre projet';
 		$responsetype = 'success';
 	}
 }
@@ -213,12 +213,12 @@ if (isset($_SESSION['return_data'])) {
             </div>
         </div>
     </section>
-
     <section id="participer" class="negative">
         <div class="container small-container">
             <h2>Je Participe</h2>
 
             <p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
+            <p>Si vous ne recevez pas de mail dans les prochaines 5 minutes, <strong>vérifier vos dossiers de spam</strong></p>
 
             <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	            <input type="hidden" name="subject" value="NG17 participant">
