@@ -89,9 +89,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			//Clear recipiant
 			$mail->ClearAllRecipients();
 			//Set who the message is to be sent from
-			$mail->setFrom("mei@heig-vd,ch", 'NG17 MEI');
+			$mail->setFrom("mei@heig-vd.ch", 'NG17 MEI');
 			//Set an alternative reply-to address
-			$mail->addReplyTo("mei@heig-vd,ch", 'NG17 MEI');
+			$mail->addReplyTo("mei@heig-vd.ch", 'NG17 MEI');
 			//Set who the message is to be sent to
 			$mail->addAddress($email, $name);
 			
