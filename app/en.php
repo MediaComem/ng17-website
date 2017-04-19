@@ -190,7 +190,7 @@ if (isset($_SESSION['return_data'])) {
                     <h2><span class="light">Creating</span> a video</h2>
 
                     <div class="wireframe only-mobile"></div>
-					<p>Abiding by the guidelines, you're video will be shown at least once during the festival. The projection will last over six hours spread over two nights. Alternating between your videos and an interactive experiences using the audience's smartphones. An internal <strong>jury</strong> will take the following criteria into account: the interpretation of the theme, the aesthetic dimension, the use of the architecture. The best projects will be shown multiple times. More detailed guidlines can be found on the <strong>starter kit</strong> that will be sent to you after registering below.</p>
+					<p>Abiding by the guidelines, your video will be shown at least once during the festival. The projection will last over six hours spread over two nights. Alternating between your videos and an interactive experiences using the audience's smartphones. An internal <strong>jury</strong> will take the following criteria into account: the interpretation of the theme, the aesthetic dimension, the use of the architecture. The best projects will be shown multiple times. More detailed guidlines can be found on the <strong>starter kit</strong> that will be sent to you after registering below.</p>
                 </div>
             </div>
 
