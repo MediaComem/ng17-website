@@ -72,6 +72,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$mail->addAddress(MAIL_ADDR, 'NG17 MEI');
 		//Set the subject line
 		$mail->Subject = $subject;
+		//Set HTML
+		$mail->isHTML(true); 
 		//Read an HTML message body from an external file, convert referenced images to embedded,
 		//convert HTML into a basic plain-text alternative body
 		$mail->msgHTML('<p>contact: '. $name . ': ' . $email . '</p>' . $message);

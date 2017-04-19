@@ -218,7 +218,7 @@ if (isset($_SESSION['return_data'])) {
             <h2>Je Participe</h2>
 
             <p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
-            <p>Si vous ne recevez pas de mail dans les prochaines 5 minutes, <strong>vérifier vos dossiers de spam</strong></p>
+            <p>Si vous ne recevez pas de mail dans les prochaines 5 minutes, <strong>vérifiez vos dossiers de spam</strong></p>
 
             <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	            <input type="hidden" name="subject" value="NG17 participant">
