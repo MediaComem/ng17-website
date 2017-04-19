@@ -155,7 +155,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>Format: PNG</li>
 			</ul>
 			<h3>How to submit your project?</h3>
-			<p>You are free to use the service (google drive, Dropbox, WeTransfer, etc.) of you liking. Send us the link of your project(s) with the contact form below. Specify the name, nickname or company name you want to display with your video along with any other information you'd like to give</p>
+			<p>You are free to use the service (google drive, Dropbox, WeTransfer, etc.) of you liking. Send us the link of your project(s) with the contact form below. Specify the name, nickname or company name you want to display with your video along with any other information you'd like to give.</p>
 		</div>
 	</section>
 	<section id="kit-conseil">
@@ -173,7 +173,7 @@ if (isset($_SESSION['return_data'])) {
 			<h4>Aesthetics</h4>
 			<p>You cannot consider the facade of the temple as a standard screen. The architecture gives you a great opportunity for interesting visual effects. The more you play with it, the better.</p>
 			<h4>Contrasts</h4>
-			<p>Despite a powerful projector, the ambiant light, the yellowish tint of the bricks, and the multicolor windows tend to degrade the colors of the projected image. What you see on your screen will not exactly match the projection. To counter this phenomenon, play with contrasts and be creative. (Example of screen capture on the left and picture on the right)</p>
+			<p>Despite a powerful projector, the ambiant light, the yellowish tint of the bricks, and the multicolor windows tend to degrade the colors of the projected image. What you see on your screen will not exactly match the projection. To counter this phenomenon, play with contrasts and be creative. (Example: screen capture on the left and picture on the right)</p>
 			<img class="thumb" src="../images/contrast_1.jpg"></img>
 			<img class="thumb" src="../images/contrast_2.jpg"></img>
 		</div>
@@ -191,7 +191,7 @@ if (isset($_SESSION['return_data'])) {
 			</div>
 			
 			<h4>In 3D</h4>
-			<p>If you are working with a 3D software (ex:Blender, Maya, C4D, etc.) watch out for the position of the camera. it needs to be in the same position as the projector.</p>
+			<p>If you are working with a 3D software (ex:Blender, Maya, C4D, etc.) watch out for the position of the camera. It needs to be in the same position as the projector.</p>
 			<p>Scenes with camera places in the right location with the right settings can be found here&nbsp;:</p>
 			<h5>3D Scenes</h5>
 			<div class="logos"> 
@@ -208,10 +208,10 @@ if (isset($_SESSION['return_data'])) {
 				<li>The temples pivot point is set at 0,0,0</li>
 				<li>The cameras sensor is 23.11mm wide, 18mm high and 32mm diagonally</li>
 				<ul>
-					<li>has a focal length of 56mm</li>
-					<li>is placed 50 m. in front of the temple's pivot point, and 6 m. from the ground.</li>
-					<li>faces temple perpendicularly</li>
-					<li>has an vertical offset (lens-shift / tilt-shift) to frame the whole building without moving the camera and therefore conserving the perspective.</li>
+					<li>Has a focal length of 56mm.</li>
+					<li>Is placed 50 m. in front of the temple's pivot point, and 6 m. from the ground.</li>
+					<li>Faces temple perpendicularly.</li>
+					<li>Has an vertical offset (lens-shift / tilt-shift) to frame the whole building without moving the camera and therefore conserving the perspective.</li>
 					<li>The value for the offset is different for each software. The solution is trial and error until it fits perfectly with one of the <a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTzZ3ZXdOVjFWLUk?usp=sharing">calibration image</a></li>
 				</ul>
 			</ul>

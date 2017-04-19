@@ -166,7 +166,7 @@ if (isset($_SESSION['return_data'])) {
 
             <div class="col-part-2">
                 <p class="large">How do you see our future&nbsp;?</p>
-				<p>You have the unique chance of expressing yourself. The chosen theme is The chosen theme is <strong>"clair-obscur"</strong>, light and dark, the good or the bar, playing with contrast and the architecture of the building.</p>
+				<p>You have the unique chance of expressing yourself. The chosen theme is <strong>"clair-obscur"</strong>, light and dark, the good or the bad, playing with contrast and the architecture of the building.</p>
 				<p>The theme can be interpreted abstractly, figuratively, metaphorically.</p>
 				<p>Let your creativity speak for itself&nbsp;!</p>
             </div>
@@ -211,8 +211,8 @@ if (isset($_SESSION['return_data'])) {
     <section id="participer" class="negative">
         <div class="container small-container">
             <h2>Take part</h2>
-			<p>Fill the form below to receive a link by mail with all the information and assets needed to start your projets.</p>
-			<p>If you do not recieve a mail in the next 5 minutes, <strong>check you spam folder.</strong></p>
+			<p>Fill the form below to receive a link by mail with all the information and assets needed to start your projects.</p>
+			<p>If you do not receive a mail in the next 5 minutes, <strong>check you spam folder.</strong></p>
 
             <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
 	            <input type="hidden" name="subject" value="NG17 participant">
@@ -245,7 +245,7 @@ if (isset($_SESSION['return_data'])) {
                 <div class="small-container">
                     <h2>Who are we&nbsp;?<a class="mei-logo" href="http://mei.heig-vd.ch"></a></h2>
 					<p class="para-1">We are the <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), the research unit of the <strong>HEIG-VD</strong> active in digital media.</p>
-					<p class="para-2">We have been actively supporting this festival since it's creation. This year we want you to take part. Here are links to our previous contributions:</p>
+					<p class="para-2">We have been actively supporting this festival since its creation. This year we want you to take part. Here are links to our previous contributions:</p>
 
 	                    <a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/">
 		                    <button type="button" name="projection-2015">Performance 2015</button>
