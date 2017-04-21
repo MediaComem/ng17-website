@@ -16,7 +16,7 @@
       top: -1.8em;
       right: -1em;
     }
-    height: 100vh;
+    height: 450px;
 
     &:before {
       content: "";
@@ -122,14 +122,54 @@
   }
 
   #contact {
-    text-align: right;
+	  
+	.section {
+		margin-left: 0px;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+    text-align: center;
     margin-top: 12vh;
-
+    h2 {
+	    margin-bottom: 0px;
+	    text-align: center;
+    }
+    p {
+	    text-align: center;
+	    margin-top: 2px;
+	    margin-bottom: 5px;
+    }
+	.lien {
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
     @include at-breakpoint ('medium') {
       position:absolute;
-      margin-top: 0;
-      bottom:10vh;
+      margin-top: 0px;
       right:0;
+	    text-align: right;
+	    .section {
+		    margin-left: 40px;
+	    }
+		h2 {
+			text-align: right;
+		}
+		p {
+			text-align: right;
+		}
+		.socials{
+		  display: inline-block;
+		  text-align: right;
+		  overflow: hidden;
+		  .social {
+			  float: right;
+			  margin-left: 15px;
+	  	  }
+	  }
+	  .lien {
+		  margin-top: 10px;
+		  margin-bottom: 0px;
+	  }
     }
 
     & > p {
@@ -147,11 +187,10 @@
 	  padding-top: 7px;
 	  width: 210px;
 	  display: inline-block;
-	  text-align: right;
+	  text-align: center;
 	  overflow: hidden;
-	  margin-right: 20px;
 	  .social {
-		  float: left;
+		  display: inline-block;
 		  margin-left: 15px;
   	  }
   }
