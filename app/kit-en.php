@@ -68,7 +68,7 @@ if (isset($_SESSION['return_data'])) {
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
     <link rel="stylesheet" href="/bower_components/toastr/toastr.css" />
     <!-- endbower -->
-    <link rel="stylesheet" href="/bower_components/tipsy/src/stylesheets/tipsy.css" />
+    <link rel="stylesheet" href="styles/tipsy.css" />
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" type="text/css">
@@ -300,7 +300,7 @@ if (isset($_SESSION['return_data'])) {
     <script src="/bower_components/jquery-form/jquery.form.js"></script>
     <script src="/bower_components/toastr/toastr.js"></script>
     <!-- endbower -->
-    <script src="/bower_components/tipsy/src/javascripts/jquery.tipsy.js"></script>
+	<script src="scripts/jquery.tipsy.js"></script>
     <!-- endbuild -->
     <!-- youtube -->
     <script async="" src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
