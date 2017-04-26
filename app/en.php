@@ -101,6 +101,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
+    <link rel="stylesheet" href="/bower_components/toastr/toastr.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
@@ -214,7 +215,7 @@ if (isset($_SESSION['return_data'])) {
 			<p>Fill the form below to receive a link by mail with all the information and assets needed to start your projects.</p>
 			<p>If you do not receive a mail in the next 5 minutes, <strong>check you spam folder.</strong></p>
 
-            <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
+            <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate" val-email="Please enter a valid email address."  val-req="All fields are required.">
 	            <input type="hidden" name="subject" value="NG17 participant">
 				<input type="hidden" name="message" value="Nouvelle participation">
                 <div class="form-row">
@@ -232,7 +233,7 @@ if (isset($_SESSION['return_data'])) {
                     <span id="loading-participation"></span>
                 </div>
             </form>
-            <div id="submit-message-participation">
+            <div id="submit-message-participation" success="Thank you! Your mail was sent." retry="Sorry, we were not able to send the mail, please try again later" failed="Sorry, we ran into some issues">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
             <p class="deadline">The project submission deadline is set for the 15th of july 2017, 00h00</p>
@@ -302,6 +303,7 @@ if (isset($_SESSION['return_data'])) {
     <script src="/bower_components/lity/dist/lity.min.js"></script>
     <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
     <script src="/bower_components/jquery-form/jquery.form.js"></script>
+    <script src="/bower_components/toastr/toastr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- youtube -->

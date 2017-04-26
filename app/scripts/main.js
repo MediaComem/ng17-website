@@ -1,6 +1,5 @@
 
 
-
 // Youtube
 function onYouTubeIframeAPIReady() {
   var player;
@@ -124,20 +123,19 @@ $(function() {
 	});
 });
 
+jQuery.extend(jQuery.validator.messages, {
+	required: $(".gtm_form").attr('val-req'),
+    email: $(".gtm_form").attr('val-email')
+});
+
 $(function() {
     
     // Form validation via plugin
     var submitMessageContact     = $('#submit-message-contact'),
         messageContainerContact  = submitMessageContact.find('span'),
-        loadingContact           = $('#loading-contact');
-        
-    function showMessageContact(message, classAttr) {
-        messageContainerContact.text(message)
-        messageContainerContact.attr('class', classAttr);
-    }
+        loadingContact 			 = $('#loading-contact')
         
     $('#contact-form').validate({     
-	       
         // Override to submit the form via ajax
         submitHandler: function(form) {
             var options = {
@@ -153,12 +151,44 @@ $(function() {
 						'eventAction': 'actuib',
 						'eventLabel': 'label'
 					});
-                    showMessageContact('Merci! Votre email est envoyé.', 'success');
+					toastr.success($('#submit-message-contact').attr("success"), {
+						"closeButton": false,
+						"debug": false,
+						"newestOnTop": false,
+						"progressBar": false,
+						"positionClass": "toast-bottom-full-width",
+						"preventDuplicates": false,
+						"onclick": null,
+						"showDuration": "300",
+						"hideDuration": "1000",
+						"timeOut": "5000",
+						"extendedTimeOut": "1000",
+						"showEasing": "swing",
+						"hideEasing": "linear",
+						"showMethod": "fadeIn",
+						"hideMethod": "fadeOut"
+					});
                     form.reset();
                     loadingContact.hide();
                 },
                 error: function() {
-                    showMessageContact('Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard.', 'failure');
+                    toastr.warning($('#submit-message-contact').attr("retry"), {
+						"closeButton": false,
+						"debug": false,
+						"newestOnTop": false,
+						"progressBar": false,
+						"positionClass": "toast-bottom-full-width",
+						"preventDuplicates": false,
+						"onclick": null,
+						"showDuration": "300",
+						"hideDuration": "1000",
+						"timeOut": "5000",
+						"extendedTimeOut": "1000",
+						"showEasing": "swing",
+						"hideEasing": "linear",
+						"showMethod": "fadeIn",
+						"hideMethod": "fadeOut"
+					})
                     loadingContact.hide();
                 }
             };
@@ -166,8 +196,44 @@ $(function() {
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
-            showMessageContact('Oups, il y a eu un problème.', 'failure');
-        }
+            toastr.error($('#submit-message-contact').attr("failed"), {
+				"closeButton": false,
+				"debug": false,
+				"newestOnTop": false,
+				"progressBar": false,
+				"positionClass": "toast-bottom-full-width",
+				"preventDuplicates": false,
+				"onclick": null,
+				"showDuration": "300",
+				"hideDuration": "1000",
+				"timeOut": "5000",
+				"extendedTimeOut": "1000",
+				"showEasing": "swing",
+				"hideEasing": "linear",
+				"showMethod": "fadeIn",
+				"hideMethod": "fadeOut"
+			})
+        },
+        errorPlacement: function(error, element) {
+			toastr.error($(error).html(), {
+				"closeButton": false,
+				"debug": false,
+				"newestOnTop": false,
+				"progressBar": false,
+				"positionClass": "toast-bottom-full-width",
+				"preventDuplicates": false,
+				"onclick": null,
+				"showDuration": "300",
+				"hideDuration": "1000",
+				"timeOut": "5000",
+				"extendedTimeOut": "1000",
+				"showEasing": "swing",
+				"hideEasing": "linear",
+				"showMethod": "fadeIn",
+				"hideMethod": "fadeOut"
+			})
+	   	}
+
     });
         
      // Form validation via plugin
@@ -175,11 +241,8 @@ $(function() {
         messageContainerParticipation  = submitMessageParticipation.find('span'),
         loadingParticipation = $('#loading-participation');
         
-    function showMessageParticipation(message, classAttr) {
-        messageContainerParticipation.text(message)
-        messageContainerParticipation.attr('class', classAttr);
-    }
     $('#participation-form').validate({     
+	    
         // Override to submit the form via ajax
         submitHandler: function(form) {
             var options = {
@@ -195,20 +258,90 @@ $(function() {
 						'eventAction': 'actuib',
 						'eventLabel': 'label'
 					});
-                    showMessageParticipation('Merci! Votre email est envoyé.', 'success');
-                    form.reset();
+                    //showMessageParticipation('Merci! Votre email est envoyé.', 'success');
+                    toastr.success($('#submit-message-participation').attr("success"), {
+						"closeButton": false,
+						"debug": false,
+						"newestOnTop": false,
+						"progressBar": false,
+						"positionClass": "toast-bottom-full-width",
+						"preventDuplicates": false,
+						"onclick": null,
+						"showDuration": "300",
+						"hideDuration": "1000",
+						"timeOut": "5000",
+						"extendedTimeOut": "1000",
+						"showEasing": "swing",
+						"hideEasing": "linear",
+						"showMethod": "fadeIn",
+						"hideMethod": "fadeOut"
+					});
+					form.reset();
                     loadingParticipation.hide();
                 },
                 error: function() {
-                    showMessageParticipation('Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard.', 'failure');
+	                toastr.warning($('#submit-message-participation').attr("retry"), {
+						"closeButton": false,
+						"debug": false,
+						"newestOnTop": false,
+						"progressBar": false,
+						"positionClass": "toast-bottom-full-width",
+						"preventDuplicates": false,
+						"onclick": null,
+						"showDuration": "300",
+						"hideDuration": "1000",
+						"timeOut": "5000",
+						"extendedTimeOut": "1000",
+						"showEasing": "swing",
+						"hideEasing": "linear",
+						"showMethod": "fadeIn",
+						"hideMethod": "fadeOut"
+					})
+                    //showMessageParticipation('Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard.', 'failure');
                     loadingParticipation.hide();
                 }
             };
             $(form).ajaxSubmit(options);
         },
         invalidHandler: function() {
-            showMessageParticipation('Oups, il y a eu un problème.', 'failure');
-        }
+            //showMessageParticipation();
+            toastr.error($('#submit-message-participation').attr("failed"), {
+				"closeButton": false,
+				"debug": false,
+				"newestOnTop": false,
+				"progressBar": false,
+				"positionClass": "toast-bottom-full-width",
+				"preventDuplicates": false,
+				"onclick": null,
+				"showDuration": "300",
+				"hideDuration": "1000",
+				"timeOut": "5000",
+				"extendedTimeOut": "1000",
+				"showEasing": "swing",
+				"hideEasing": "linear",
+				"showMethod": "fadeIn",
+				"hideMethod": "fadeOut"
+			})
+        },
+        errorPlacement: function(error, element) {
+			toastr.error($(error).html(), {
+				"closeButton": false,
+				"debug": false,
+				"newestOnTop": false,
+				"progressBar": false,
+				"positionClass": "toast-bottom-full-width",
+				"preventDuplicates": false,
+				"onclick": null,
+				"showDuration": "300",
+				"hideDuration": "1000",
+				"timeOut": "5000",
+				"extendedTimeOut": "1000",
+				"showEasing": "swing",
+				"hideEasing": "linear",
+				"showMethod": "fadeIn",
+				"hideMethod": "fadeOut"
+			})
+	   	}
     });
 
 
@@ -222,10 +355,12 @@ $(function() {
 	*/
 	
 $(document).ready(function() {
-	$('a[title]').tipsy({
-		gravity: 's',
-		fade: true
-	});
+	if($('#gtm_model_las').length > 0) {
+		$('#gtm_model_las').tipsy({
+			gravity: 's',
+			fade: true
+		});	
+	}
 });
 	
 

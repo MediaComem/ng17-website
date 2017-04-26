@@ -66,6 +66,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
+    <link rel="stylesheet" href="/bower_components/toastr/toastr.css" />
     <!-- endbower -->
     <link rel="stylesheet" href="/bower_components/tipsy/src/stylesheets/tipsy.css" />
     <!-- endbuild -->
@@ -257,7 +258,7 @@ if (isset($_SESSION['return_data'])) {
 			</div>
 			<div class="col">
 				<h4>Contact</h4>
-                    <form id="contact-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
+                    <form id="contact-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate" val-email="Please enter a valid email address."  val-req="All fields are required.">
 	                    <input type="hidden" name="subject" value="NG17 contact from kit">
                         <div class="form-row">
                             <label class="label-text" for="name">Name:</label>
@@ -283,7 +284,7 @@ if (isset($_SESSION['return_data'])) {
                         </div>
                     </form>
 
-                    <div id="submit-message-contact">
+                    <div id="submit-message-contact" success="Thank you! Your mail was sent." retry="Sorry, we were not able to send the mail, please try again later" failed="Sorry, we ran into some issues">
                         <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
                     </div>
 			</div>
@@ -297,6 +298,7 @@ if (isset($_SESSION['return_data'])) {
     <script src="/bower_components/lity/dist/lity.min.js"></script>
     <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
     <script src="/bower_components/jquery-form/jquery.form.js"></script>
+    <script src="/bower_components/toastr/toastr.js"></script>
     <!-- endbower -->
     <script src="/bower_components/tipsy/src/javascripts/jquery.tipsy.js"></script>
     <!-- endbuild -->

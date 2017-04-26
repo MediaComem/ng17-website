@@ -101,6 +101,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
+    <link rel="stylesheet" href="/bower_components/toastr/toastr.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
@@ -220,7 +221,7 @@ if (isset($_SESSION['return_data'])) {
             <p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
             <p>Si vous ne recevez pas de mail dans les prochaines 5 minutes, <strong>vérifiez vos dossiers de spam</strong></p>
 
-            <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate">
+            <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate" val-email="Veuillez entrer une adresse email valide." val-req="les champs sont obligatoires">
 	            <input type="hidden" name="subject" value="NG17 participant">
 				<input type="hidden" name="message" value="Nouvelle participation">
                 <div class="form-row">
@@ -238,7 +239,7 @@ if (isset($_SESSION['return_data'])) {
                     <span id="loading-participation"></span>
                 </div>
             </form>
-            <div id="submit-message-participation">
+            <div id="submit-message-participation" success="Merci! Votre email est envoyé." retry="Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard." failed="Oups, il y a eu un problème.">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
             <p class="deadline">Deadline pour la livraison est fixée au 15 juillet 2017, 00h00</p>
@@ -275,7 +276,6 @@ if (isset($_SESSION['return_data'])) {
 							<div class="social"><a class="gtm_social" id="gtm_linkedin" href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
 							<div class="social"><a class="gtm_social" id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
 	                    </div>
-                        <span id="loading-contact"></span>
                     </div>
                 </div>
                 <div class="section">
@@ -286,7 +286,6 @@ if (isset($_SESSION['return_data'])) {
 							<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:raphael.baumann@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
 							<div class="social"><a class="gtm_social" id="gtm_mail" href="intent://send/+41797583945#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-2x"></i></a></div>
 	                    </div>
-                        <span id="loading-contact"></span>
                     </div>
                     <p>Raphael Baumann - Technique</p>
                     <div class="form-row">
@@ -295,7 +294,6 @@ if (isset($_SESSION['return_data'])) {
 							<div class="social"><a class="gtm_social" id="gtm_mail" href="intent://send/+41797378495#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-2x"></i></a></div>
 							<div class="social"><a class="gtm_social" id="gtm_mail" href="tel:+41245577349"><i class="fa fa-phone fa-2x"></i></a></div>
 	                    </div>
-                        <span id="loading-contact"></span>
                     </div>
                 </div>
             </div>
@@ -308,6 +306,7 @@ if (isset($_SESSION['return_data'])) {
     <script src="/bower_components/lity/dist/lity.min.js"></script>
     <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
     <script src="/bower_components/jquery-form/jquery.form.js"></script>
+    <script src="/bower_components/toastr/toastr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- youtube -->
