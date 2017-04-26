@@ -211,7 +211,23 @@ $(function() {
         }
     });
 
+
 });
+
+
+	/**
+	*
+	*	tooltips
+	*
+	*/
+	
+$(document).ready(function() {
+	$('a[title]').tipsy({
+		gravity: 's',
+		fade: true
+	});
+});
+	
 
 
 

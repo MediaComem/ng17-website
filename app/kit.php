@@ -67,6 +67,7 @@ if (isset($_SESSION['return_data'])) {
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/lity/dist/lity.min.css" />
     <!-- endbower -->
+    <link rel="stylesheet" href="/bower_components/tipsy/src/stylesheets/tipsy.css" />
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" type="text/css">
@@ -229,7 +230,7 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container">
 			<h4>Les Modèles 3D</h4>
 			<div class="section">
-				<div class="button-container"><a id="gtm_model_las" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
+				<div class="button-container"><a id="gtm_model_las" title="Ce nuage de point a été créé par des étudiants bachelor EC+G de la filière géomatique. Il a été capturé avec une ScanStation de Leica et traité avec le logiciel 3DReshaper." class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
 				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles.</p>
 			</div>
 			<div class="section">	
@@ -303,6 +304,7 @@ if (isset($_SESSION['return_data'])) {
     <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
     <script src="/bower_components/jquery-form/jquery.form.js"></script>
     <!-- endbower -->
+    <script src="/bower_components/tipsy/src/javascripts/jquery.tipsy.js"></script>
     <!-- endbuild -->
     <!-- youtube -->
     <script async="" src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
