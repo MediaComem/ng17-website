@@ -213,7 +213,7 @@ if (isset($_SESSION['return_data'])) {
         <div class="container small-container">
             <h2>Take part</h2>
 			<p>Fill the form below to receive a link by mail with all the information and assets needed to start your projects.</p>
-			<p>If you do not receive a mail in the next 5 minutes, <strong>check you spam folder.</strong></p>
+			<p>If you do not receive a mail in the next 5 minutes, <strong>check your spam folder.</strong></p>
 
             <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate" val-email="Please enter a valid email address."  val-req="All fields are required.">
 	            <input type="hidden" name="subject" value="NG17 participant">
@@ -236,7 +236,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="submit-message-participation" success="Thank you! Your mail was sent." retry="Sorry, we were not able to send the mail, please try again later" failed="Sorry, we ran into some issues">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
-            <p class="deadline">The project submission deadline is set for the 15th of july 2017, 00h00</p>
+            <p class="deadline">The project submission deadline is set for the 15th of July 2017, 00h00</p>
         </div>
     </section>
 
@@ -257,20 +257,11 @@ if (isset($_SESSION['return_data'])) {
 		                </a>
                 </div>
             </div>
-
             <div id="contact">
                 <div class="small-container">
-	                <div class="section">
-	                    <h2>Your Contacts</h2>
-	                    <p>Sandrine Divorne - Information</p>
-	                    <div class="form-row">
-	                        <div class="socials">
-								<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:raphael.baumann@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
-								<div class="social"><a class="gtm_social" id="gtm_mail" href="intent://send/+41797583945#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-2x"></i></a></div>
-		                    </div>
-	                        <span id="loading-contact"></span>
-	                    </div>
-	                    <p>Raphael Baumann - Technique</p>
+	                <div id="en-edit" class="section">
+	                    <h2>Your Contact</h2>
+	                    <p>Raphael Baumann</p>
 	                    <div class="form-row">
 	                        <div class="socials">
 								<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:raphael.baumann@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
