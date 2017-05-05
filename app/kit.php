@@ -146,6 +146,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>Visuels tout public, et respect du droit d’auteur sans bande son</li>
 				<li>Durée préconisée, entre 30 et 120 secondes</li>
 				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
+				<li>La vidéo ne doit pas contenir de logo, ou de marque</li>
 				<li>Codec souhaité pour le rendu final :</li>
 					<ul>
 						<li>DXV 3 <a href="https://resolume.com/software/codec">Plus d'info</a></li>
@@ -157,6 +158,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>Prise en compte de l’architecture du bâtiment</li>
 				<li>Visuels tout public, et respect du droit d’auteur</li>
 				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
+				<li>L'image ne doit pas contenir de logo, ou de marque</li>
 				<li>Format PNG</li>
 			</ul>
 			<h3>Comment rendre le projet?</h3>

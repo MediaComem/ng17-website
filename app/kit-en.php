@@ -143,6 +143,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>Visuals are appropriate for all audiences and intellectual property is respected</li>
 				<li>The length of the video is between 30 and 120 seconds</li>
 				<li>Resolution: 1300 x 1800 pixels (portrait/vertical mode)</li>
+				<li>The video can't contain any logo's or brands</li>
 				<li>Ideal codec :</li>
 					<ul>
 						<li>DXV 3 <a href="https://resolume.com/software/codec">more information</a></li>
@@ -154,6 +155,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>The architecture of the building is integrated</li>
 				<li>Visuals are appropriate for all audiences and intellectual property is respected</li>
 				<li>Resolution: 1300 x 1800 pixels (portrait/vertical mode)</li>
+				<li>The image can't contain any logo's or brands</li>
 				<li>Format: PNG</li>
 			</ul>
 			<h3>How to submit your project?</h3>
