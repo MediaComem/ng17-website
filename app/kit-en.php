@@ -141,6 +141,7 @@ if (isset($_SESSION['return_data'])) {
 				<li>The theme "clair-obscur" is respected</li>
 				<li>The architecture of the building is integrated</li>
 				<li>Visuals are appropriate for all audiences and intellectual property is respected</li>
+				<li>Video without audio</li>
 				<li>The length of the video is between 30 and 120 seconds</li>
 				<li>Resolution: 1300 x 1800 pixels (portrait/vertical mode)</li>
 				<li>The video can't contain any logo's or brands</li>

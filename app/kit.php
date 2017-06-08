@@ -143,7 +143,8 @@ if (isset($_SESSION['return_data'])) {
 			<ul>
 				<li>Prise en compte du thème « clair-obscur »</li>
 				<li>Prise en compte de l’architecture du bâtiment</li>
-				<li>Visuels tout public, et respect du droit d’auteur sans bande son</li>
+				<li>Visuels tout public, respect du droit d’auteur</li>
+				<li>Vidéo sans bande son</li>
 				<li>Durée préconisée, entre 30 et 120 secondes</li>
 				<li>Résolution: 1300 x 1800 pixels (en mode portrait/vertical)</li>
 				<li>La vidéo ne doit pas contenir de logo, ou de marque</li>
