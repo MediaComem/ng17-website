@@ -51,7 +51,7 @@ if (isset($_SESSION['return_data'])) {
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@media_heigvd">
 	<meta name="twitter:title" content="Numerik Games | clair-obscur">
-	<meta name="twitter:description" content="Appel à projets mapping vidéo pour Numerik Games 2017">
+	<meta name="twitter:description" content="Video mapping call for projects for Numerik Games 2017">
 	<meta name="twitter:creator" content="@media_heigvd">
 	<!-- Twitter summary card with large image must be at least 280x150px -->
 	<meta name="twitter:image:src" content="http://ng17.heig-vd.ch/images/home_bg.jpg">
@@ -62,11 +62,10 @@ if (isset($_SESSION['return_data'])) {
 	<meta property="og:url" content="http://ng17.heig-vd.ch" />
 	<meta property="og:image" content="http://ng17.heig-vd.ch/images/NG17-FB-post-link_2.jpg" />
 	<meta property="og:image" content="http://ng17.heig-vd.ch/images/home_bg.jpg" />
-	<meta property="og:description" content="Appel à projets mapping vidéo pour Numerik Games 2017" />
+	<meta property="og:description" content="Video mapping call for projects for Numerik Games 2017" />
 	<meta property="og:site_name" content="Numerik Games | clair-obscur" />
 	<meta property="article:published_time" content="2017-03-16T09:00:00+01:00" />
 <!-- 	<meta property="article:modified_time" content="2017-03-16T19:08:47+01:00" /> -->
-	<meta property="fb:admins" content="Facebook numberic ID" />
 	
 	<link rel="alternate" hreflang="fr" href="http://ng17.heig-vd.ch" />
 	
