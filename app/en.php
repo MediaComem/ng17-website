@@ -65,7 +65,7 @@ if (isset($_SESSION['return_data'])) {
 	<meta property="og:description" content="Video mapping call for projects for Numerik Games 2017" />
 	<meta property="og:site_name" content="Numerik Games | clair-obscur" />
 	<meta property="article:published_time" content="2017-03-16T09:00:00+01:00" />
-<!-- 	<meta property="article:modified_time" content="2017-03-16T19:08:47+01:00" /> -->
+	<!-- 	<meta property="article:modified_time" content="2017-03-16T19:08:47+01:00" /> -->
 	
 	<link rel="alternate" hreflang="fr" href="http://ng17.heig-vd.ch" />
 	
