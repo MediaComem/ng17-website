@@ -43,7 +43,7 @@ if (isset($_SESSION['return_data'])) {
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-TTFCNHC');</script>
 	<!-- End Google Tag Manager -->
-	
+
 	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon.ico/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon.ico/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon.ico/apple-icon-72x72.png">
@@ -80,14 +80,14 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body class="kit">
-	
+
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFCNHC"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe>
 	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	
+
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -101,7 +101,7 @@ if (isset($_SESSION['return_data'])) {
 		        <div id="landingIntro">
 					<h1 class="huge">"clair-obscur"</h1>
 					<h3 class="light">A video mapping experience for Numerik Games 2017</h3>
-					
+
 					<h3><span class="light">The deadline is set for the </span>15th of July 2017, 00h00</h3>
 		        </div>
 	        </div>
@@ -166,7 +166,7 @@ if (isset($_SESSION['return_data'])) {
 	<section id="kit-conseil">
 		<div class="container small-container">
 			<h3>Starter kit</h3>
-			
+
 			<div class="sketchfab-embed-wrapper"><iframe width="100%" height="500" src="https://sketchfab.com/models/c88bd9a1e0914af9b1a330077e6fd367/embed?preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
 				    <a href="https://sketchfab.com/models/c88bd9a1e0914af9b1a330077e6fd367?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Temple-scan</a>
@@ -174,7 +174,7 @@ if (isset($_SESSION['return_data'])) {
 				    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
 				</p>
 			</div>
-			
+
 			<h4>Aesthetics</h4>
 			<p>You cannot consider the facade of the temple as a standard screen. The architecture gives you a great opportunity for interesting visual effects. The more you play with it, the better.</p>
 			<h4>Contrasts</h4>
@@ -186,28 +186,28 @@ if (isset($_SESSION['return_data'])) {
 	<section id="kit-scene" class="negative">
 		<div class="container small-container">
 			<h3>Assets</h3>
-			
+
 			<h4>In 2D</h4>
 			<p>If you decide to work with 2d software (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), here are reference images and masks on which you should base your work&nbsp;:
-			<div class="logos"> 
+			<div class="logos">
 				<a id="gtm_2d_photoshop" class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJbGRBTExsN0tWem8/view?usp=sharing"><img src="../images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a>
 				<a id="gtm_2d_png"  class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJSnFhSmxnTm56eW8/view?usp=sharing"><img src="../images/logo/png.png" /><span>.png</span></a>
 				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd2Rrb2kydWU4WUk?usp=sharing"><img src="../images/logo/folder-xxl.png" /><span>complete folder</span></a>
 			</div>
-			
+
 			<h4>In 3D</h4>
 			<p>If you are working with a 3D software (ex:Blender, Maya, C4D, etc.) watch out for the position of the camera. It needs to be in the same position as the projector.</p>
 			<p>Scenes with camera places in the right location with the right settings can be found here&nbsp;:</p>
 			<h5>3D Scenes</h5>
-			<div class="logos"> 
+			<div class="logos">
 				<a id="gtm_scene_blender" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTVYtOV9nR0NHaXc?usp=sharing"><img src="../images/logo/blender-plain.png" /><span>Blender</span></a>
 				<a id="gtm_scene_maya" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJYXdXN2RULUFzcVE?usp=sharing"><img src="../images/logo/maya_logo.png" /><span>Maya</span></a>
 				<a id="gtm_scene_cinema4d" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJQUtrT3Njc1JOb3M?usp=sharing"><img src="../images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a>
 				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWW9BXzdDbVlTcFE?usp=sharing"><img src="../images/logo/folder-xxl.png" /><span>complete folder</span></a>
 			</div>
-			
+
 			<p>If you are using other software we can help you calibrate your camera.</p>
-			
+
 			<p>Here are the specifications: </p>
 			<ul>
 				<li>The temples pivot point is set at 0,0,0</li>
@@ -220,7 +220,10 @@ if (isset($_SESSION['return_data'])) {
 					<li>The value for the offset is different for each software. The solution is trial and error until it fits perfectly with one of the <a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTzZ3ZXdOVjFWLUk?usp=sharing">calibration image</a></li>
 				</ul>
 			</ul>
-			
+			<h4>Reference images</h4>
+			<div class="logos">
+				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJeEw1X1hva3o2cFU"><img src="images/logo/folder-xxl.png" /><span>Image folder</span></a>
+			</div>
 			<p>Need help ? Contact us.</p>
 		</div>
 	</section>
@@ -228,10 +231,10 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container">
 			<h4>3D model</h4>
 			<div class="section">
-				<div class="button-container"><a id="gtm_model_las" title="This point cloud was created by EC+G students from the geomatics department. It was captured with a ScanStation from Leica and edited with 3DReshaper." class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
+				<div class="button-container"><a id="gtm_model_las" title="This point cloud was created by EC+G students from the geomatics department. It was captured with a ScanStation from Leica and edited with 3DReshaper." class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>
 				<p>This is a point cloud file generated by a laser scanner (Lidar). If you have never experimented with a point cloud you can ignore this file and use the two other models.</p>
 			</div>
-			<div class="section">	
+			<div class="section">
 				<div class="button-container"><a id="gtm_model_scan" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJNnJvcFA5YU5QTnM?usp=sharing">Temple-scan</a></div>
 				<p>This is a folder containing a model of the temple generated from the point cloud above. This model is a compromise between detail and the performance. (200'000 points)
 			</div>

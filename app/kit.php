@@ -43,7 +43,7 @@ if (isset($_SESSION['return_data'])) {
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-TTFCNHC');</script>
 	<!-- End Google Tag Manager -->
-	
+
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon.ico/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon.ico/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico/apple-icon-72x72.png">
@@ -80,14 +80,14 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body class="kit">
-	
+
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFCNHC"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe>
 	</noscript>
 	<!-- End Google Tag Manager (noscript) -->
-	
+
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -101,7 +101,7 @@ if (isset($_SESSION['return_data'])) {
 		        <div id="landingIntro">
 					<h1 class="huge">« clair - obscur »</h1>
 					<h3 class="light">Une expérience de vidéomapping participatif dans le cadre de Numerik Games 2017</h3>
-					
+
 					<h3><span class="light">Deadline pour la livraison est fixée au</span> 15 juillet 2017, 00h00</h3>
 		        </div>
 	        </div>
@@ -111,11 +111,11 @@ if (isset($_SESSION['return_data'])) {
     <section id="kit-intro" class="fullscreen">
 		<div class="container small-container centered">
 			<p>Si le mapping vidéo est nouveau pour vous, ne vous inquiétez pas&nbsp;!</p>
-			
+
 			<p>L’objectif est simple&nbsp;: vous nous fournissez du contenu et nous nous occupons de la partie technique.</p>
-			
+
 			<p>Vous trouverez ci-dessous les instructions, les modèles et les masques utiles à exprimer votre talent&nbsp;!</p>
-			
+
 			<p>Si des informations vous manquent, n'hésitez pas à nous contacter sur mei@heig-vd.ch.</p>
 		</div>
     </section>
@@ -169,7 +169,7 @@ if (isset($_SESSION['return_data'])) {
 	<section id="kit-conseil">
 		<div class="container small-container">
 			<h3>Kit de base</h3>
-			
+
 			<div class="sketchfab-embed-wrapper"><iframe width="100%" height="500" src="https://sketchfab.com/models/c88bd9a1e0914af9b1a330077e6fd367/embed?preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
 				    <a href="https://sketchfab.com/models/c88bd9a1e0914af9b1a330077e6fd367?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Temple-scan</a>
@@ -177,7 +177,7 @@ if (isset($_SESSION['return_data'])) {
 				    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
 				</p>
 			</div>
-			
+
 			<h4>Esthétique</h4>
 			<p>Vous ne pouvez pas considérer la façade comme un simple écran. Plus vous jouerez avec l’architecture du bâtiment plus le rendu graphique sera saisissant.</p>
 			<h4>Contrastes</h4>
@@ -191,28 +191,28 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container">
 			<h3>Les Scène 3D</h3>
 			<p>Les masques et les modèles disponibles ci-dessous sont produits sur la base de simulations qui tiennent compte de l’emplacement du projecteur et de la focale de sa lentille.</p>
-			
-			
+
+
 			<h4>en 2D</h4>
 			<p>Si vous décidez de travailler avec un programme 2D (ex: Photoshop, Illustrator, Gimp, After Effects, etc.), voici les images de référence et les masques sur lesquels vous caler&nbsp;:</p>
-			<div class="logos"> 
+			<div class="logos">
 				<a id="gtm_2d_photoshop" class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJbGRBTExsN0tWem8/view?usp=sharing"><img src="images/logo/Adobe_Photoshop_CS6_icon.png" /><span>Photoshop</span></a>
 				<a id="gtm_2d_png"  class="button gtm_2d" target="_blank" href="https://drive.google.com/file/d/0B71jdVFE0ObJSnFhSmxnTm56eW8/view?usp=sharing"><img src="images/logo/png.png" /><span>.png</span></a>
 				<a id="gtm_2d_all" class="button gtm_2d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJd2Rrb2kydWU4WUk?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
 			</div>
-			
+
 			<h4>en 3D</h4>
 			<p>Si vous travaillez avec un programme 3D (Blender, Maya, C4D, etc.) il faut faire très attention à la position de la caméra. Elle doit être dans la même position que le projecteur.</p>
-			
+
 			<p>Des scènes avec des caméras déjà placées correctement se trouvent dans le dossier suivant&nbsp;:</p>
 			<h5>Scene 3D</h5>
-			<div class="logos"> 
+			<div class="logos">
 				<a id="gtm_scene_blender" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTVYtOV9nR0NHaXc?usp=sharing"><img src="images/logo/blender-plain.png" /><span>Blender</span></a>
 				<a id="gtm_scene_maya" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJYXdXN2RULUFzcVE?usp=sharing"><img src="images/logo/maya_logo.png" /><span>Maya</span></a>
 				<a id="gtm_scene_cinema4d" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJQUtrT3Njc1JOb3M?usp=sharing"><img src="images/logo/C4D_Logo.png" /><span>Cinema 4D</span></a>
 				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJWW9BXzdDbVlTcFE?usp=sharing"><img src="images/logo/folder-xxl.png" /><span>Dossier complet</span></a>
 			</div>
-			
+
 			<p>Si vous utilisez un autre logiciel nous pouvons vous aider à caler votre caméra.</p>
 			<p>Voici quelques informations utiles :</p>
 			<ul>
@@ -226,7 +226,11 @@ if (isset($_SESSION['return_data'])) {
 					<li>La valeur pour l’offset peut être différente dans chaque logiciel. La solution consiste à essayer d’ajuster la valeur jusqu'à ce que votre rendu se superpose correctement au <a href="https://drive.google.com/drive/folders/0B71jdVFE0ObJTzZ3ZXdOVjFWLUk?usp=sharing">images de calibration</a></li>
 				</ul>
 			</ul>
-			
+
+			<h4>Images de référence</h4>
+			<div class="logos">
+				<a id="gtm_scene_all" class="button gtm_scene_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJeEw1X1hva3o2cFU"><img src="images/logo/folder-xxl.png" /><span>Dossier d'images</span></a>
+			</div>
 			<p>Besoin d’aide ? Contactez-nous.</p>
 		</div>
 	</section>
@@ -234,10 +238,10 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container">
 			<h4>Les Modèles 3D</h4>
 			<div class="section">
-				<div class="button-container"><a id="gtm_model_las" title="Ce nuage de point a été créé par des étudiants bachelor EC+G de la filière géomatique. Il a été capturé avec une ScanStation de Leica et traité avec le logiciel 3DReshaper." class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>	
+				<div class="button-container"><a id="gtm_model_las" title="Ce nuage de point a été créé par des étudiants bachelor EC+G de la filière géomatique. Il a été capturé avec une ScanStation de Leica et traité avec le logiciel 3DReshaper." class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJOFU3ZjVVaGxOOGM?usp=sharing">Temple-PointCloud.las</a></div>
 				<p>Un fichier contenant un nuage de points généré par un scanner laser. Si vous n’avez jamais travaillé avec un nuage de points, vous pouvez ignorer ce fichier et utiliser les deux autres modèles.</p>
 			</div>
-			<div class="section">	
+			<div class="section">
 				<div class="button-container"><a id="gtm_model_scan" class="button gtm_model_3d" target="_blank" href="https://drive.google.com/drive/folders/0B71jdVFE0ObJNnJvcFA5YU5QTnM?usp=sharing">Temple-scan</a></div>
 				<p>Un dossier contenant un modèle du temple généré directement depuis le nuage de points. Ce modèle est un compromis entre la qualité et les besoins de performance de votre machine (200’000 points).</p>
 			</div>
