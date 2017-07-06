@@ -37,16 +37,16 @@ if (isset($_SESSION['return_data'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Update your html tag to include the itemscope and itemtype attributes. -->
 	<html itemscope itemtype="http://schema.org/Article">
-	
+
 	<!-- Place this data between the <head> tags of your website -->
 	<title>Numerik Games | clair-obscur</title>
 	<meta name="description" content="Appel à projets mapping vidéo de Numerik Games 2017" />
-	
+
 	<!-- Schema.org markup for Google+ -->
 	<meta itemprop="name" content="Numerik Games | clair-obscur">
 	<meta itemprop="description" content="Appel à projets mapping vidéo de Numerik Games 2017">
 	<meta itemprop="image" content="http://ng17.heig-vd.ch/images/home_bg.jpg">
-	
+
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@media_heigvd">
@@ -55,7 +55,7 @@ if (isset($_SESSION['return_data'])) {
 	<meta name="twitter:creator" content="@media_heigvd">
 	<!-- Twitter summary card with large image must be at least 280x150px -->
 	<meta name="twitter:image:src" content="http://ng17.heig-vd.ch/images/home_bg.jpg">
-	
+
 	<!-- Open Graph data -->
 	<meta property="og:title" content="Numerik Games | clair-obscur" />
 	<meta property="og:type" content="article" />
@@ -66,9 +66,9 @@ if (isset($_SESSION['return_data'])) {
 	<meta property="og:site_name" content="Numerik Games | clair-obscur" />
 	<meta property="article:published_time" content="2017-03-16T09:00:00+01:00" />
 	<!-- 	<meta property="article:modified_time" content="2017-03-16T19:08:47+01:00" /> -->
-	
+
 	<link rel="alternate" hreflang="fr" href="http://ng17.heig-vd.ch" />
-	
+
     <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -76,8 +76,8 @@ if (isset($_SESSION['return_data'])) {
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-TTFCNHC');</script>
 	<!-- End Google Tag Manager -->
-	
-	
+
+
 	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon.ico/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon.ico/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon.ico/apple-icon-72x72.png">
@@ -113,10 +113,11 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body>
-    <!--[if lt IE 10]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <!-- Google Tag Manager (noscript) -->
+	<div id="news-toastr" class="hidden" title="Information" content="The deadline was moved to july, 30st 2017, 00h00"> </div>
+  <!--[if lt IE 10]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFCNHC"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -199,7 +200,7 @@ if (isset($_SESSION['return_data'])) {
                     <div class="wireframe only-medium"></div>
 
                     <h2><span class="light">Creating</span> an image</h2>
-					
+
 					<p>Low on time&nbsp;? You can also create an illustration or a collection of images that will be integrated in a <a href="https://youtu.be/q6tX4YJ9FXE">collaborative game</a> projected on the temple. The audience, with the use of their smartphone, will be able to interact with the wall revealing the image hidden behind it. Further rules and guidelines can be found in the <strong>starter kit</strong> that will be sent to you after registering below.
 
                     <div class="wireframe only-mobile"></div>
@@ -235,7 +236,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="submit-message-participation" success="Thank you! Your mail was sent." retry="Sorry, we were not able to send the mail, please try again later" failed="Sorry, we ran into some issues">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
-            <p class="deadline">The project submission deadline is set for the 15th of July 2017, 00h00</p>
+            <p class="deadline">The project submission deadline is set for the <s>15th</s> 30th of July 2017, 00h00</p>
         </div>
     </section>
 

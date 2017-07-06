@@ -117,7 +117,7 @@ $(function() {
 				  return false;
 				}
 			}
-			
+
       }
 
 	});
@@ -129,13 +129,13 @@ jQuery.extend(jQuery.validator.messages, {
 });
 
 $(function() {
-    
+
     // Form validation via plugin
     var submitMessageContact     = $('#submit-message-contact'),
         messageContainerContact  = submitMessageContact.find('span'),
         loadingContact 			 = $('#loading-contact')
-        
-    $('#contact-form').validate({     
+
+    $('#contact-form').validate({
         // Override to submit the form via ajax
         submitHandler: function(form) {
             var options = {
@@ -235,14 +235,14 @@ $(function() {
 	   	}
 
     });
-        
+
      // Form validation via plugin
     var submitMessageParticipation     = $('#submit-message-participation'),
         messageContainerParticipation  = submitMessageParticipation.find('span'),
         loadingParticipation = $('#loading-participation');
-        
-    $('#participation-form').validate({     
-	    
+
+    $('#participation-form').validate({
+
         // Override to submit the form via ajax
         submitHandler: function(form) {
             var options = {
@@ -353,16 +353,30 @@ $(function() {
 	*	tooltips
 	*
 	*/
-	
+
 $(document).ready(function() {
 	if($('#gtm_model_las').length > 0) {
 		$('#gtm_model_las').tipsy({
 			gravity: 's',
 			fade: true
-		});	
+		});
 	}
+
+  toastr.info($("#news-toastr").attr("content"), $("#news-toastr").attr("title"), {
+    "closeButton": true,
+    "debug": false,
+    "newestOnTop": false,
+    "progressBar": false,
+    "positionClass": "toast-top-center",
+    "preventDuplicates": false,
+    "onclick": null,
+    "showDuration": "300",
+    "hideDuration": "5000",
+    "timeOut": "50000",
+    "extendedTimeOut": "10000",
+    "showEasing": "swing",
+    "hideEasing": "linear",
+    "showMethod": "fadeIn",
+    "hideMethod": "fadeOut"
+  });
 });
-	
-
-
-

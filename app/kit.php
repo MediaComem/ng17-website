@@ -80,7 +80,7 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body class="kit">
-
+	<div id="news-toastr" class="hidden" title="Information" content="La Deadline a été repoussée au 30 juillet 2017, 00:00"> </div>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFCNHC"
@@ -102,7 +102,7 @@ if (isset($_SESSION['return_data'])) {
 					<h1 class="huge">« clair - obscur »</h1>
 					<h3 class="light">Une expérience de vidéomapping participatif dans le cadre de Numerik Games 2017</h3>
 
-					<h3><span class="light">Deadline pour la livraison est fixée au</span> 15 juillet 2017, 00h00</h3>
+					<h3><span class="light">Deadline pour la livraison est fixée au</span> <s>15</s> 30 juillet 2017, 00h00</h3>
 		        </div>
 	        </div>
         </div>
