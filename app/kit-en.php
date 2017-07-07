@@ -80,7 +80,7 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body class="kit">
-	<div id="news-toastr" class="hidden" title="Information" content="The deadline was moved to july, 30th 2017 at midnight"> </div>
+	<div id="news-toastr" class="hidden" title="Information" content="The deadline was moved to july, 30th 2017 at 11:59pm"> </div>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFCNHC"
@@ -102,7 +102,7 @@ if (isset($_SESSION['return_data'])) {
 					<h1 class="huge">"clair-obscur"</h1>
 					<h3 class="light">A video mapping experience for Numerik Games 2017</h3>
 
-					<h3><span class="light">The deadline is set for the </span><s>15th</s> 30th of July  2017, 00h00</h3>
+					<h3><span class="light">The deadline is set for the </span><s>15th</s> 30th of July  2017, 11:59 pm</h3>
 		        </div>
 	        </div>
         </div>
@@ -120,15 +120,15 @@ if (isset($_SESSION['return_data'])) {
 		<div class="container small-container cols">
             <div class="col-part-1">
 				<h2>the projection</h2>
-				<p><b>When :</b><span>25th and 26th of August 2017, 20h30-00h00</span></p>
+				<p><b>When :</b><span>25th and 26th of August 2017, 8:30pm-12:00pm</span></p>
 				<p><b>Where :</b><span>Place Pestalozzi, 1400 Yverdon-les-Bains</span></p>
 				<p><b>Projector :</b><span>Christie Boxer, 4k, 30'000 lumens !</span></p>
 				<p><b>Screen :</b><span>Neoclassical facade of <a href="http://heig.ch/dahi">Pestalozzi Temple</a></span></p>
             </div>
             <div class="col-part-2">
 				<h4>Evening planning</h4>
-				<p><b>20h30:</b><span>Projection start (sunset)</span></p>
-				<p><b>21h00 - 00h00:</b><span>Alternating : MEI game, your work&nbsp;!</span></p>
+				<p><b>8:30pm:</b><span>Projection start (sunset)</span></p>
+				<p><b>9:00pm - 12:00pm:</b><span>Alternating : MEI game, your work&nbsp;!</span></p>
             </div>
 		</div>
 	</section>

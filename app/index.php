@@ -114,7 +114,7 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body>
-	<div id="news-toastr" class="hidden" title="Information" content="La Deadline a été repoussée au 30 juillet 2017, 00h00"> </div>
+	<div id="news-toastr" class="hidden" title="Information" content="La Deadline a été repoussée au 30 juillet 2017, 23h59"> </div>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -243,7 +243,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="submit-message-participation" success="Merci! Votre email est envoyé." retry="Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard." failed="Oups, il y a eu un problème.">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
-            <p class="deadline">Deadline pour la livraison est fixée au <s>15</s> 30 juillet 2017, 00h00</p>
+            <p class="deadline">Deadline pour la livraison est fixée au <s>15</s> 30 juillet 2017, 23h59</p>
         </div>
     </section>
 
