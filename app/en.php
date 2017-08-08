@@ -113,7 +113,6 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body>
-	<div id="news-toastr" class="hidden" title="Information" content="The deadline was moved to july, 30st 2017, 11:59 pm"> </div>
   <!--[if lt IE 10]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -236,7 +235,7 @@ if (isset($_SESSION['return_data'])) {
             <div id="submit-message-participation" success="Thank you! Your mail was sent." retry="Sorry, we were not able to send the mail, please try again later" failed="Sorry, we ran into some issues">
                 <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
             </div>
-            <p class="deadline">The project submission deadline is set for the <s>15th</s> 30th of July 2017, 11:59 pm</p>
+            <p class="deadline">The project submission deadline is set for the <s>15th</s> 30th of July 2017, 00h00</p>
         </div>
     </section>
 

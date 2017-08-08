@@ -114,7 +114,6 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body>
-	<div id="news-toastr" class="hidden" title="Information" content="La Deadline a été repoussée au 30 juillet 2017, 23h59"> </div>
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->

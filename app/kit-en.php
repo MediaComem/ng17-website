@@ -80,7 +80,6 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body class="kit">
-	<div id="news-toastr" class="hidden" title="Information" content="The deadline was moved to july, 30th 2017 at 11:59pm"> </div>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFCNHC"

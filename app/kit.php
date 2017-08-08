@@ -80,7 +80,6 @@ if (isset($_SESSION['return_data'])) {
 </head>
 
 <body class="kit">
-	<div id="news-toastr" class="hidden" title="Information" content="La Deadline a été repoussée au 30 juillet 2017, 23h59"> </div>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript>
 		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFCNHC"

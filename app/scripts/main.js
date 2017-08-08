@@ -362,7 +362,7 @@ $(document).ready(function() {
 		});
 	}
 
-  toastr.info($("#news-toastr").attr("content"), $("#news-toastr").attr("title"), {
+  toastr.info($("#news-toastr"), "Information importants", {
     "closeButton": true,
     "debug": false,
     "newestOnTop": false,
