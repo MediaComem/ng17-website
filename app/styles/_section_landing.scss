@@ -7,70 +7,80 @@ body {
   background:transparent;
   height: 100vh;
   position:relative;
+  .logo {
+    width: 100%;
+    margin-bottom: 20px;
+    @include at-breakpoint ('small') {
+      width: 350px;
+    }
 
+    @include at-breakpoint ('large') {
+      width: 400px;
+    }
+  }
   .video-background {
     display: none;
   }
   .triangle-topleft {
-	display: block;
-	position: absolute;
-	z-index: 9;
-	background: url("../images/appelprojets-small.png") no-repeat;
-	min-width: 330px;
-	min-height: 165px;
-	@include at-breakpoint ('small') {
-		background: url("../images/appelprojets-small.png") no-repeat;
-		min-width: 330px;
-		min-height: 165px;
-	  }
-  @include at-breakpoint ('medium') {
-	@media (orientation: landscape) {
-		background: url("../images/appelprojets-small.png") no-repeat;
-		min-width: 330px;
-		min-height: 165px;
-	}
-	@media (orientation: portrait) {
-		background: url("../images/appelprojets.png") no-repeat;
+  	display: block;
+  	position: absolute;
+  	z-index: 9;
+  	background: url("../images/site-banner-s.png") no-repeat;
+  	min-width: 330px;
+  	min-height: 165px;
+  	@include at-breakpoint ('small') {
+  		background: url("../images/site-banner-s.png") no-repeat;
+  		min-width: 330px;
+  		min-height: 165px;
+  	  }
+    @include at-breakpoint ('medium') {
+    	@media (orientation: landscape) {
+    		background: url("../images/site-banner-s.png") no-repeat;
+    		min-width: 330px;
+    		min-height: 165px;
+    	}
+    	@media (orientation: portrait) {
+    		background: url("../images/site-banner-l.png") no-repeat;
+            min-width: 660px;
+    		min-height: 330px;
+    	}
+    }
+    @include at-breakpoint ('large') {
+  	  background: url("../images/site-banner-l.png") no-repeat;
         min-width: 660px;
-		min-height: 330px;
-	}
+        min-height: 330px;
+    }
   }
-  @include at-breakpoint ('large') {
-	  background: url("../images/appelprojets.png") no-repeat;
-      min-width: 660px;
-      min-height: 330px;
-  }    
-  }
-  
+
   .triangle-topleft-en {
-	display: block;
-	position: absolute;
-	z-index: 9;
-	background: url("../images/appelprojets-small_en.png") no-repeat;
-	min-width: 330px;
-	min-height: 165px;
-	@include at-breakpoint ('small') {
-		background: url("../images/appelprojets-small_en.png") no-repeat;
-		min-width: 330px;
-		min-height: 165px;
-	  }
-  @include at-breakpoint ('medium') {
-	@media (orientation: landscape) {
-		background: url("../images/appelprojets-small_en.png") no-repeat;
-		min-width: 330px;
-		min-height: 165px;
-	}
-	@media (orientation: portrait) {
-		background: url("../images/appelprojets_en.png") no-repeat;
+  	display: block;
+  	position: absolute;
+  	z-index: 9;
+  	background: url("../images/appelprojets-small_en.png") no-repeat;
+  	min-width: 330px;
+  	min-height: 165px;
+  	@include at-breakpoint ('small') {
+  		background: url("../images/appelprojets-small_en.png") no-repeat;
+  		min-width: 330px;
+  		min-height: 165px;
+  	  }
+    @include at-breakpoint ('medium') {
+    	@media (orientation: landscape) {
+    		background: url("../images/appelprojets-small_en.png") no-repeat;
+    		min-width: 330px;
+    		min-height: 165px;
+    	}
+    	@media (orientation: portrait) {
+    		background: url("../images/appelprojets_en.png") no-repeat;
+            min-width: 660px;
+    		min-height: 330px;
+    	}
+    }
+    @include at-breakpoint ('large') {
+  	  background: url("../images/appelprojets_en.png") no-repeat;
         min-width: 660px;
-		min-height: 330px;
-	}
-  }
-  @include at-breakpoint ('large') {
-	  background: url("../images/appelprojets_en.png") no-repeat;
-      min-width: 660px;
-      min-height: 330px;
-  }    
+        min-height: 330px;
+    }
   }
 
   @include at-breakpoint ('medium') {
@@ -173,7 +183,7 @@ body {
   width: 100%;
   z-index: 3;
   position: relative;
-  margin-top: 170px;
+  margin-top: 160px;
   	@media (orientation: landscape) {
 		button {
 		  float: left;
@@ -205,11 +215,11 @@ body {
 	    @include at-breakpoint ('small') {
 	      font-size: 1.2em;
 	    }
-	
+
 	    @include at-breakpoint ('medium') {
 	      font-size: 1.2em;
 	    }
-	
+
 	    @include at-breakpoint ('large') {
 	      font-size: 1.4em;
 	    }
@@ -257,10 +267,10 @@ body {
 
   @include at-breakpoint ('medium') {
     //width: 70%;
-    margin-top: 50vh;
+    margin-top: 40vh;
 
     h2 {
-      font-size: 2.2em;
+      font-size: 2em;
     }
   }
 }

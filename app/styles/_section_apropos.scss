@@ -26,7 +26,7 @@
       left: 0;
       height: 0;
       bottom: 0;
-      border-top: 120vh solid $color-primary;
+      border-top: 120vh solid $color-tertiary;
       border-right: 80vw solid transparent;
       z-index: 0;
       top: -10vh;
@@ -52,9 +52,9 @@
 	    }
     }
     @include at-breakpoint ('small') {
-	    
+
     }
-    
+
     @include at-breakpoint ('medium') {
 	    width: 50%;
 	    .para-1 {
@@ -63,19 +63,19 @@
 	    .para-2 {
 		    width: 85%;
 	    }
-	    
+
     }
-    
+
     .small-container{
 	    padding-bottom: 30px;
     }
-    
+
     @include at-breakpoint('large') {
 	    .small-container{
 		    padding-bottom: 0px;
 	    }
     }
-    
+
     a.mei-logo {
       position: absolute;
       right: 1em;
@@ -122,7 +122,7 @@
   }
 
   #contact {
-	  
+
 	.section {
 		margin-left: 0px;
 		margin-top: 60px;
@@ -184,11 +184,11 @@
       float: right;
     }
   }
-  
+
   #gtm_index_contact {
 	  float: right;
   }
-  
+
   .socials{
 	  padding-top: 7px;
 	  width: 210px;

@@ -361,22 +361,4 @@ $(document).ready(function() {
 			fade: true
 		});
 	}
-
-  toastr.info($("#news-toastr"), "Information importants", {
-    "closeButton": true,
-    "debug": false,
-    "newestOnTop": false,
-    "progressBar": false,
-    "positionClass": "toast-top-center",
-    "preventDuplicates": false,
-    "onclick": null,
-    "showDuration": "300",
-    "hideDuration": "5000",
-    "timeOut": "50000",
-    "extendedTimeOut": "10000",
-    "showEasing": "swing",
-    "hideEasing": "linear",
-    "showMethod": "fadeIn",
-    "hideMethod": "fadeOut"
-  });
 });

@@ -125,7 +125,7 @@ if (isset($_SESSION['return_data'])) {
 	<!-- End Google Tag Manager (noscript) -->
 
     <section id="landing" class="fullscreen home negative">
-        <div class="triangle-topleft"></div>
+        <a href="http://numerik-games.ch" class="triangle-topleft"></a>
 
         <div class="video-background">
             <div class="video-foreground">
@@ -137,12 +137,11 @@ if (isset($_SESSION['return_data'])) {
 			<div id="language">fr/<a href="/en">en</a></div>
             <div class="container small-container">
                 <div id="landingIntro">
-                    <h2 class="light">Numerik Games</h2>
-
-                    <h3 class="light">25 - 27 août 2017</h3>
-
-                    <h1 id="main-title" class="huge">Marre de ton écran&nbsp;?<br>
-                    VOIS PLUS GRAND&nbsp;!</h1><a href="#intro"><button>En savoir plus</button></a>
+										<img class="logo" src="/images/logo_eclair-ages.png" />
+                    <h3 class="light">25 - 26 août 2017</h3>
+										<h2>Place pestalozzi</h2>
+										<h3 class="light">Yverdon-les-bains</h2>
+										</h1><a href="#intro"><button>En savoir plus</button></a>
                 </div>
             </div>
         </div>
@@ -150,117 +149,207 @@ if (isset($_SESSION['return_data'])) {
 
     <section id="intro">
         <div class="intro-part part-1 negative centered">
-            <p class="paraA light container small-container">vidéo, animation, illustration,<br>
-            pixels, vecteurs, 2D, 3D...<br>
-            <strong>Ces domaines vous passionnent&nbsp;?</strong></p>
+            <p class="paraA light container small-container">vidéo mapping,<br>
+            Jeux collaboratifs,<br>
+            <strong>et bien plus&nbsp;!</strong></p>
 
-            <p class="paraB container small-container">Si oui, nous vous offrons l'opportunité de projeter vos créations,<br>
-            sur la façade du Temple du centre historique d’Yverdon-les-Bains&nbsp;!</p>
+            <p class="paraB container small-container">C'est l'occasion de passer un bon moment, en jouant sur la façade du Temple d'Yverdon-les-Bains et en admirant les créations des artistes qui ont répondu au challenge. Vous pourrez profiter de ce spectacle tout en buvant un verre sur les terrasses de la Place Pestalozzi et en écoutant la musique du SoundTruck Diskotek&nbsp;!</p>
         </div>
 
         <div class="container small-container cols">
             <div class="col-part-1">
                 <p><strong>Numerik Games</strong> est un festival tout public, organisé par la <a href="http://www.ailleurs.ch">Maison d'Ailleurs</a>, la ville d'<a href="http://www.ylb.ch">Yverdon-les-Bains</a> et la <a href="http://www.heig-vd.ch">HEIG-VD</a>, qui propose des conférences, des performances et des animations relatives au thème de la transition numérique.</p>
-
                 <p>Pour cette édition, nous allons célébrer cette nouvelle ère qui s’ouvre à nous, inondée de nouvelles technologies. Nos modes d’organisation sont bouleversés, de nouvelles pratiques apparaissent, sociales, culturelles, etc. Une transformation profonde est en cours, c’est bien clair&nbsp;! Faut-il pour autant la voir d’un œil sombre&nbsp;?</p>
-
-                <p>Ce festival est forcément festif, mais il doit aussi nous permettre de réfléchir&nbsp;!</p>
             </div>
 
             <div class="col-part-2">
-                <p class="large">Et vous, comment voyez-vous l'avenir&nbsp;?</p>
-
-                <p>Nous vous offrons une occasion unique de vous exprimer. Le thème choisi est <strong>&laquo;clair-obscur&raquo;</strong>, ombres et lumières, bien ou mal, en jouant des contrastes avec l'architecture du bâtiment.</p>
-
-                <p>Le sujet peut être interprété de manière abstraite, figurative ou métaphorique.</p>
-
-                <p>Faites parler votre créativité&nbsp;!</p>
+                <p>Dans l’espace gratuit du festival, vous pourrez y découvrir des créations inédites d’artistes, avec comme thème imposé «clair-obscur». Le but est de laissez la chance à des personnes de pouvoir exprimer leur art et vision, ces réalisations seront projetées sur un bâtiment du centre historique de la ville d’Yverdon-les-Bains.</p><p>les soirées du 25 au 26 août 2017, des parties de jeux collaboratifs, avec votre téléphone comme manette, transformeront la façade du Temple en écran de jeu géant.</p>
             </div>
         </div>
     </section>
 
-    <section id="details">
-        <div class="inner">
-            <div class="container small-container centered">
-                <ul class="tabs">
-                    <li class="tab"><a class="tablink light one" href="#tab-video"><span class="light">Vidéos / Animations</span></a></li>
-
-                    <li class="tab"><a class="tablink light two" href="#tab-image"><span class="light">Images / Illustrations</span></a></li>
-                </ul>
-            </div>
-
-            <div id="tab-video" class="tab-content negative one">
-                <div class="container small-container">
-                    <div class="wireframe only-medium"></div>
-
-                    <h2><span class="light">Création</span> vidéo</h2>
-
-                    <div class="wireframe only-mobile"></div>
-
-                    <p>En principe, Votre projet d'animation vidéo sera affiché au moins une fois pendant le festival. La projection durera plus de six heures, sur deux soirs. Elle sera entrecoupée de performances interactives mettant en oeuvre les smartphones du public. Un <strong>jury</strong> interne tiendra compte des critères suivants: traitement du thème, dimension esthétique, prise en compte de l'architecture. Les meilleurs projets seront projetés plusieurs fois. Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
-                </div>
-            </div>
-
-            <div id="tab-image" class="tab-content negative two">
-                <div class="container small-container">
-                    <div class="wireframe only-medium"></div>
-
-                    <h2><span class="light">Création d'</span>images</h2>
-
-                    <p>Manque de temps&nbsp;? Vous pouvez également nous proposer une illustration ou une collection d'images. Comme pour la <strong>catégorie</strong> "animations", les meilleures propositions pourront être vues à plusieurs reprises. Elles seront diffusées par le biais d'un <a href="https://youtu.be/q6tX4YJ9FXE">jeu collectif</a> tout public. Les joueurs équipés d'un smartphone collaborent pour que leurs actions individuelles contribuent à révéler votre oeuvre&nbsp;! Les règles détaillées se trouvent dans le <strong>kit de base</strong>, qui vous sera transmis une fois que vous aurez complété votre inscription ci-dessous.</p>
-
-                    <div class="wireframe only-mobile"></div>
-                </div>
-            </div>
-        </div>
+    <section id="apercu">
+			<div class="box">
+	      <div class="container small-container">
+	        <h2 class="title center negative"><span class="light">Un aperçu des</span> artistes</h2>
+					<ul class="flex-container">
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Frantisek_Pechacek.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Frantisek Pechacek</h4>
+								<p>Black Division<p>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="http://www.blackdivision.cz"><i class="fa fa-link fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/clairo_mylenedreyer.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Mylène Dreyer</h4>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="http://www.mylenedreyer.ch"><i class="fa fa-link fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Gildas_Malassinet-Tannou.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Gildas Malassinet-Tannou</h4>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://www.youtube.com/user/ICARART/"><i class="fa fa-youtube-play fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/gildaslightpainting"><i class="fa fa-facebook fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="http://www.icarart.com"><i class="fa fa-link fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Iglal.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Iglal Boulad</h4>
+							</div>
+							<ul class="contributor-social">
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Jerem_oury.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Jerem Oury</h4>
+								<p>Studio Echelon Mapping</p>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://vimeo.com/jeremoury"><i class="fa fa-vimeo fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://echelon8.wixsite.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Kylan_Luginbuhl.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Kylan Luginbuhl</h4>
+							</div>
+							<ul class="contributor-social">
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Linda_Kocher.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Linda Kocher</h4>
+							</div>
+							<ul class="contributor-social">
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Louis_Philippe.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Louis Philippe</h4>
+								<p>Resonance Visuals</p>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/ResonanceVisuals/"><i class="fa fa-facebook fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Mirko_Stanchieri.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Mirko Stanchieri</h4>
+							</div>
+							<ul class="contributor-social">
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Philippe_Rohrbach.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Philippe Rohrbach</h4>
+								<p>dap-dap</p>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://twitter.com/mr_dap_dap"><i class="fa fa-twitter fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="http://dapdap.ch/"><i class="fa fa-link fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/reckless_numerik.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Roger Winzeler</h4>
+								<p>reckless collective</p>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/recklesscollective/"><i class="fa fa-facebook fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Stanislas_Bernatt.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Stanislas Bernatt</h4>
+								<p class="small">(Conception & Animation 3D)</p>
+								<h4>Geoffrey Marchal</h4>
+								<p class="small">(Numérisation 3D)<p>
+							</div>
+							<ul class="contributor-social">
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Tamara_Virag.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>t.m.r</h4>
+							</div>
+							<ul class="contributor-social">
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Thomas_Lemarquier.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Thomas Lemarquier</h4>
+							</div>
+							<ul class="contributor-social">
+							</ul>
+	          </li>
+	        </ul>
+	      </div>
     </section>
-    <section id="participer" class="negative">
-        <div class="container small-container">
-            <h2>Je Participe</h2>
-
-            <p>Dans ce cas, il faut commencer par remplir le formulaire ci-dessous. Vous recevrez un mail avec un lien permettant de télécharger le kit de base qui contient tout ce qu'il faut pour démarrer un projet.</p>
-            <p>Si vous ne recevez pas de mail dans les prochaines 5 minutes, <strong>vérifiez vos dossiers de spam</strong></p>
-
-            <form id="participation-form" class="gtm_form" action="process.php" method="post" novalidate="novalidate" val-email="Veuillez entrer une adresse email valide." val-req="les champs sont obligatoires">
-	            <input type="hidden" name="subject" value="NG17 participant">
-				<input type="hidden" name="message" value="Nouvelle participation">
-                <div class="form-row">
-                    <label class="label-text" for="name">Nom:</label>
-                    <input id="name" type="text" name="name" <?php if (isset($errors['name'])) { echo 'class="error"';}?> value="<?php echo $name; ?>" required="required">
-                    <?php if (isset($errors['name'])): ?><label class="error"><?php echo $errors['name']; ?></label><?php endif; ?>
-                </div>
-				<div class="form-row">
-                    <label class="label-text" for="email">Email:</label>
-                    <input id="email" type="email" name="email" <?php if (isset($errors['email'])) { echo 'class="error"';}?> value="<?php echo $email; ?>" required="required">
-                    <?php if (isset($errors['email'])): ?><label class="error"><?php echo $errors['email']; ?></label><?php endif; ?>
-                </div>
-                <div class="form-row">
-                    <button id="gtm_participate" type="submit" name="submit" value="Send">Participer</button>
-                    <span id="loading-participation"></span>
-                </div>
-            </form>
-            <div id="submit-message-participation" success="Merci! Votre email est envoyé." retry="Désolé, votre email n\'a pas pu être envoyé. Veuillez essayer plus tard." failed="Oups, il y a eu un problème.">
-                <span class="<?php echo (isset($formOK) ? $responsetype : 'hidden'); ?>"><?php if(isset($formOK)) { echo $submitmessage; } ?></span>
-            </div>
-            <p class="deadline">Deadline pour la livraison est fixée au <s>15</s> 30 juillet 2017, 23h59</p>
-        </div>
-    </section>
-
     <section id="a-propos">
         <div class="container">
             <div id="qui-sommes-nous" class="negative left">
                 <div class="small-container">
                     <h2>Qui sommes-nous&nbsp;?<a class="mei-logo" href="http://mei.heig-vd.ch"></a></h2>
 
-                    <p class="para-1">Nous sommes le <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), l'unité de recherche de la <strong>HEIG-VD</strong> active dans le domaine des médias numériques.</p>
+                    <p class="para-1">Nous sommes le <strong><a href="http://mei.heig-vd.ch">Media Engineering Institute</a></strong> (MEI), une unité de recherche de la <strong>HEIG-VD</strong> active dans le domaine des médias numériques.</p>
 
-                    <p class="para-2">Nous soutenons activement ce festival d'un genre nouveau depuis sa création. Pour 2017, nous souhaitons embarquer un maximum de passionés dans l'aventure. Voici les liens sur nos contributions précédentes:</p>
+                    <p class="para-2">Nous soutenons activement ce festival d'un genre nouveau depuis sa création. Pour 2017, nous souhaitons embarquer un maximum de passionnés dans l'aventure. Voici les liens sur nos contributions précédentes:</p>
 
 	                    <a href="http://blog.comem.ch/2015/11/16/numerik-games-le-teaser-2015/">
 		                    <button type="button" name="projection-2015">Performance 2015</button>
 		                </a>
 
-	                    <a href="https://www.youtube.com/watch?v=zwJcBfS-gbU" data-lity="">
+	                    <a href="http://blog.comem.ch/2017/01/26/games-of-tron/">
 		                    <button type="button" name="projection-2016">Performance 2016</button>
 		                </a>
                 </div>
