@@ -355,35 +355,31 @@ if (isset($_SESSION['return_data'])) {
             </div>
 
             <div id="contact">
-	            <div class="section">
-                    <h2>Nos liens</h2>
-                    <div class="form-row">
-                        <div class="socials">
-							<div class="social"><a class="gtm_social" id="gtm_instagram" href="https://www.instagram.com/ng17mapping/"><i class="fa fa-instagram fa-2x"></i></a></div>
-		                    <div class="social"><a class="gtm_social" id="gtm_facebook" href="https://www.facebook.com/ng17mapping/"><i class="fa fa-facebook fa-2x"></i></a></div>
-							<div class="social"><a class="gtm_social" id="gtm_linkedin" href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
-							<div class="social"><a class="gtm_social" id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
-	                    </div>
-                    </div>
-                </div>
-                <div class="section">
-                    <h2>Vos contacts</h2>
-                    <p>Sandrine Divorne - Information</p>
-                    <div class="form-row">
-                        <div class="socials">
-							<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:raphael.baumann@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
-							<div class="social"><a class="gtm_social" id="gtm_mail" href="intent://send/+41797583945#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-2x"></i></a></div>
-	                    </div>
-                    </div>
-                    <p>Raphael Baumann - Technique</p>
-                    <div class="form-row">
-                        <div class="socials">
-							<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:raphael.baumann@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
-							<div class="social"><a class="gtm_social" id="gtm_mail" href="intent://send/+41797378495#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-2x"></i></a></div>
-							<div class="social"><a class="gtm_social" id="gtm_mail" href="tel:+41245577349"><i class="fa fa-phone fa-2x"></i></a></div>
-	                    </div>
-                    </div>
-                </div>
+							<div class="small-container">
+								<div id="en-edit" class="section">
+									<h2>Your Contact</h2>
+									<p>Raphael Baumann</p>
+									<div class="form-row">
+										<div class="socials">
+											<div class="social"><a class="gtm_social" id="gtm_mail" href="mailto:raphael.baumann@heig-vd.ch"><i class="fa fa-envelope fa-2x"></i></a></div>
+											<div class="social"><a class="gtm_social" id="gtm_mail" href="intent://send/+41797378495#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><i class="fa fa-whatsapp fa-2x"></i></a></div>
+											<div class="social"><a class="gtm_social" id="gtm_mail" href="tel:+41245577349"><i class="fa fa-phone fa-2x"></i></a></div>
+										</div>
+										<span id="loading-contact"></span>
+									</div>
+								</div>
+								<div class="section lien">
+									<h2>Our Links</h2>
+									<div class="form-row">
+										<div class="socials">
+											<div class="social"><a class="gtm_social" id="gtm_instagram" href="https://www.instagram.com/ng17mapping/"><i class="fa fa-instagram fa-2x"></i></a></div>
+												<div class="social"><a class="gtm_social" id="gtm_facebook" href="https://www.facebook.com/ng17mapping/"><i class="fa fa-facebook fa-2x"></i></a></div>
+											<div class="social"><a class="gtm_social" id="gtm_linkedin" href="https://www.linkedin.com/company/media-engineering-institute"><i class="fa fa-linkedin fa-2x"></i></a></div>
+											<div class="social"><a class="gtm_social" id="gtm_mei" href="http://mei.heig-vd.ch/"><i class="fa fa-link fa-2x"></i></a></div>
+										</div>
+										<span id="loading-contact"></span>
+									</div>
+								</div>
             </div>
         </div>
     </section>
