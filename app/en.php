@@ -167,11 +167,17 @@ if (isset($_SESSION['return_data'])) {
         </div>
     </section>
 
-    <section id="apercu">
-			<div class="box">
-	      <div class="container small-container">
-	        <h2 class="title center negative"><span class="light">A preview of the</span> artists</h2>
-				<ul class="flex-container">
+		<section id="apercu">
+			<div class="container small-container centered">
+				<ul class="tabs">
+					<li class="tab"><a class="tablink light one" href="#tab-creation"><span class="light">The artists</span></a></li>
+					<li class="tab"><a class="tablink light two" href="#tab-programme"><span class="light">The schedule</span></a></li>
+				</ul>
+			</div>
+			<div id="tab-creation" class="tab-content one">
+				<div class="container small-container">
+					<h2 class="title center negative"><span class="light">A preview of the</span> artists</h2>
+					<ul class="flex-container">
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Frantisek_Pechacek.jpg"></img>
@@ -181,10 +187,10 @@ if (isset($_SESSION['return_data'])) {
 								<p>Black Division<p>
 							</div>
 							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="http://www.blackdivision.cz"><i class="fa fa-link fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/blackdivisioncz/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="http://www.blackdivision.cz"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/clairo_mylenedreyer.jpg"></img>
@@ -195,7 +201,7 @@ if (isset($_SESSION['return_data'])) {
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="http://www.mylenedreyer.ch"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Gildas_Malassinet-Tannou.jpg"></img>
@@ -208,7 +214,7 @@ if (isset($_SESSION['return_data'])) {
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/gildaslightpainting"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="http://www.icarart.com"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Iglal.jpg"></img>
@@ -219,7 +225,7 @@ if (isset($_SESSION['return_data'])) {
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="http://iglal.boulad.net/"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Jerem_oury.jpg"></img>
@@ -230,11 +236,11 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://vimeo.com/jeremoury"><i class="fa fa-vimeo fa-1x"></i></a></li>
-								<li class="social"><a class="gtm_social" href="https://echelon8.wixsite.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/studioechelonmapping/"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.instagram.com/studio_echelon_mapping/"><i class="fa fa-instagram fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://echelon8.wixsite.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Kylan_Luginbuhl.jpg"></img>
@@ -245,7 +251,7 @@ if (isset($_SESSION['return_data'])) {
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/kylanluginbuhldesign/"><i class="fa fa-facebook fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Linda_Kocher.jpg"></img>
@@ -255,7 +261,7 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Louis_Philippe.jpg"></img>
@@ -268,7 +274,7 @@ if (isset($_SESSION['return_data'])) {
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/ResonanceVisuals/"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.instagram.com/resonance_visuals/"><i class="fa fa-instagram fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Mirko_Stanchieri.jpg"></img>
@@ -282,7 +288,7 @@ if (isset($_SESSION['return_data'])) {
 								<li class="social"><a class="gtm_social" href="https://www.instagram.com/winnyxbear/"><i class="fa fa-instagram fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.behance.net/theGrizzli"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Philippe_Rohrbach.jpg"></img>
@@ -296,7 +302,7 @@ if (isset($_SESSION['return_data'])) {
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/MrDapDap/"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="http://dapdap.ch/"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/reckless_numerik.jpg"></img>
@@ -309,7 +315,7 @@ if (isset($_SESSION['return_data'])) {
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/recklesscollective/"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.instagram.com/recklesscollective/"><i class="fa fa-instagram fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Stanislas_Bernatt.jpg"></img>
@@ -323,7 +329,7 @@ if (isset($_SESSION['return_data'])) {
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/Stanislas-Bernatt-Art-Design-549008441831596/"><i class="fa fa-facebook fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Tamara_Virag.jpg"></img>
@@ -333,7 +339,7 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Thomas_Lemarquier.jpg"></img>
@@ -344,9 +350,66 @@ if (isset($_SESSION['return_data'])) {
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/TL3DGraphicDesign/"><i class="fa fa-facebook fa-1x"></i></a></li>
 							</ul>
-	          </li>
-	        </ul>
-	      </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="tab-programme" class="tab-content two">
+				<div class="container small-container">
+					<h2 class="title center negative">Schedule<span class="light"> for the nights: August 25th and 26th</span></h2>
+					<p class="negative center">Come to place Place Pestalozzi, on from of the temple from 9PM until midnight.&nbsp;!</p>
+					<div id="schedule">
+						<div class="schedule-item">
+							<div class="time">
+								<div>9:00</div>
+							</div>
+							<div class="icon">
+								<img src="/images/schedule/projo.png" />
+							</div>
+							<div class="data">
+								<h3>Projection mapping</h3>
+								<p>Theme: Clair-Obscur</p>
+							</div>
+						</div>
+						<div class="schedule-item">
+							<div class="time">
+								<div>9:45</div>
+							</div>
+							<div class="icon">
+								<img src="/images/schedule/manette-1.png" />
+							</div>
+							<div class="data">
+								<h3>Game</h3>
+								<p>On the templ with your smartphone</p>
+							</div>
+						</div>
+						<div class="schedule-item">
+							<div class="time">
+								<div>10:30</div>
+							</div>
+							<div class="icon">
+								<img src="/images/schedule/projo.png" />
+							</div>
+							<div class="data">
+								<h3>Projection mapping</h3>
+								<p>Theme: Clair-Obscur</p>
+							</div>
+						</div>
+						<div class="schedule-item">
+							<div class="time">
+								<div>11:15</div>
+							</div>
+							<div class="icon">
+								<img src="/images/schedule/manette-2.png" />
+							</div>
+							<div class="data">
+								<h3>Game</h3>
+								<p>On the templ with your smartphone</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
     </section>
     <section id="a-propos">
         <div class="container">

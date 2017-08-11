@@ -106,7 +106,7 @@ $(function() {
 $(function() {
 	$('ul.tabs').on('click', 'a.tablink', function() {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-			var target = $('#details');
+			var target = $('#apercu');
 			if(target.offset().top > $(window).scrollTop()) {
 				if (target.length) {
 					$('html, body')

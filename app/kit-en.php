@@ -93,7 +93,6 @@ if (isset($_SESSION['return_data'])) {
 
     <section id="kit-landing" class="fullscreen home negative">
         <div class="triangle-topleft-en"></div>
-
         <div class="inner">
 	        <div id="language"><a href="/kit">fr</a>/en</div>
 	        <div class="container small-container">

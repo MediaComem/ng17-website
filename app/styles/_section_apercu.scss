@@ -1,11 +1,150 @@
 #apercu {
+  padding: 4em 0;
   .negative {
     color: white;
   }
   .small {
     font-size: 0.7em;
   }
-  padding: 4em 0;
+  .tab-content {
+    padding: 0;
+    margin-bottom: 3em;
+    position: relative;
+    &.one {
+      background: $color-primary;
+      &:before {
+        border-color: transparent transparent $color-primary transparent;
+      }
+      &:after {
+      	border-color: $color-primary transparent transparent transparent;
+      }
+    }
+    &.two {
+      background: $color-secondary;
+      &:before {
+        border-color: transparent transparent $color-secondary transparent;
+      }
+      &:after {
+        border-color: $color-secondary transparent transparent transparent;
+      }
+    }
+    .container {
+  		min-height: 300px;
+  		padding: 5vh 0;
+    }
+    &:after,
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+    }
+    &:before {
+      top: -3em;
+      border-style: solid;
+      border-width: 0 0 3em 100vw;
+
+      margin-bottom: 3em;
+      overflow: hidden;
+    }
+
+    &:after {
+      border-style: solid;
+      border-width: 3em 0 0 100vw;
+      overflow: hidden;
+    }
+  }
+
+  .tabs {
+    position: relative;
+    margin-bottom: 4em;
+    z-index: 10;
+
+    .tab {
+      .tablink {
+        padding: 0.3em;
+        font-size: 1em;
+        margin-top: 0.5em;
+        margin-bottom:0.5em;
+        text-transform: uppercase;
+        border: 2px solid white;
+        background-color: $color-tertiary;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        color: white;
+
+        @include at-breakpoint('small') {
+          font-size: 1.2em;
+          padding: 0.5em 1em;
+          margin-top:0;
+          margin-bottom:0;
+        }
+        &.active.one {
+          background-color: $color-primary;
+        }
+        &.active.two {
+          background-color: $color-secondary;
+        }
+      }
+    }
+  }
+  #schedule {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-bottom: 50px;
+    .schedule-item {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      height: 140px;
+      .time {
+        width: 20%;
+        @include at-breakpoint('small') {
+          width: 20%;
+          div {
+            width: 60px;
+          }
+        }
+        div {
+          padding: 10px 5px;
+          width: 50px;
+          text-align: center;
+          background-color: white;
+        }
+      }
+      .icon {
+        width: 30%;
+        @include at-breakpoint('small') {
+          width: 20%;
+          img {
+            width: 140px;
+          }
+        }
+        img {
+          width: 100px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      .data {
+        width: 50%;
+        @include at-breakpoint('small') {
+          width: 60%;
+        }
+        p {
+          margin: 5px 0;
+        }
+      }
+    }
+  }
   .box {
     position: relative;
     margin: 4em 0;
