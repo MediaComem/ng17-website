@@ -173,166 +173,180 @@ if (isset($_SESSION['return_data'])) {
 	      <div class="container small-container">
 	        <h2 class="title center negative"><span class="light">Un aperçu des</span> artistes</h2>
 					<ul class="flex-container">
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Frantisek_Pechacek.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Frantisek Pechacek</h4>
-								<p>Black Division<p>
-							</div>
-							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="http://www.blackdivision.cz"><i class="fa fa-link fa-1x"></i></a></li>
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/clairo_mylenedreyer.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Mylène Dreyer</h4>
-							</div>
-							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="http://www.mylenedreyer.ch"><i class="fa fa-link fa-1x"></i></a></li>
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Gildas_Malassinet-Tannou.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Gildas Malassinet-Tannou</h4>
-							</div>
-							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="https://www.youtube.com/user/ICARART/"><i class="fa fa-youtube-play fa-1x"></i></a></li>
-								<li class="social"><a class="gtm_social" href="https://www.facebook.com/gildaslightpainting"><i class="fa fa-facebook fa-1x"></i></a></li>
-								<li class="social"><a class="gtm_social" href="http://www.icarart.com"><i class="fa fa-link fa-1x"></i></a></li>
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Iglal.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Iglal Boulad</h4>
-							</div>
-							<ul class="contributor-social">
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Jerem_oury.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Jerem Oury</h4>
-								<p>Studio Echelon Mapping</p>
-							</div>
-							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="https://vimeo.com/jeremoury"><i class="fa fa-vimeo fa-1x"></i></a></li>
-								<li class="social"><a class="gtm_social" href="https://echelon8.wixsite.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Kylan_Luginbuhl.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Kylan Luginbuhl</h4>
-							</div>
-							<ul class="contributor-social">
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Linda_Kocher.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Linda Kocher</h4>
-							</div>
-							<ul class="contributor-social">
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Louis_Philippe.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Louis Philippe</h4>
-								<p>Resonance Visuals</p>
-							</div>
-							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="https://www.facebook.com/ResonanceVisuals/"><i class="fa fa-facebook fa-1x"></i></a></li>
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Mirko_Stanchieri.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Mirko Stanchieri</h4>
-							</div>
-							<ul class="contributor-social">
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Philippe_Rohrbach.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Philippe Rohrbach</h4>
-								<p>dap-dap</p>
-							</div>
-							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="https://twitter.com/mr_dap_dap"><i class="fa fa-twitter fa-1x"></i></a></li>
-								<li class="social"><a class="gtm_social" href="http://dapdap.ch/"><i class="fa fa-link fa-1x"></i></a></li>
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/reckless_numerik.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Roger Winzeler</h4>
-								<p>reckless collective</p>
-							</div>
-							<ul class="contributor-social">
-								<li class="social"><a class="gtm_social" href="https://www.facebook.com/recklesscollective/"><i class="fa fa-facebook fa-1x"></i></a></li>
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Stanislas_Bernatt.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Stanislas Bernatt</h4>
-								<p class="small">(Conception & Animation 3D)</p>
-								<h4>Geoffrey Marchal</h4>
-								<p class="small">(Numérisation 3D)<p>
-							</div>
-							<ul class="contributor-social">
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Tamara_Virag.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>t.m.r</h4>
-							</div>
-							<ul class="contributor-social">
-							</ul>
-	          </li>
-						<li class="flex-content">
-							<div class="img-crop">
-								<img src="/images/contributeurs/Thomas_Lemarquier.jpg"></img>
-							</div>
-							<div class="desc">
-								<h4>Thomas Lemarquier</h4>
-							</div>
-							<ul class="contributor-social">
-							</ul>
-	          </li>
-	        </ul>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Frantisek_Pechacek.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Frantisek Pechacek</h4>
+									<p>Black Division<p>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="http://www.blackdivision.cz"><i class="fa fa-link fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/blackdivisioncz/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/clairo_mylenedreyer.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Mylène Dreyer</h4>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="http://www.mylenedreyer.ch"><i class="fa fa-link fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Gildas_Malassinet-Tannou.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Gildas Malassinet-Tannou</h4>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://www.youtube.com/user/ICARART/"><i class="fa fa-youtube-play fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/gildaslightpainting"><i class="fa fa-facebook fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="http://www.icarart.com"><i class="fa fa-link fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Iglal.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Iglal Boulad</h4>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="http://iglal.boulad.net/"><i class="fa fa-link fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Jerem_oury.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Jerem Oury</h4>
+									<p>Studio Echelon Mapping</p>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://vimeo.com/jeremoury"><i class="fa fa-vimeo fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://echelon8.wixsite.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/studioechelonmapping/"><i class="fa fa-facebook fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.instagram.com/studio_echelon_mapping/"><i class="fa fa-instagram fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Kylan_Luginbuhl.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Kylan Luginbuhl</h4>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/kylanluginbuhldesign/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Linda_Kocher.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Linda Kocher</h4>
+								</div>
+								<ul class="contributor-social">
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Louis_Philippe.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Louis Philippe</h4>
+									<p>Resonance Visuals</p>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/ResonanceVisuals/"><i class="fa fa-facebook fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.instagram.com/resonance_visuals/"><i class="fa fa-instagram fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Mirko_Stanchieri.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Mirko Stanchieri</h4>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://twitter.com/winnyxbear"><i class="fa fa-twitter fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://vimeo.com/user11176421"><i class="fa fa-vimeo fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.instagram.com/winnyxbear/"><i class="fa fa-instagram fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.behance.net/theGrizzli"><i class="fa fa-link fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Philippe_Rohrbach.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Philippe Rohrbach</h4>
+									<p>dap-dap</p>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://twitter.com/mr_dap_dap"><i class="fa fa-twitter fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/MrDapDap/"><i class="fa fa-facebook fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="http://dapdap.ch/"><i class="fa fa-link fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/reckless_numerik.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Roger Winzeler</h4>
+									<p>reckless collective</p>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/recklesscollective/"><i class="fa fa-facebook fa-1x"></i></a></li>
+									<li class="social"><a class="gtm_social" href="https://www.instagram.com/recklesscollective/"><i class="fa fa-instagram fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Stanislas_Bernatt.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Stanislas Bernatt</h4>
+									<p class="small">(Conception & Animation 3D)</p>
+									<h4>Geoffrey Marchal</h4>
+									<p class="small">(Numérisation 3D)<p>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/Stanislas-Bernatt-Art-Design-549008441831596/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Tamara_Virag.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>t.m.r</h4>
+								</div>
+								<ul class="contributor-social">
+								</ul>
+		          </li>
+							<li class="flex-content">
+								<div class="img-crop">
+									<img src="/images/contributeurs/Thomas_Lemarquier.jpg"></img>
+								</div>
+								<div class="desc">
+									<h4>Thomas Lemarquier</h4>
+								</div>
+								<ul class="contributor-social">
+									<li class="social"><a class="gtm_social" href="https://www.facebook.com/TL3DGraphicDesign/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								</ul>
+		          </li>
+		        </ul>
 	      </div>
     </section>
     <section id="a-propos">

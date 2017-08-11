@@ -182,6 +182,7 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="http://www.blackdivision.cz"><i class="fa fa-link fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/blackdivisioncz/"><i class="fa fa-facebook fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -216,6 +217,7 @@ if (isset($_SESSION['return_data'])) {
 								<h4>Iglal Boulad</h4>
 							</div>
 							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="http://iglal.boulad.net/"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -229,6 +231,8 @@ if (isset($_SESSION['return_data'])) {
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://vimeo.com/jeremoury"><i class="fa fa-vimeo fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://echelon8.wixsite.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/studioechelonmapping/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.instagram.com/studio_echelon_mapping/"><i class="fa fa-instagram fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -239,6 +243,7 @@ if (isset($_SESSION['return_data'])) {
 								<h4>Kylan Luginbuhl</h4>
 							</div>
 							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/kylanluginbuhldesign/"><i class="fa fa-facebook fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -261,6 +266,7 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/ResonanceVisuals/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.instagram.com/resonance_visuals/"><i class="fa fa-instagram fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -271,6 +277,10 @@ if (isset($_SESSION['return_data'])) {
 								<h4>Mirko Stanchieri</h4>
 							</div>
 							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://twitter.com/winnyxbear"><i class="fa fa-twitter fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://vimeo.com/user11176421"><i class="fa fa-vimeo fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.instagram.com/winnyxbear/"><i class="fa fa-instagram fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.behance.net/theGrizzli"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -283,6 +293,7 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://twitter.com/mr_dap_dap"><i class="fa fa-twitter fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/MrDapDap/"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="http://dapdap.ch/"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
@@ -296,6 +307,7 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/recklesscollective/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.instagram.com/recklesscollective/"><i class="fa fa-instagram fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -309,6 +321,7 @@ if (isset($_SESSION['return_data'])) {
 								<p class="small">(Numérisation 3D)<p>
 							</div>
 							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/Stanislas-Bernatt-Art-Design-549008441831596/"><i class="fa fa-facebook fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -329,6 +342,7 @@ if (isset($_SESSION['return_data'])) {
 								<h4>Thomas Lemarquier</h4>
 							</div>
 							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://www.facebook.com/TL3DGraphicDesign/"><i class="fa fa-facebook fa-1x"></i></a></li>
 							</ul>
 	          </li>
 	        </ul>
