@@ -201,6 +201,8 @@ if (isset($_SESSION['return_data'])) {
 								<h4>Mylène Dreyer</h4>
 							</div>
 							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://twitter.com/mylenedrei"><i class="fa fa-twitter fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://vimeo.com/mylenedreyer"><i class="fa fa-vimeo fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="http://www.mylenedreyer.ch"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
