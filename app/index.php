@@ -242,7 +242,7 @@ if (isset($_SESSION['return_data'])) {
 								<li class="social"><a class="gtm_social" href="https://vimeo.com/jeremoury"><i class="fa fa-vimeo fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/studioechelonmapping/"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.instagram.com/studio_echelon_mapping/"><i class="fa fa-instagram fa-1x"></i></a></li>
-								<li class="social"><a class="gtm_social" href="https://echelon8.wixsite.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="http://echelon8.wix.com/echelon8/mapping"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
@@ -271,14 +271,15 @@ if (isset($_SESSION['return_data'])) {
 								<img src="/images/contributeurs/Louis_Philippe.jpg"></img>
 							</div>
 							<div class="desc">
-								<h4>Louis Philippe</h4>
+								<h4>Louis Philippe - Margot Hofmans</h4>
 								<p>Resonance Visuals</p>
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/ResonanceVisuals/"><i class="fa fa-facebook fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="https://www.instagram.com/resonance_visuals/"><i class="fa fa-instagram fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="https://www.vjbooking.com/network/profile/resonance-visuals"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
-	          </li>
+						</li>
 						<li class="flex-content">
 							<div class="img-crop">
 								<img src="/images/contributeurs/Mirko_Stanchieri.jpg"></img>
