@@ -333,6 +333,7 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/Stanislas-Bernatt-Art-Design-549008441831596/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="http://www.stanislasbernatt.com/"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
 						<li class="flex-content">
