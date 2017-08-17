@@ -355,6 +355,19 @@ if (isset($_SESSION['return_data'])) {
 							</div>
 							<ul class="contributor-social">
 								<li class="social"><a class="gtm_social" href="https://www.facebook.com/TL3DGraphicDesign/"><i class="fa fa-facebook fa-1x"></i></a></li>
+								<li class="social"><a class="gtm_social" href="http://www.tlemarquier.com/"><i class="fa fa-link fa-1x"></i></a></li>
+							</ul>
+	          </li>
+						<li class="flex-content">
+							<div class="img-crop">
+								<img src="/images/contributeurs/Guillaume.jpg"></img>
+							</div>
+							<div class="desc">
+								<h4>Guillaume Simmen</h4>
+								<p>gs–tudio</p>
+							</div>
+							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="http://guillaume-simmen.ch/"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
 	        </ul>
