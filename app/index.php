@@ -227,6 +227,7 @@ if (isset($_SESSION['return_data'])) {
 								<h4>Iglal Boulad</h4>
 							</div>
 							<ul class="contributor-social">
+								<li class="social"><a class="gtm_social" href="https://www.linkedin.com/in/iglal-boulad-88bab6128/"><i class="fa fa-linkedin fa-1x"></i></a></li>
 								<li class="social"><a class="gtm_social" href="http://iglal.boulad.net/"><i class="fa fa-link fa-1x"></i></a></li>
 							</ul>
 	          </li>
