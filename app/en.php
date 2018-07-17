@@ -134,7 +134,7 @@ if (isset($_SESSION['return_data'])) {
         </div>
 
         <div class="inner">
-			<div id="language">fr/<a href="/en">en</a></div>
+			<div id="language"><a href="/">fr</a>/en</div>
             <div class="container small-container">
                 <div id="landingIntro">
 										<img class="logo" src="/images/logo_eclair-ages.png" />
