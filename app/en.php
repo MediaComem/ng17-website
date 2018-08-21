@@ -23,7 +23,7 @@ if (isset($_SESSION['return_data'])) {
 		$responsetype = 'failure';
 	}
 	else {
-		$submitmessage = 'Merci! Votre email est envoyé. <a href="http://ng17.heig-vd.ch/kit">Voici le kit de base </a> pour vous lancer dans votre projet';
+		$submitmessage = 'Merci! Votre email est envoyé. <a href="https://ng17.heig-vd.ch/kit">Voici le kit de base </a> pour vous lancer dans votre projet';
 		$responsetype = 'success';
 	}
 }
@@ -45,7 +45,7 @@ if (isset($_SESSION['return_data'])) {
 	<!-- Schema.org markup for Google+ -->
 	<meta itemprop="name" content="Numerik Games | clair-obscur">
 	<meta itemprop="description" content="Appel à projets mapping vidéo de Numerik Games 2017">
-	<meta itemprop="image" content="http://ng17.heig-vd.ch/images/home_bg.jpg">
+	<meta itemprop="image" content="https://ng17.heig-vd.ch/images/home_bg.jpg">
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -54,21 +54,21 @@ if (isset($_SESSION['return_data'])) {
 	<meta name="twitter:description" content="Appel à projets mapping vidéo pour Numerik Games 2017">
 	<meta name="twitter:creator" content="@media_heigvd">
 	<!-- Twitter summary card with large image must be at least 280x150px -->
-	<meta name="twitter:image:src" content="http://ng17.heig-vd.ch/images/home_bg.jpg">
+	<meta name="twitter:image:src" content="https://ng17.heig-vd.ch/images/home_bg.jpg">
 
 	<!-- Open Graph data -->
 	<meta property="og:title" content="Numerik Games | clair-obscur" />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="http://ng17.heig-vd.ch" />
-	<meta property="og:image" content="http://ng17.heig-vd.ch/images/NG17-FB-post-link_2.jpg" />
-	<meta property="og:image" content="http://ng17.heig-vd.ch/images/home_bg.jpg" />
+	<meta property="og:url" content="https://ng17.heig-vd.ch" />
+	<meta property="og:image" content="https://ng17.heig-vd.ch/images/NG17-FB-post-link_2.jpg" />
+	<meta property="og:image" content="https://ng17.heig-vd.ch/images/home_bg.jpg" />
 	<meta property="og:description" content="Appel à projets mapping vidéo pour Numerik Games 2017" />
 	<meta property="og:site_name" content="Numerik Games | clair-obscur" />
 	<meta property="article:published_time" content="2017-03-16T09:00:00+01:00" />
 <!-- 	<meta property="article:modified_time" content="2017-03-16T19:08:47+01:00" /> -->
 	<meta property="fb:admins" content="Facebook numberic ID" />
 
-	<link rel="alternate" hreflang="fr" href="http://ng17.heig-vd.ch" />
+	<link rel="alternate" hreflang="fr" href="https://ng17.heig-vd.ch" />
 
     <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
