@@ -46,6 +46,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (empty($errors)) {
         $formOK = true;
 
+        // WARNING: this configuration will not work with the current HEIG-VD SMTP server (April 2019).
+        // See https://gitlab.com/mediacomem/superheros/compare/726f9db5...760dbbc9 for how to fix it.
+
         $mail = new PHPMailer;
 		//Tell PHPMailer to use SMTP
 		$mail->isSMTP();
